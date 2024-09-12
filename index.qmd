@@ -1,0 +1,5 @@
+---
+title: "Welcome to My website"
+---
+
+Hi, my name is Tim Chen, I am a Applied Mathematics with Focus in Stats Student
