@@ -4,17 +4,24 @@ project:
 
 website:
   title: "Tim Chen"
+  site-url: "https://weitingchen.com"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: https://timsplayland.vercel.app/
+        text: Portfolio
+      - text: "Resume"
+        href: pdfs/Tim Resume 2025.pdf
+      - icon: github
+        href: https://github.com/timchen0326
+      - icon: envelope
+        href: "mailto:timchen0326ca@gmail.com"
 
 format:
   html:
-    theme: superhero
+    theme: cosmo
     css: styles.css
     toc: true
 
-editor: visual
 

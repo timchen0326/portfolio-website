@@ -1,16 +1,9 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My website",
+    "title": "Tim Chen",
     "section": "",
-    "text": "Hi, my name is Tim Chen, I am a Applied Mathematics with Focus in Stats Student"
+    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability & Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.\nIn my academic journey, I have completed relevant coursework in Machine Learning (Python), Statistical Theory, Databases (SQL), and Software Design (Java), among others.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript. Additionally, I served as an Events Executive for ROCSAUT, coordinating large-scale events and reducing costs through effective budgeting and data analysis.\nI am skilled in a variety of programming languages, including Python, R, SQL, Java, and C, as well as tools like Tableau, Power BI, and Excel. My certifications include the Google Data Analytics Professional Certificate, showcasing expertise in data cleaning, visualization, and statistical analysis.\n\n\nSelected Projects\n\nExamining Violent Crime in Toronto\n\nPerformed Bayesian logistic regression in R to identify significant predictors.\n\nExplore the project\n\n\n\nTraffic Collision Analysis in Toronto\n\nCreated an interactive Tableau dashboard to visualize trends and hotspots.\n\nExplore the project\n\n\n\nPredicting Diabetes Risk Factors\n\nUsed logistic regression in R to predict and analyze key diabetes indicators.\n\nExplore the project\n\n\n\nHousing Price Prediction\n\nConducted multiple linear regression in R to predict housing prices based on various features.\n\nExplore the project\n\n\n\n\n\nProfessional Experience\n\nFrontend Software Engineer Intern, MAYOHR\n\nBuilt and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.\n\nReduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.\n\nCollaborated with product managers to design features that increased troubleshooting efficiency by 40%.\n\n\n\n\n\nEducation\nUniversity of Toronto\nHonours Bachelor of Science (HBSc) in Mathematics & Its Applications (Probability & Statistics)\n- Relevant Coursework: Machine Learning (Python), Statistical Theory, Databases (SQL), Software Design (Java)\n- Expected Graduation: 2026\n\n\n\nSkills\n\nProgramming Languages: Python, R, SQL, Java, C\n\nData Tools: Tableau, Power BI, Excel\n\nCertifications: Google Data Analytics Professional Certificate"
   }
 ]
