@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tim Chen">
+<meta name="dcterms.date" content="2024-09-27">
 
-<title>Tim Chen</title>
+<title>Toronto Shelter Analysis – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -88,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -111,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pdfs/resume.pdf"> 
+    <a class="nav-link" href="./pdfs/Tim Resume 2025.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
@@ -138,84 +141,197 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#professional-experience" id="toc-professional-experience" class="nav-link active" data-scroll-target="#professional-experience">Professional Experience</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#key-objectives" id="toc-key-objectives" class="nav-link" data-scroll-target="#key-objectives">Key Objectives</a></li>
+  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
+  <ul class="collapse">
+  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#tracking-shelter-bed-occupancy" id="toc-tracking-shelter-bed-occupancy" class="nav-link" data-scroll-target="#tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</a></li>
+  <li><a href="#capacity-by-program-type" id="toc-capacity-by-program-type" class="nav-link" data-scroll-target="#capacity-by-program-type">Capacity by Program Type</a></li>
+  <li><a href="#seasonal-trends" id="toc-seasonal-trends" class="nav-link" data-scroll-target="#seasonal-trends">Seasonal Trends</a></li>
+  <li><a href="#demographic-insights" id="toc-demographic-insights" class="nav-link" data-scroll-target="#demographic-insights">Demographic Insights</a></li>
+  </ul></li>
+  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
+  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a>
+  <ul class="collapse">
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research">Future Research</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tim Chen</h1>
+<h1 class="title">Toronto Shelter Analysis</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tim Chen </p>
+          </div>
   </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 27, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="/pdfs/resume.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text">Resume</span>
-  </a>
-  <a href="mailto:timchen0326ca@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://github.com/timchen0326" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://www.linkedin.com/in/timchen0326/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<p>I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability &amp; Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.</p>
-<p>In my academic journey, I have completed relevant coursework in <strong>Machine Learning (Python)</strong>, <strong>Statistical Theory</strong>, <strong>Databases (SQL)</strong>, and <strong>Software Design (Java)</strong>, among others.</p>
-<p>I have professional experience as a <strong>Frontend Software Engineer Intern</strong> at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript.</p>
-<p>I am skilled in a variety of programming languages, including <strong>Python, R, SQL, Java, and C</strong>, as well as tools like <strong>Tableau, Power BI, and Excel</strong>. My certifications include the <strong>Google Data Analytics Professional Certificate</strong>, showcasing expertise in data cleaning, visualization, and statistical analysis.</p>
-<section id="professional-experience" class="level3">
-<h3 data-anchor-id="professional-experience">Professional Experience</h3>
-<section id="frontend-software-engineer-intern-mayohr" class="level4">
-<h4 data-anchor-id="frontend-software-engineer-intern-mayohr"><strong>Frontend Software Engineer Intern, MAYOHR</strong></h4>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies.</p>
+<hr>
+</section>
+<section id="key-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="key-objectives">Key Objectives</h2>
+<ol type="1">
+<li><strong>Examine shelter trends:</strong> Understand growth in occupancy rates and assess actual bed capacity by program type.<br>
+</li>
+<li><strong>Explore seasonal impacts:</strong> Identify patterns in service user counts over time.<br>
+</li>
+<li><strong>Address disparities:</strong> Investigate demographic imbalances and their implications for shelter access.</li>
+</ol>
+<hr>
+</section>
+<section id="data-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
+<section id="data-source" class="level3">
+<h3 class="anchored" data-anchor-id="data-source">Data Source</h3>
 <ul>
-<li>Built and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.<br>
+<li><strong>Dataset:</strong> Daily Shelter Occupancy and Capacity dataset from the City of Toronto.<br>
 </li>
-<li>Reduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.<br>
+<li><strong>Key Variables:</strong>
+<ul>
+<li><strong>Occupancy Rate (Beds):</strong> Tracks shelter capacity usage.<br>
 </li>
-<li>Collaborated with product managers to design features that increased troubleshooting efficiency by 40%.</li>
+<li><strong>Program Model:</strong> Includes emergency and transitional shelters.<br>
+</li>
+<li><strong>Service User Count:</strong> Captures the number of individuals using shelters daily.</li>
+</ul></li>
+</ul>
+</section>
+<section id="methodology" class="level3">
+<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+<ul>
+<li><strong>Time-Series Analysis:</strong> Examined shelter trends across years, with a focus on seasonal patterns.<br>
+</li>
+<li><strong>Data Cleaning:</strong> Removed missing data and ensured consistency across variables.<br>
+</li>
+<li><strong>Visualization:</strong> Used R packages like <code>ggplot2</code> for graphical representation of trends.</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<p><strong>University of Toronto</strong><br>
-<strong>Honours Bachelor of Science (HBSc)</strong> in Mathematics &amp; Its Applications (Probability &amp; Statistics)<br>
-- Relevant Coursework: <strong>Machine Learning (Python)</strong>, <strong>Statistical Theory</strong>, <strong>Databases (SQL)</strong>, <strong>Software Design (Java)</strong><br>
-- Expected Graduation: <strong>2026</strong></p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="tracking-shelter-bed-occupancy" class="level3">
+<h3 class="anchored" data-anchor-id="tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</h3>
+<ul>
+<li><strong>High Occupancy Rates:</strong> Beds consistently near full capacity (96–98% from 2021 to 2024).<br>
+</li>
+<li><strong>Increase Over Time:</strong> Occupancy peaked at 98.2% in 2024, highlighting growing demand.</li>
+</ul>
+</section>
+<section id="capacity-by-program-type" class="level3">
+<h3 class="anchored" data-anchor-id="capacity-by-program-type">Capacity by Program Type</h3>
+<ul>
+<li><strong>Disparities Noted:</strong> Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.</li>
+</ul>
+</section>
+<section id="seasonal-trends" class="level3">
+<h3 class="anchored" data-anchor-id="seasonal-trends">Seasonal Trends</h3>
+<ul>
+<li><strong>Winter Spikes:</strong> Service user counts were highest from November to February, reflecting the impact of extreme weather.</li>
+</ul>
+</section>
+<section id="demographic-insights" class="level3">
+<h3 class="anchored" data-anchor-id="demographic-insights">Demographic Insights</h3>
+<ul>
+<li><strong>Gender Disparities:</strong> Women, particularly in family shelters, may be underrepresented in general shelter data.<br>
+</li>
+<li><strong>Youth and Mixed Adults:</strong> Additional focus needed to address demographic-specific shelter needs.</li>
+</ul>
 <hr>
 </section>
-<section id="skills" class="level3">
-<h3 data-anchor-id="skills">Skills</h3>
+</section>
+<section id="policy-implications" class="level2">
+<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
+<ol type="1">
+<li><strong>Expand Shelter Services:</strong>
 <ul>
-<li><strong>Programming Languages:</strong> Python, R, SQL, Java, C<br>
+<li>Increase capacity for transitional shelters to support long-term housing solutions.<br>
 </li>
-<li><strong>Data Tools:</strong> Tableau, Power BI, Excel<br>
+<li>Enhance emergency shelters with safety and privacy improvements.</li>
+</ul></li>
+<li><strong>Prepare for Winter Demand:</strong>
+<ul>
+<li>Establish more warming centers and mobile shelters during colder months.<br>
 </li>
-<li><strong>Certifications:</strong> Google Data Analytics Professional Certificate</li>
+<li>Allocate additional resources for emergency services in high-demand periods.</li>
+</ul></li>
+<li><strong>Address Gender Inequities:</strong>
+<ul>
+<li>Increase shelter spaces dedicated to women and families.<br>
+</li>
+<li>Improve data collection to capture underrepresented groups.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="limitations-and-future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-and-future-directions">Limitations and Future Directions</h2>
+<section id="limitations" class="level3">
+<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
+<ul>
+<li><strong>Underrepresentation in Data:</strong> Family shelters and gender-specific usage may be underestimated.<br>
+</li>
+<li><strong>Safety Concerns:</strong> Rising violence within shelters affects their usability and trustworthiness.</li>
 </ul>
+</section>
+<section id="future-research" class="level3">
+<h3 class="anchored" data-anchor-id="future-research">Future Research</h3>
+<ul>
+<li>Investigate systemic factors driving the disparity between emergency and transitional shelters.<br>
+</li>
+<li>Explore shelter safety and its influence on occupancy duration.<br>
+</li>
+<li>Include more granular demographic and geographic data for targeted interventions.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Data and methodology are fully reproducible, with the dataset and code available at: <a href="https://github.com/timchen0326/toronto-shelter-data">GitHub Repository</a>.</p>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -236,6 +352,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

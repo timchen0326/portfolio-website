@@ -9,10 +9,15 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - text: Projects
+        menu: 
+          - toronto-crime-analysis.qmd
+          - toronto-shelter-analysis.qmd
+        
       - href: https://timsplayland.vercel.app/
         text: Portfolio
       - text: "Resume"
-        href: pdfs/Tim Resume 2025.pdf
+        href: pdfs/resume.pdf
       - icon: github
         href: https://github.com/timchen0326
       - icon: envelope

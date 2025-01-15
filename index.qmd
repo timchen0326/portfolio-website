@@ -4,7 +4,7 @@ about:
   template: trestles
   links:
     - text: "Resume"
-      href: pdfs/Tim_Resume_2025.pdf
+      href: pdfs/resume.pdf
     - icon: envelope
       text: "Email"
       href: "mailto:timchen0326ca@gmail.com"
@@ -20,31 +20,9 @@ I am an Honours Bachelor of Science (HBSc) student at the University of Toronto,
 
 In my academic journey, I have completed relevant coursework in **Machine Learning (Python)**, **Statistical Theory**, **Databases (SQL)**, and **Software Design (Java)**, among others.
 
-I have professional experience as a **Frontend Software Engineer Intern** at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript. Additionally, I served as an **Events Executive** for ROCSAUT, coordinating large-scale events and reducing costs through effective budgeting and data analysis.
+I have professional experience as a **Frontend Software Engineer Intern** at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript.
 
 I am skilled in a variety of programming languages, including **Python, R, SQL, Java, and C**, as well as tools like **Tableau, Power BI, and Excel**. My certifications include the **Google Data Analytics Professional Certificate**, showcasing expertise in data cleaning, visualization, and statistical analysis.
-
----
-
-### Selected Projects
-
-#### **Examining Violent Crime in Toronto**  
-- Performed Bayesian logistic regression in R to identify significant predictors.  
-- [Explore the project](https://github.com/timchen0326/crime-analysis-toronto/blob/main/paper/paper.pdf)
-
-#### **Traffic Collision Analysis in Toronto**  
-- Created an interactive Tableau dashboard to visualize trends and hotspots.  
-- [Explore the project](https://public.tableau.com/app/profile/wei.ting.chen/viz/TrafficCollisionsinToronto/Dashboard1)
-
-#### **Predicting Diabetes Risk Factors**  
-- Used logistic regression in R to predict and analyze key diabetes indicators.  
-- [Explore the project](pdfs/Bike Theft Analysis.pdf)
-
-#### **Housing Price Prediction**  
-- Conducted multiple linear regression in R to predict housing prices based on various features.  
-- [Explore the project](pdfs/Housing Prices.pdf)
-
----
 
 ### Professional Experience
 

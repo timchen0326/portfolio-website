@@ -1,0 +1,84 @@
+---
+title: "Toronto Crime Analysis"
+author: "Tim Chen"
+date: "December 13, 2024"
+format: html
+---
+
+## Overview
+
+This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention.  
+
+---
+
+## Key Objectives
+
+1. **Analyze contextual factors**: Examine how different premises types affect the likelihood of violent crime.  
+2. **Explore temporal dynamics**: Investigate the role of time of day in shaping crime patterns.  
+3. **Inform policy and urban design**: Provide evidence-based recommendations for improving public safety.  
+
+---
+
+## Data and Methods
+
+### Data Source
+- **Dataset**: Major Crime Indicators dataset from the Toronto Police Service.
+- **Key Variables**:
+  - **Premises Type**: Categories include residential, transit, outdoor, and educational premises.
+  - **Time of Day**: Grouped into early morning, morning, afternoon, and evening.
+  - **Outcome**: Binary variable indicating whether a crime is violent or non-violent.
+
+### Methodology
+- **Bayesian Logistic Regression**: Utilized to model the relationship between premises type, time of day, and crime likelihood.
+- **Data Cleaning**: Involved removing missing data, categorizing variables, and aligning time categories with existing research.
+
+---
+
+## Results  
+
+### Influence of Premises Type
+- **High-Risk Locations**: Transit and outdoor areas exhibit higher odds of violent crimes.
+- **Low-Risk Locations**: Residential and educational premises demonstrate lower violence likelihood.
+
+### Temporal Patterns
+- **Peak Times**: Violent crimes are more likely in the afternoon and evening, correlating with increased social interaction.
+- **Lower Risk**: Early mornings show reduced crime rates, reflecting lower activity and greater institutional oversight.  
+
+### Statistical Insights
+- Credible intervals confirm the significance of predictors like transit and evening periods.
+- Results suggest the need for targeted interventions during high-risk times and locations.
+
+---
+
+## Policy Implications  
+
+1. **Enhanced Surveillance**:
+   - Install cameras and improve lighting in transit and outdoor areas.
+   - Adopt Crime Prevention Through Environmental Design (CPTED) principles.  
+
+2. **Targeted Policing**:
+   - Increase police presence during peak crime hours (afternoon and evening).
+   - Use predictive modeling for efficient resource allocation.  
+
+3. **Community Interventions**:
+   - Promote awareness and safety campaigns in high-risk zones.
+   - Develop socioeconomic upliftment programs near transit hubs.  
+
+---
+
+## Limitations and Future Directions  
+
+### Limitations
+- **Underreporting Bias**: Data only includes reported crimes, potentially underestimating true incidence.  
+- **Broad Time Categories**: Grouping times of day may obscure finer trends.  
+
+### Future Research
+- Incorporate more granular temporal and spatial data using GIS technology.  
+- Analyze additional factors such as weather, crowd density, and socioeconomic indicators.  
+
+---
+
+## References  
+
+Data and methodology are fully reproducible, with the dataset and code available at: [GitHub Repository](https://github.com/timchen0326/crime-analysis-toronto).  
+

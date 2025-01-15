@@ -4,6 +4,118 @@
     "href": "index.html",
     "title": "Tim Chen",
     "section": "",
-    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability & Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.\nIn my academic journey, I have completed relevant coursework in Machine Learning (Python), Statistical Theory, Databases (SQL), and Software Design (Java), among others.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript. Additionally, I served as an Events Executive for ROCSAUT, coordinating large-scale events and reducing costs through effective budgeting and data analysis.\nI am skilled in a variety of programming languages, including Python, R, SQL, Java, and C, as well as tools like Tableau, Power BI, and Excel. My certifications include the Google Data Analytics Professional Certificate, showcasing expertise in data cleaning, visualization, and statistical analysis.\n\n\nSelected Projects\n\nExamining Violent Crime in Toronto\n\nPerformed Bayesian logistic regression in R to identify significant predictors.\n\nExplore the project\n\n\n\nTraffic Collision Analysis in Toronto\n\nCreated an interactive Tableau dashboard to visualize trends and hotspots.\n\nExplore the project\n\n\n\nPredicting Diabetes Risk Factors\n\nUsed logistic regression in R to predict and analyze key diabetes indicators.\n\nExplore the project\n\n\n\nHousing Price Prediction\n\nConducted multiple linear regression in R to predict housing prices based on various features.\n\nExplore the project\n\n\n\n\n\nProfessional Experience\n\nFrontend Software Engineer Intern, MAYOHR\n\nBuilt and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.\n\nReduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.\n\nCollaborated with product managers to design features that increased troubleshooting efficiency by 40%.\n\n\n\n\n\nEducation\nUniversity of Toronto\nHonours Bachelor of Science (HBSc) in Mathematics & Its Applications (Probability & Statistics)\n- Relevant Coursework: Machine Learning (Python), Statistical Theory, Databases (SQL), Software Design (Java)\n- Expected Graduation: 2026\n\n\n\nSkills\n\nProgramming Languages: Python, R, SQL, Java, C\n\nData Tools: Tableau, Power BI, Excel\n\nCertifications: Google Data Analytics Professional Certificate"
+    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability & Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.\nIn my academic journey, I have completed relevant coursework in Machine Learning (Python), Statistical Theory, Databases (SQL), and Software Design (Java), among others.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript.\nI am skilled in a variety of programming languages, including Python, R, SQL, Java, and C, as well as tools like Tableau, Power BI, and Excel. My certifications include the Google Data Analytics Professional Certificate, showcasing expertise in data cleaning, visualization, and statistical analysis.\n\nProfessional Experience\n\nFrontend Software Engineer Intern, MAYOHR\n\nBuilt and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.\n\nReduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.\n\nCollaborated with product managers to design features that increased troubleshooting efficiency by 40%.\n\n\n\n\n\nEducation\nUniversity of Toronto\nHonours Bachelor of Science (HBSc) in Mathematics & Its Applications (Probability & Statistics)\n- Relevant Coursework: Machine Learning (Python), Statistical Theory, Databases (SQL), Software Design (Java)\n- Expected Graduation: 2026\n\n\n\nSkills\n\nProgramming Languages: Python, R, SQL, Java, C\n\nData Tools: Tableau, Power BI, Excel\n\nCertifications: Google Data Analytics Professional Certificate"
+  },
+  {
+    "objectID": "toronto-crime-analysis.html",
+    "href": "toronto-crime-analysis.html",
+    "title": "Toronto Crime Analysis",
+    "section": "",
+    "text": "This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#overview",
+    "href": "toronto-crime-analysis.html#overview",
+    "title": "Toronto Crime Analysis",
+    "section": "",
+    "text": "This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#key-objectives",
+    "href": "toronto-crime-analysis.html#key-objectives",
+    "title": "Toronto Crime Analysis",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\nAnalyze contextual factors: Examine how different premises types affect the likelihood of violent crime.\n\nExplore temporal dynamics: Investigate the role of time of day in shaping crime patterns.\n\nInform policy and urban design: Provide evidence-based recommendations for improving public safety."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#data-and-methods",
+    "href": "toronto-crime-analysis.html#data-and-methods",
+    "title": "Toronto Crime Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Source\n\nDataset: Major Crime Indicators dataset from the Toronto Police Service.\nKey Variables:\n\nPremises Type: Categories include residential, transit, outdoor, and educational premises.\nTime of Day: Grouped into early morning, morning, afternoon, and evening.\nOutcome: Binary variable indicating whether a crime is violent or non-violent.\n\n\n\n\nMethodology\n\nBayesian Logistic Regression: Utilized to model the relationship between premises type, time of day, and crime likelihood.\nData Cleaning: Involved removing missing data, categorizing variables, and aligning time categories with existing research."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#results",
+    "href": "toronto-crime-analysis.html#results",
+    "title": "Toronto Crime Analysis",
+    "section": "Results",
+    "text": "Results\n\nInfluence of Premises Type\n\nHigh-Risk Locations: Transit and outdoor areas exhibit higher odds of violent crimes.\nLow-Risk Locations: Residential and educational premises demonstrate lower violence likelihood.\n\n\n\nTemporal Patterns\n\nPeak Times: Violent crimes are more likely in the afternoon and evening, correlating with increased social interaction.\nLower Risk: Early mornings show reduced crime rates, reflecting lower activity and greater institutional oversight.\n\n\n\nStatistical Insights\n\nCredible intervals confirm the significance of predictors like transit and evening periods.\nResults suggest the need for targeted interventions during high-risk times and locations."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#policy-implications",
+    "href": "toronto-crime-analysis.html#policy-implications",
+    "title": "Toronto Crime Analysis",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nEnhanced Surveillance:\n\nInstall cameras and improve lighting in transit and outdoor areas.\nAdopt Crime Prevention Through Environmental Design (CPTED) principles.\n\nTargeted Policing:\n\nIncrease police presence during peak crime hours (afternoon and evening).\nUse predictive modeling for efficient resource allocation.\n\nCommunity Interventions:\n\nPromote awareness and safety campaigns in high-risk zones.\nDevelop socioeconomic upliftment programs near transit hubs."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#limitations-and-future-directions",
+    "href": "toronto-crime-analysis.html#limitations-and-future-directions",
+    "title": "Toronto Crime Analysis",
+    "section": "Limitations and Future Directions",
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderreporting Bias: Data only includes reported crimes, potentially underestimating true incidence.\n\nBroad Time Categories: Grouping times of day may obscure finer trends.\n\n\n\nFuture Research\n\nIncorporate more granular temporal and spatial data using GIS technology.\n\nAnalyze additional factors such as weather, crowd density, and socioeconomic indicators."
+  },
+  {
+    "objectID": "toronto-crime-analysis.html#references",
+    "href": "toronto-crime-analysis.html#references",
+    "title": "Toronto Crime Analysis",
+    "section": "References",
+    "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html",
+    "href": "toronto-shelter-analysis.html",
+    "title": "Toronto Shelter Analysis",
+    "section": "",
+    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#overview",
+    "href": "toronto-shelter-analysis.html#overview",
+    "title": "Toronto Shelter Analysis",
+    "section": "",
+    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#key-objectives",
+    "href": "toronto-shelter-analysis.html#key-objectives",
+    "title": "Toronto Shelter Analysis",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\nExamine shelter trends: Understand growth in occupancy rates and assess actual bed capacity by program type.\n\nExplore seasonal impacts: Identify patterns in service user counts over time.\n\nAddress disparities: Investigate demographic imbalances and their implications for shelter access."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#data-and-methods",
+    "href": "toronto-shelter-analysis.html#data-and-methods",
+    "title": "Toronto Shelter Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Source\n\nDataset: Daily Shelter Occupancy and Capacity dataset from the City of Toronto.\n\nKey Variables:\n\nOccupancy Rate (Beds): Tracks shelter capacity usage.\n\nProgram Model: Includes emergency and transitional shelters.\n\nService User Count: Captures the number of individuals using shelters daily.\n\n\n\n\nMethodology\n\nTime-Series Analysis: Examined shelter trends across years, with a focus on seasonal patterns.\n\nData Cleaning: Removed missing data and ensured consistency across variables.\n\nVisualization: Used R packages like ggplot2 for graphical representation of trends."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#results",
+    "href": "toronto-shelter-analysis.html#results",
+    "title": "Toronto Shelter Analysis",
+    "section": "Results",
+    "text": "Results\n\nTracking Shelter Bed Occupancy\n\nHigh Occupancy Rates: Beds consistently near full capacity (96–98% from 2021 to 2024).\n\nIncrease Over Time: Occupancy peaked at 98.2% in 2024, highlighting growing demand.\n\n\n\nCapacity by Program Type\n\nDisparities Noted: Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.\n\n\n\nSeasonal Trends\n\nWinter Spikes: Service user counts were highest from November to February, reflecting the impact of extreme weather.\n\n\n\nDemographic Insights\n\nGender Disparities: Women, particularly in family shelters, may be underrepresented in general shelter data.\n\nYouth and Mixed Adults: Additional focus needed to address demographic-specific shelter needs."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#policy-implications",
+    "href": "toronto-shelter-analysis.html#policy-implications",
+    "title": "Toronto Shelter Analysis",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nExpand Shelter Services:\n\nIncrease capacity for transitional shelters to support long-term housing solutions.\n\nEnhance emergency shelters with safety and privacy improvements.\n\nPrepare for Winter Demand:\n\nEstablish more warming centers and mobile shelters during colder months.\n\nAllocate additional resources for emergency services in high-demand periods.\n\nAddress Gender Inequities:\n\nIncrease shelter spaces dedicated to women and families.\n\nImprove data collection to capture underrepresented groups."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#limitations-and-future-directions",
+    "href": "toronto-shelter-analysis.html#limitations-and-future-directions",
+    "title": "Toronto Shelter Analysis",
+    "section": "Limitations and Future Directions",
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderrepresentation in Data: Family shelters and gender-specific usage may be underestimated.\n\nSafety Concerns: Rising violence within shelters affects their usability and trustworthiness.\n\n\n\nFuture Research\n\nInvestigate systemic factors driving the disparity between emergency and transitional shelters.\n\nExplore shelter safety and its influence on occupancy duration.\n\nInclude more granular demographic and geographic data for targeted interventions."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#references",
+    "href": "toronto-shelter-analysis.html#references",
+    "title": "Toronto Shelter Analysis",
+    "section": "References",
+    "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
   }
 ]

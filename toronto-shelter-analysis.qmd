@@ -1,0 +1,87 @@
+---
+title: "Toronto Shelter Analysis"
+author: "Tim Chen"
+date: "September 27, 2024"
+format: html
+---
+
+## Overview
+
+This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies.
+
+---
+
+## Key Objectives
+
+1. **Examine shelter trends:** Understand growth in occupancy rates and assess actual bed capacity by program type.  
+2. **Explore seasonal impacts:** Identify patterns in service user counts over time.  
+3. **Address disparities:** Investigate demographic imbalances and their implications for shelter access.
+
+---
+
+## Data and Methods
+
+### Data Source
+- **Dataset:** Daily Shelter Occupancy and Capacity dataset from the City of Toronto.  
+- **Key Variables:**
+  - **Occupancy Rate (Beds):** Tracks shelter capacity usage.  
+  - **Program Model:** Includes emergency and transitional shelters.  
+  - **Service User Count:** Captures the number of individuals using shelters daily.  
+
+### Methodology
+- **Time-Series Analysis:** Examined shelter trends across years, with a focus on seasonal patterns.  
+- **Data Cleaning:** Removed missing data and ensured consistency across variables.  
+- **Visualization:** Used R packages like `ggplot2` for graphical representation of trends.
+
+---
+
+## Results
+
+### Tracking Shelter Bed Occupancy
+- **High Occupancy Rates:** Beds consistently near full capacity (96–98% from 2021 to 2024).  
+- **Increase Over Time:** Occupancy peaked at 98.2% in 2024, highlighting growing demand.  
+
+### Capacity by Program Type
+- **Disparities Noted:** Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.  
+
+### Seasonal Trends
+- **Winter Spikes:** Service user counts were highest from November to February, reflecting the impact of extreme weather.  
+
+### Demographic Insights
+- **Gender Disparities:** Women, particularly in family shelters, may be underrepresented in general shelter data.  
+- **Youth and Mixed Adults:** Additional focus needed to address demographic-specific shelter needs.
+
+---
+
+## Policy Implications
+
+1. **Expand Shelter Services:**
+   - Increase capacity for transitional shelters to support long-term housing solutions.  
+   - Enhance emergency shelters with safety and privacy improvements.  
+
+2. **Prepare for Winter Demand:**
+   - Establish more warming centers and mobile shelters during colder months.  
+   - Allocate additional resources for emergency services in high-demand periods.  
+
+3. **Address Gender Inequities:**
+   - Increase shelter spaces dedicated to women and families.  
+   - Improve data collection to capture underrepresented groups.
+
+---
+
+## Limitations and Future Directions
+
+### Limitations
+- **Underrepresentation in Data:** Family shelters and gender-specific usage may be underestimated.  
+- **Safety Concerns:** Rising violence within shelters affects their usability and trustworthiness.  
+
+### Future Research
+- Investigate systemic factors driving the disparity between emergency and transitional shelters.  
+- Explore shelter safety and its influence on occupancy duration.  
+- Include more granular demographic and geographic data for targeted interventions.
+
+---
+
+## References
+
+Data and methodology are fully reproducible, with the dataset and code available at: [GitHub Repository](https://github.com/timchen0326/toronto-shelter-data).
