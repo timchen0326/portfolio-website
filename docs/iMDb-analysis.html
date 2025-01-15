@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tim Chen">
+<meta name="dcterms.date" content="2024-02-09">
 
-<title>Tim Chen</title>
+<title>IMDb Analysis – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -88,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -103,6 +106,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./toronto-shelter-analysis.html">
  <span class="dropdown-text">Toronto Shelter Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./bike-theft-analysis.html">
+ <span class="dropdown-text">Bike Theft Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./iMDb-analysis.html">
+ <span class="dropdown-text">IMDb Analysis</span></a>
   </li>  
     </ul>
   </li>
@@ -138,84 +149,139 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#professional-experience" id="toc-professional-experience" class="nav-link active" data-scroll-target="#professional-experience">Professional Experience</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
+  <ul class="collapse">
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
+  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
+  </ul></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tim Chen</h1>
+<h1 class="title">IMDb Analysis</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tim Chen </p>
+          </div>
   </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 9, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="/pdfs/resume.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text">Resume</span>
-  </a>
-  <a href="mailto:timchen0326ca@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://github.com/timchen0326" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://www.linkedin.com/in/timchen0326/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<p>I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability &amp; Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.</p>
-<p>In my academic journey, I have completed relevant coursework in <strong>Machine Learning (Python)</strong>, <strong>Statistical Theory</strong>, <strong>Databases (SQL)</strong>, and <strong>Software Design (Java)</strong>, among others.</p>
-<p>I have professional experience as a <strong>Frontend Software Engineer Intern</strong> at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript.</p>
-<p>I am skilled in a variety of programming languages, including <strong>Python, R, SQL, Java, and C</strong>, as well as tools like <strong>Tableau, Power BI, and Excel</strong>. My certifications include the <strong>Google Data Analytics Professional Certificate</strong>, showcasing expertise in data cleaning, visualization, and statistical analysis.</p>
-<section id="professional-experience" class="level3">
-<h3 data-anchor-id="professional-experience">Professional Experience</h3>
-<section id="frontend-software-engineer-intern-mayohr" class="level4">
-<h4 data-anchor-id="frontend-software-engineer-intern-mayohr"><strong>Frontend Software Engineer Intern, MAYOHR</strong></h4>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes.</p>
+<hr>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ol type="1">
+<li>Assess the correlation between IMDb votes and ratings.<br>
+</li>
+<li>Investigate the impact of release year and language diversity.<br>
+</li>
+<li>Communicate findings through visualizations.</li>
+</ol>
+<hr>
+</section>
+<section id="data-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
+<section id="data-description" class="level3">
+<h3 class="anchored" data-anchor-id="data-description">Data Description</h3>
 <ul>
-<li>Built and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.<br>
+<li><strong>Variables</strong>: IMDb votes, ratings, release year, language diversity, and metascores.<br>
 </li>
-<li>Reduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.<br>
+<li><strong>Filters</strong>: Only movies with runtimes &gt;75 minutes were analyzed.</li>
+</ul>
+</section>
+<section id="visualization" class="level3">
+<h3 class="anchored" data-anchor-id="visualization">Visualization</h3>
+<ul>
+<li>Scatter plots with the following attributes:
+<ul>
+<li><strong>X-Axis</strong>: IMDb votes.<br>
 </li>
-<li>Collaborated with product managers to design features that increased troubleshooting efficiency by 40%.</li>
+<li><strong>Y-Axis</strong>: IMDb ratings.<br>
+</li>
+<li><strong>Color</strong>: Red for pre-2000 movies, blue for post-2000.<br>
+</li>
+<li><strong>Shape</strong>: Triangles for single-language, squares for multi-language.<br>
+</li>
+<li><strong>Size</strong>: Represents metascores.</li>
+</ul></li>
+<li>Trendlines fitted via linear regression for pre- and post-2000 movies.</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<p><strong>University of Toronto</strong><br>
-<strong>Honours Bachelor of Science (HBSc)</strong> in Mathematics &amp; Its Applications (Probability &amp; Statistics)<br>
-- Relevant Coursework: <strong>Machine Learning (Python)</strong>, <strong>Statistical Theory</strong>, <strong>Databases (SQL)</strong>, <strong>Software Design (Java)</strong><br>
-- Expected Graduation: <strong>2026</strong></p>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<ol type="1">
+<li><strong>Votes and Ratings</strong>:
+<ul>
+<li>Positive correlation observed; higher votes tend to result in higher ratings.<br>
+</li>
+<li>Post-2000 movies show stronger trends in both votes and ratings compared to pre-2000.</li>
+</ul></li>
+<li><strong>Language Diversity</strong>:
+<ul>
+<li>Single-language movies exhibit slightly higher ratings on average than multi-language ones.</li>
+</ul></li>
+<li><strong>Critical Reception</strong>:
+<ul>
+<li>Larger metascores generally align with higher IMDb ratings.</li>
+</ul></li>
+</ol>
 <hr>
 </section>
-<section id="skills" class="level3">
-<h3 data-anchor-id="skills">Skills</h3>
-<ul>
-<li><strong>Programming Languages:</strong> Python, R, SQL, Java, C<br>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<ol type="1">
+<li><strong>Filters</strong>: Excluding movies with runtimes &lt;75 minutes may bias results.<br>
 </li>
-<li><strong>Data Tools:</strong> Tableau, Power BI, Excel<br>
-</li>
-<li><strong>Certifications:</strong> Google Data Analytics Professional Certificate</li>
-</ul>
+<li><strong>Linear Trendlines</strong>: Oversimplify potentially complex relationships.</li>
+</ol>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.</p>
+<p><strong>Access the report</strong>: <a href="pdfs/IMDb Analysis.pdf">IMDb Analysis PDF</a></p>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -236,6 +302,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

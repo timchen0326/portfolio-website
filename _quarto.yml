@@ -13,6 +13,8 @@ website:
         menu: 
           - toronto-crime-analysis.qmd
           - toronto-shelter-analysis.qmd
+          - bike-theft-analysis.qmd
+          - iMDb-analysis.qmd
         
       - href: https://timsplayland.vercel.app/
         text: Portfolio

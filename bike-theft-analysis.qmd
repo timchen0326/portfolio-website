@@ -1,0 +1,94 @@
+---
+title: "Bike Theft Analysis"
+author: "Wei Ting Chen and Meixi Xiong"
+date: "March 17, 2024"
+format: html
+---
+
+## Overview
+
+This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents.
+
+---
+
+## Key Objectives
+
+1. **Analyze spatial patterns**: Identify neighborhoods with high bike theft incidence.  
+2. **Examine temporal dynamics**: Study when bike thefts are most likely to occur.  
+3. **Provide recommendations**: Suggest strategies for individuals and authorities to mitigate bike theft risks.
+
+---
+
+## Data and Methods
+
+### Data Source
+- **Dataset**: Toronto bike theft dataset, as reported to Toronto Police Service.  
+- **Key Variables**:  
+  - **Neighborhoods**: Areas in Toronto with varying theft frequencies.  
+  - **Premises Type**: Categories such as outdoor, apartments, and commercial locations.  
+  - **Timeframe**: Grouped into hourly ranges.  
+  - **Bike Type and Cost**: Includes categories like regular and mountain bikes, analyzed by cost range.  
+
+### Methodology
+- **Data Visualization**: Heatmaps and bar charts to highlight theft hotspots and trends.  
+- **Categorical Analysis**: Examining the role of neighborhood, bike type, cost, premises type, and time of theft in shaping theft patterns.  
+
+---
+
+## Results  
+
+### High-Risk Neighborhoods
+- **Top Neighborhoods**:  
+  - Waterfront Communities – The Island, Bay Street Corridor, and Church–Yonge Corridor report the highest theft rates, exceeding 2,000 cases.  
+  - Other high-risk areas include Niagara, Annex, and Kensington–Chinatown.  
+
+### Premises and Time of Theft
+- **Premises Type**: Outdoor areas and apartments exhibit the highest theft occurrences.  
+- **Peak Hours**:  
+  - Theft is most frequent between 12 PM to 11 PM, coinciding with peak activity times.  
+  - Least theft activity is observed between 12 AM to 5 AM, aligning with lower public activity.  
+
+### Bike Types and Costs
+- **High-Risk Categories**:  
+  - Regular bikes priced at $401–$650 and mountain bikes priced at $101–$400 are most prone to theft.  
+
+### Divisions for Reporting Theft
+- **Top Divisions**:  
+  - D52, D14, and D51 have the highest number of reported cases, each exceeding 5,000.  
+  - Recovery rates are low, with over 98% of bikes reported as stolen.  
+
+---
+
+## Policy Implications  
+
+1. **Urban Safety Enhancements**:  
+   - Increase surveillance in high-risk neighborhoods.  
+   - Improve bike parking infrastructure with secure locking mechanisms.  
+
+2. **Public Awareness Campaigns**:  
+   - Educate residents about high-risk areas and bike types.  
+   - Promote usage of advanced locking systems and GPS tracking devices.  
+
+3. **Law Enforcement Strategies**:  
+   - Deploy targeted patrols during peak theft hours in hotspots.  
+   - Collaborate with community organizations to monitor and reduce thefts.  
+
+---
+
+## Limitations and Future Directions  
+
+### Limitations
+- **Underreporting Bias**: Unreported cases may skew the data.  
+- **Spatial Granularity**: Analysis is limited to neighborhood and division-level data.  
+
+### Future Research
+- Explore additional factors such as weather, traffic density, and socio-economic indicators.  
+- Incorporate GIS tools for detailed spatial analysis.  
+
+---
+
+## References  
+
+Further details and reproducible code can be found in the report's dataset repository.  
+
+**Read the full report**: [Bike Theft Analysis PDF](pdfs/Bike%20Theft%20Analysis.pdf)

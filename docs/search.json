@@ -117,5 +117,110 @@
     "title": "Toronto Shelter Analysis",
     "section": "References",
     "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
+  },
+  {
+    "objectID": "bike-theft-analysis.html",
+    "href": "bike-theft-analysis.html",
+    "title": "Bike Theft Analysis",
+    "section": "",
+    "text": "This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#overview",
+    "href": "bike-theft-analysis.html#overview",
+    "title": "Bike Theft Analysis",
+    "section": "",
+    "text": "This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#key-objectives",
+    "href": "bike-theft-analysis.html#key-objectives",
+    "title": "Bike Theft Analysis",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\nAnalyze spatial patterns: Identify neighborhoods with high bike theft incidence.\n\nExamine temporal dynamics: Study when bike thefts are most likely to occur.\n\nProvide recommendations: Suggest strategies for individuals and authorities to mitigate bike theft risks."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#data-and-methods",
+    "href": "bike-theft-analysis.html#data-and-methods",
+    "title": "Bike Theft Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Source\n\nDataset: Toronto bike theft dataset, as reported to Toronto Police Service.\n\nKey Variables:\n\nNeighborhoods: Areas in Toronto with varying theft frequencies.\n\nPremises Type: Categories such as outdoor, apartments, and commercial locations.\n\nTimeframe: Grouped into hourly ranges.\n\nBike Type and Cost: Includes categories like regular and mountain bikes, analyzed by cost range.\n\n\n\n\nMethodology\n\nData Visualization: Heatmaps and bar charts to highlight theft hotspots and trends.\n\nCategorical Analysis: Examining the role of neighborhood, bike type, cost, premises type, and time of theft in shaping theft patterns."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#results",
+    "href": "bike-theft-analysis.html#results",
+    "title": "Bike Theft Analysis",
+    "section": "Results",
+    "text": "Results\n\nHigh-Risk Neighborhoods\n\nTop Neighborhoods:\n\nWaterfront Communities – The Island, Bay Street Corridor, and Church–Yonge Corridor report the highest theft rates, exceeding 2,000 cases.\n\nOther high-risk areas include Niagara, Annex, and Kensington–Chinatown.\n\n\n\n\nPremises and Time of Theft\n\nPremises Type: Outdoor areas and apartments exhibit the highest theft occurrences.\n\nPeak Hours:\n\nTheft is most frequent between 12 PM to 11 PM, coinciding with peak activity times.\n\nLeast theft activity is observed between 12 AM to 5 AM, aligning with lower public activity.\n\n\n\n\nBike Types and Costs\n\nHigh-Risk Categories:\n\nRegular bikes priced at $401–$650 and mountain bikes priced at $101–$400 are most prone to theft.\n\n\n\n\nDivisions for Reporting Theft\n\nTop Divisions:\n\nD52, D14, and D51 have the highest number of reported cases, each exceeding 5,000.\n\nRecovery rates are low, with over 98% of bikes reported as stolen."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#policy-implications",
+    "href": "bike-theft-analysis.html#policy-implications",
+    "title": "Bike Theft Analysis",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nUrban Safety Enhancements:\n\nIncrease surveillance in high-risk neighborhoods.\n\nImprove bike parking infrastructure with secure locking mechanisms.\n\nPublic Awareness Campaigns:\n\nEducate residents about high-risk areas and bike types.\n\nPromote usage of advanced locking systems and GPS tracking devices.\n\nLaw Enforcement Strategies:\n\nDeploy targeted patrols during peak theft hours in hotspots.\n\nCollaborate with community organizations to monitor and reduce thefts."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#limitations-and-future-directions",
+    "href": "bike-theft-analysis.html#limitations-and-future-directions",
+    "title": "Bike Theft Analysis",
+    "section": "Limitations and Future Directions",
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderreporting Bias: Unreported cases may skew the data.\n\nSpatial Granularity: Analysis is limited to neighborhood and division-level data.\n\n\n\nFuture Research\n\nExplore additional factors such as weather, traffic density, and socio-economic indicators.\n\nIncorporate GIS tools for detailed spatial analysis."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#references",
+    "href": "bike-theft-analysis.html#references",
+    "title": "Bike Theft Analysis",
+    "section": "References",
+    "text": "References\nFurther details and reproducible code can be found in the report’s dataset repository.\nRead the full report: Bike Theft Analysis PDF"
+  },
+  {
+    "objectID": "iMDb-analysis.html",
+    "href": "iMDb-analysis.html",
+    "title": "IMDb Analysis",
+    "section": "",
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+  },
+  {
+    "objectID": "iMDb-analysis.html#overview",
+    "href": "iMDb-analysis.html#overview",
+    "title": "IMDb Analysis",
+    "section": "",
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+  },
+  {
+    "objectID": "iMDb-analysis.html#objectives",
+    "href": "iMDb-analysis.html#objectives",
+    "title": "IMDb Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
+  },
+  {
+    "objectID": "iMDb-analysis.html#data-and-methods",
+    "href": "iMDb-analysis.html#data-and-methods",
+    "title": "IMDb Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
+  },
+  {
+    "objectID": "iMDb-analysis.html#key-findings",
+    "href": "iMDb-analysis.html#key-findings",
+    "title": "IMDb Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+  },
+  {
+    "objectID": "iMDb-analysis.html#limitations",
+    "href": "iMDb-analysis.html#limitations",
+    "title": "IMDb Analysis",
+    "section": "Limitations",
+    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+  },
+  {
+    "objectID": "iMDb-analysis.html#conclusion",
+    "href": "iMDb-analysis.html#conclusion",
+    "title": "IMDb Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
   }
 ]

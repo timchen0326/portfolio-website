@@ -1,0 +1,66 @@
+---
+title: "IMDb Analysis"
+author: "Tim Chen"
+date: "February 9, 2024"
+format: html
+---
+
+## Overview
+
+This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes.
+
+---
+
+## Objectives
+
+1. Assess the correlation between IMDb votes and ratings.  
+2. Investigate the impact of release year and language diversity.  
+3. Communicate findings through visualizations.
+
+---
+
+## Data and Methods
+
+### Data Description
+- **Variables**: IMDb votes, ratings, release year, language diversity, and metascores.  
+- **Filters**: Only movies with runtimes >75 minutes were analyzed.  
+
+### Visualization
+- Scatter plots with the following attributes:  
+  - **X-Axis**: IMDb votes.  
+  - **Y-Axis**: IMDb ratings.  
+  - **Color**: Red for pre-2000 movies, blue for post-2000.  
+  - **Shape**: Triangles for single-language, squares for multi-language.  
+  - **Size**: Represents metascores.  
+
+- Trendlines fitted via linear regression for pre- and post-2000 movies.
+
+---
+
+## Key Findings
+
+1. **Votes and Ratings**:  
+   - Positive correlation observed; higher votes tend to result in higher ratings.  
+   - Post-2000 movies show stronger trends in both votes and ratings compared to pre-2000.  
+
+2. **Language Diversity**:  
+   - Single-language movies exhibit slightly higher ratings on average than multi-language ones.  
+
+3. **Critical Reception**:  
+   - Larger metascores generally align with higher IMDb ratings.
+
+---
+
+## Limitations
+
+1. **Filters**: Excluding movies with runtimes <75 minutes may bias results.  
+2. **Linear Trendlines**: Oversimplify potentially complex relationships.
+
+---
+
+## Conclusion
+
+The analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.
+
+
+**Access the report**: [IMDb Analysis PDF](pdfs/IMDb%20Analysis.pdf)
