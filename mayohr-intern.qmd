@@ -1,0 +1,109 @@
+---
+title: "MAYOHR Internship Progress Report"
+author: "Tim Chen"
+date: "August 1, 2024"
+format: html
+---
+
+## Overview
+
+This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment.
+
+---
+
+## Progress Timeline
+
+### 1. Development Environment Setup
+
+- **Configured Development Tools**  
+  Established a productive development environment by configuring Visual Studio Code, React.js, and Next.js.  
+  *Date:* May 9, 2024
+
+### 2. Foundational Web Development
+
+- **Strengthened HTML and CSS Proficiency**  
+  Enhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.  
+  *Date:* May 13, 2024
+
+### 3. Interactive Application Development
+
+- **Built a Dynamic BMI Calculator**  
+  Developed an interactive BMI calculator to explore React's state management capabilities through `useState`.  
+  *Date:* May 14, 2024
+
+### 4. Data Extraction and API Integration
+
+- **Implemented Web Scraping and APIs**  
+  Utilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.  
+  *Date:* May 15, 2024
+
+### 5. Full-Stack Project Development
+
+- **Developed a Sports Card Auction Platform**  
+  Created a full-stack application for a sports card auction system, integrating scraped data and user interactions.  
+  *Date:* May 24, 2024
+
+### 6. Version Control with Git
+
+- **Mastered Version Control Workflows**  
+  Gained proficiency in Git to manage code repositories and collaborate effectively in a team environment.  
+  *Date:* May 26, 2024
+
+### 7. Collaborative Development Practices
+
+- **Contributed to Front-End Features**  
+  Worked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.  
+  *Date:* May 28, 2024
+
+### 8. JSON File Management
+
+- **Integrated Advanced JSON Editing Tools**  
+  Leveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.  
+  *Date:* May 30, 2024
+
+### 9. Data Visualization
+
+- **Developed Interactive Dashboards**  
+  Designed a user-friendly dashboard for data visualization, employing React to present insights effectively.  
+  *Date:* June 14, 2024
+
+### 10. Organizational Chart Implementation
+
+- **Customized Data-Driven Visualizations**  
+  Adapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.  
+  *Date:* June 26, 2024
+
+### 11. User Access Control
+
+- **Established Role-Based Access Systems**  
+  Implemented secure user access controls to manage permissions and restrict page visibility based on roles.  
+  *Date:* July 4, 2024
+
+### 12. Advanced State Management
+
+- **Applied Redux for State Management**  
+  Improved application performance and maintainability by integrating Redux for advanced state management.  
+  *Date:* July 8, 2024
+
+### 13. Code Contributions and Collaboration
+
+- **Delivered Consistent Code Contributions**  
+  Contributed to multiple projects with a strong focus on code quality and collaborative problem-solving.  
+  *Date Range:* May 9, 2024 – August 1, 2024
+
+---
+
+## Reflections
+
+This internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions.
+
+---
+
+## References
+- [Internship Project Overview](https://timsplayland.vercel.app/projects/mayohr)
+- [Flask Documentation](https://flask.palletsprojects.com/)  
+- [React Documentation](https://react.dev/)  
+- [Redux Documentation](https://react-redux.js.org/)  
+- [Azure DevOps](https://azure.microsoft.com/)  
+- [JsonEditor Documentation](https://json-editor.github.io/json-editor/)  
+- [Git Documentation](https://git-scm.com/)

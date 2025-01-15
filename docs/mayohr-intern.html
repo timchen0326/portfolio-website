@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tim Chen">
-<meta name="dcterms.date" content="2024-09-27">
+<meta name="dcterms.date" content="2024-08-01">
 
-<title>Toronto Shelter Analysis – Tim Chen</title>
+<title>MAYOHR Internship Progress Report – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,6 +115,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./iMDb-analysis.html">
  <span class="dropdown-text">IMDb Analysis</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./mayohr-intern.html">
+ <span class="dropdown-text">MAYOHR Internship Progress Report</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -152,25 +156,23 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-objectives" id="toc-key-objectives" class="nav-link" data-scroll-target="#key-objectives">Key Objectives</a></li>
-  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
+  <li><a href="#progress-timeline" id="toc-progress-timeline" class="nav-link" data-scroll-target="#progress-timeline">Progress Timeline</a>
   <ul class="collapse">
-  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#development-environment-setup" id="toc-development-environment-setup" class="nav-link" data-scroll-target="#development-environment-setup">1. Development Environment Setup</a></li>
+  <li><a href="#foundational-web-development" id="toc-foundational-web-development" class="nav-link" data-scroll-target="#foundational-web-development">2. Foundational Web Development</a></li>
+  <li><a href="#interactive-application-development" id="toc-interactive-application-development" class="nav-link" data-scroll-target="#interactive-application-development">3. Interactive Application Development</a></li>
+  <li><a href="#data-extraction-and-api-integration" id="toc-data-extraction-and-api-integration" class="nav-link" data-scroll-target="#data-extraction-and-api-integration">4. Data Extraction and API Integration</a></li>
+  <li><a href="#full-stack-project-development" id="toc-full-stack-project-development" class="nav-link" data-scroll-target="#full-stack-project-development">5. Full-Stack Project Development</a></li>
+  <li><a href="#version-control-with-git" id="toc-version-control-with-git" class="nav-link" data-scroll-target="#version-control-with-git">6. Version Control with Git</a></li>
+  <li><a href="#collaborative-development-practices" id="toc-collaborative-development-practices" class="nav-link" data-scroll-target="#collaborative-development-practices">7. Collaborative Development Practices</a></li>
+  <li><a href="#json-file-management" id="toc-json-file-management" class="nav-link" data-scroll-target="#json-file-management">8. JSON File Management</a></li>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">9. Data Visualization</a></li>
+  <li><a href="#organizational-chart-implementation" id="toc-organizational-chart-implementation" class="nav-link" data-scroll-target="#organizational-chart-implementation">10. Organizational Chart Implementation</a></li>
+  <li><a href="#user-access-control" id="toc-user-access-control" class="nav-link" data-scroll-target="#user-access-control">11. User Access Control</a></li>
+  <li><a href="#advanced-state-management" id="toc-advanced-state-management" class="nav-link" data-scroll-target="#advanced-state-management">12. Advanced State Management</a></li>
+  <li><a href="#code-contributions-and-collaboration" id="toc-code-contributions-and-collaboration" class="nav-link" data-scroll-target="#code-contributions-and-collaboration">13. Code Contributions and Collaboration</a></li>
   </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
-  <ul class="collapse">
-  <li><a href="#tracking-shelter-bed-occupancy" id="toc-tracking-shelter-bed-occupancy" class="nav-link" data-scroll-target="#tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</a></li>
-  <li><a href="#capacity-by-program-type" id="toc-capacity-by-program-type" class="nav-link" data-scroll-target="#capacity-by-program-type">Capacity by Program Type</a></li>
-  <li><a href="#seasonal-trends" id="toc-seasonal-trends" class="nav-link" data-scroll-target="#seasonal-trends">Seasonal Trends</a></li>
-  <li><a href="#demographic-insights" id="toc-demographic-insights" class="nav-link" data-scroll-target="#demographic-insights">Demographic Insights</a></li>
-  </ul></li>
-  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
-  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a>
-  <ul class="collapse">
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research">Future Research</a></li>
-  </ul></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections">Reflections</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -180,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Toronto Shelter Analysis</h1>
+<h1 class="title">MAYOHR Internship Progress Report</h1>
 </div>
 
 
@@ -197,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 27, 2024</p>
+      <p class="date">August 1, 2024</p>
     </div>
   </div>
   
@@ -211,130 +213,138 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies.</p>
+<p>This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment.</p>
 <hr>
 </section>
-<section id="key-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="key-objectives">Key Objectives</h2>
-<ol type="1">
-<li><strong>Examine shelter trends:</strong> Understand growth in occupancy rates and assess actual bed capacity by program type.<br>
-</li>
-<li><strong>Explore seasonal impacts:</strong> Identify patterns in service user counts over time.<br>
-</li>
-<li><strong>Address disparities:</strong> Investigate demographic imbalances and their implications for shelter access.</li>
-</ol>
-<hr>
-</section>
-<section id="data-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
-<section id="data-source" class="level3">
-<h3 class="anchored" data-anchor-id="data-source">Data Source</h3>
+<section id="progress-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="progress-timeline">Progress Timeline</h2>
+<section id="development-environment-setup" class="level3">
+<h3 class="anchored" data-anchor-id="development-environment-setup">1. Development Environment Setup</h3>
 <ul>
-<li><strong>Dataset:</strong> Daily Shelter Occupancy and Capacity dataset from the City of Toronto.<br>
-</li>
-<li><strong>Key Variables:</strong>
-<ul>
-<li><strong>Occupancy Rate (Beds):</strong> Tracks shelter capacity usage.<br>
-</li>
-<li><strong>Program Model:</strong> Includes emergency and transitional shelters.<br>
-</li>
-<li><strong>Service User Count:</strong> Captures the number of individuals using shelters daily.</li>
-</ul></li>
+<li><strong>Configured Development Tools</strong><br>
+Established a productive development environment by configuring Visual Studio Code, React.js, and Next.js.<br>
+<em>Date:</em> May 9, 2024</li>
 </ul>
 </section>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+<section id="foundational-web-development" class="level3">
+<h3 class="anchored" data-anchor-id="foundational-web-development">2. Foundational Web Development</h3>
 <ul>
-<li><strong>Time-Series Analysis:</strong> Examined shelter trends across years, with a focus on seasonal patterns.<br>
-</li>
-<li><strong>Data Cleaning:</strong> Removed missing data and ensured consistency across variables.<br>
-</li>
-<li><strong>Visualization:</strong> Used R packages like <code>ggplot2</code> for graphical representation of trends.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<section id="tracking-shelter-bed-occupancy" class="level3">
-<h3 class="anchored" data-anchor-id="tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</h3>
-<ul>
-<li><strong>High Occupancy Rates:</strong> Beds consistently near full capacity (96–98% from 2021 to 2024).<br>
-</li>
-<li><strong>Increase Over Time:</strong> Occupancy peaked at 98.2% in 2024, highlighting growing demand.</li>
+<li><strong>Strengthened HTML and CSS Proficiency</strong><br>
+Enhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.<br>
+<em>Date:</em> May 13, 2024</li>
 </ul>
 </section>
-<section id="capacity-by-program-type" class="level3">
-<h3 class="anchored" data-anchor-id="capacity-by-program-type">Capacity by Program Type</h3>
+<section id="interactive-application-development" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-application-development">3. Interactive Application Development</h3>
 <ul>
-<li><strong>Disparities Noted:</strong> Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.</li>
+<li><strong>Built a Dynamic BMI Calculator</strong><br>
+Developed an interactive BMI calculator to explore React’s state management capabilities through <code>useState</code>.<br>
+<em>Date:</em> May 14, 2024</li>
 </ul>
 </section>
-<section id="seasonal-trends" class="level3">
-<h3 class="anchored" data-anchor-id="seasonal-trends">Seasonal Trends</h3>
+<section id="data-extraction-and-api-integration" class="level3">
+<h3 class="anchored" data-anchor-id="data-extraction-and-api-integration">4. Data Extraction and API Integration</h3>
 <ul>
-<li><strong>Winter Spikes:</strong> Service user counts were highest from November to February, reflecting the impact of extreme weather.</li>
+<li><strong>Implemented Web Scraping and APIs</strong><br>
+Utilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.<br>
+<em>Date:</em> May 15, 2024</li>
 </ul>
 </section>
-<section id="demographic-insights" class="level3">
-<h3 class="anchored" data-anchor-id="demographic-insights">Demographic Insights</h3>
+<section id="full-stack-project-development" class="level3">
+<h3 class="anchored" data-anchor-id="full-stack-project-development">5. Full-Stack Project Development</h3>
 <ul>
-<li><strong>Gender Disparities:</strong> Women, particularly in family shelters, may be underrepresented in general shelter data.<br>
-</li>
-<li><strong>Youth and Mixed Adults:</strong> Additional focus needed to address demographic-specific shelter needs.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="policy-implications" class="level2">
-<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
-<ol type="1">
-<li><strong>Expand Shelter Services:</strong>
-<ul>
-<li>Increase capacity for transitional shelters to support long-term housing solutions.<br>
-</li>
-<li>Enhance emergency shelters with safety and privacy improvements.</li>
-</ul></li>
-<li><strong>Prepare for Winter Demand:</strong>
-<ul>
-<li>Establish more warming centers and mobile shelters during colder months.<br>
-</li>
-<li>Allocate additional resources for emergency services in high-demand periods.</li>
-</ul></li>
-<li><strong>Address Gender Inequities:</strong>
-<ul>
-<li>Increase shelter spaces dedicated to women and families.<br>
-</li>
-<li>Improve data collection to capture underrepresented groups.</li>
-</ul></li>
-</ol>
-<hr>
-</section>
-<section id="limitations-and-future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="limitations-and-future-directions">Limitations and Future Directions</h2>
-<section id="limitations" class="level3">
-<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
-<ul>
-<li><strong>Underrepresentation in Data:</strong> Family shelters and gender-specific usage may be underestimated.<br>
-</li>
-<li><strong>Safety Concerns:</strong> Rising violence within shelters affects their usability and trustworthiness.</li>
+<li><strong>Developed a Sports Card Auction Platform</strong><br>
+Created a full-stack application for a sports card auction system, integrating scraped data and user interactions.<br>
+<em>Date:</em> May 24, 2024</li>
 </ul>
 </section>
-<section id="future-research" class="level3">
-<h3 class="anchored" data-anchor-id="future-research">Future Research</h3>
+<section id="version-control-with-git" class="level3">
+<h3 class="anchored" data-anchor-id="version-control-with-git">6. Version Control with Git</h3>
 <ul>
-<li>Investigate systemic factors driving the disparity between emergency and transitional shelters.<br>
-</li>
-<li>Explore shelter safety and its influence on occupancy duration.<br>
-</li>
-<li>Include more granular demographic and geographic data for targeted interventions.</li>
+<li><strong>Mastered Version Control Workflows</strong><br>
+Gained proficiency in Git to manage code repositories and collaborate effectively in a team environment.<br>
+<em>Date:</em> May 26, 2024</li>
+</ul>
+</section>
+<section id="collaborative-development-practices" class="level3">
+<h3 class="anchored" data-anchor-id="collaborative-development-practices">7. Collaborative Development Practices</h3>
+<ul>
+<li><strong>Contributed to Front-End Features</strong><br>
+Worked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.<br>
+<em>Date:</em> May 28, 2024</li>
+</ul>
+</section>
+<section id="json-file-management" class="level3">
+<h3 class="anchored" data-anchor-id="json-file-management">8. JSON File Management</h3>
+<ul>
+<li><strong>Integrated Advanced JSON Editing Tools</strong><br>
+Leveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.<br>
+<em>Date:</em> May 30, 2024</li>
+</ul>
+</section>
+<section id="data-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="data-visualization">9. Data Visualization</h3>
+<ul>
+<li><strong>Developed Interactive Dashboards</strong><br>
+Designed a user-friendly dashboard for data visualization, employing React to present insights effectively.<br>
+<em>Date:</em> June 14, 2024</li>
+</ul>
+</section>
+<section id="organizational-chart-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="organizational-chart-implementation">10. Organizational Chart Implementation</h3>
+<ul>
+<li><strong>Customized Data-Driven Visualizations</strong><br>
+Adapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.<br>
+<em>Date:</em> June 26, 2024</li>
+</ul>
+</section>
+<section id="user-access-control" class="level3">
+<h3 class="anchored" data-anchor-id="user-access-control">11. User Access Control</h3>
+<ul>
+<li><strong>Established Role-Based Access Systems</strong><br>
+Implemented secure user access controls to manage permissions and restrict page visibility based on roles.<br>
+<em>Date:</em> July 4, 2024</li>
+</ul>
+</section>
+<section id="advanced-state-management" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-state-management">12. Advanced State Management</h3>
+<ul>
+<li><strong>Applied Redux for State Management</strong><br>
+Improved application performance and maintainability by integrating Redux for advanced state management.<br>
+<em>Date:</em> July 8, 2024</li>
+</ul>
+</section>
+<section id="code-contributions-and-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="code-contributions-and-collaboration">13. Code Contributions and Collaboration</h3>
+<ul>
+<li><strong>Delivered Consistent Code Contributions</strong><br>
+Contributed to multiple projects with a strong focus on code quality and collaborative problem-solving.<br>
+<em>Date Range:</em> May 9, 2024 – August 1, 2024</li>
 </ul>
 <hr>
 </section>
+</section>
+<section id="reflections" class="level2">
+<h2 class="anchored" data-anchor-id="reflections">Reflections</h2>
+<p>This internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions.</p>
+<hr>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Data and methodology are fully reproducible, with the dataset and code available at: <a href="https://github.com/timchen0326/toronto-shelter-data">GitHub Repository</a>.</p>
+<ul>
+<li><a href="https://timsplayland.vercel.app/projects/mayohr">Internship Project Overview</a></li>
+<li><a href="https://flask.palletsprojects.com/">Flask Documentation</a><br>
+</li>
+<li><a href="https://react.dev/">React Documentation</a><br>
+</li>
+<li><a href="https://react-redux.js.org/">Redux Documentation</a><br>
+</li>
+<li><a href="https://azure.microsoft.com/">Azure DevOps</a><br>
+</li>
+<li><a href="https://json-editor.github.io/json-editor/">JsonEditor Documentation</a><br>
+</li>
+<li><a href="https://git-scm.com/">Git Documentation</a></li>
+</ul>
 
 
 </section>

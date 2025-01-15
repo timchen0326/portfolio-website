@@ -15,6 +15,7 @@ website:
           - toronto-shelter-analysis.qmd
           - bike-theft-analysis.qmd
           - iMDb-analysis.qmd
+          - mayohr-intern.qmd
         
       - href: https://timsplayland.vercel.app/
         text: Portfolio

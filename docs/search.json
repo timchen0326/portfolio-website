@@ -222,5 +222,40 @@
     "title": "IMDb Analysis",
     "section": "Conclusion",
     "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
+  },
+  {
+    "objectID": "mayohr-intern.html",
+    "href": "mayohr-intern.html",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "",
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
+  },
+  {
+    "objectID": "mayohr-intern.html#overview",
+    "href": "mayohr-intern.html#overview",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "",
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
+  },
+  {
+    "objectID": "mayohr-intern.html#progress-timeline",
+    "href": "mayohr-intern.html#progress-timeline",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Progress Timeline",
+    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
+  },
+  {
+    "objectID": "mayohr-intern.html#reflections",
+    "href": "mayohr-intern.html#reflections",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Reflections",
+    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
+  },
+  {
+    "objectID": "mayohr-intern.html#references",
+    "href": "mayohr-intern.html#references",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "References",
+    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
   }
 ]
