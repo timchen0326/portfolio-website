@@ -257,5 +257,201 @@
     "title": "MAYOHR Internship Progress Report",
     "section": "References",
     "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
+  },
+  {
+    "objectID": "courses-taken.html",
+    "href": "courses-taken.html",
+    "title": "Courses Taken at University of Toronto",
+    "section": "",
+    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
+  },
+  {
+    "objectID": "courses-taken.html#fall",
+    "href": "courses-taken.html#fall",
+    "title": "Courses Taken at University of Toronto",
+    "section": "2024 Fall",
+    "text": "2024 Fall\n\nCSC207H1F: Software Design\n\nCSC236H1F: Introduction to the Theory of Computation\n\nMUS306H1F: Popular Music in North America\n\nSTA304H1F: Surveys, Sampling, and Observational Data\n\nAMS100H1F: Global Capitalism"
+  },
+  {
+    "objectID": "courses-taken.html#winter-1",
+    "href": "courses-taken.html#winter-1",
+    "title": "Courses Taken at University of Toronto",
+    "section": "2024 Winter",
+    "text": "2024 Winter\n\nAPM346H1S: Partial Differential Equations\n\nSTA303H1S: Methods of Data Analysis II\n\nSTA313H1S: Data Visualization\n\nSTA457H1S: Time Series Analysis"
+  },
+  {
+    "objectID": "courses-taken.html#fall-1",
+    "href": "courses-taken.html#fall-1",
+    "title": "Courses Taken at University of Toronto",
+    "section": "2023 Fall",
+    "text": "2023 Fall\n\nMAT301H1F: Groups and Symmetries\n\nMAT334H1F: Complex Variables\n\nSTA302H1F: Methods of Data Analysis I\n\nSTA437H1F: Methods for Multivariate Data"
+  },
+  {
+    "objectID": "courses-taken.html#summer",
+    "href": "courses-taken.html#summer",
+    "title": "Courses Taken at University of Toronto",
+    "section": "2023 Summer",
+    "text": "2023 Summer\n\nMAT237Y1: Multivariable Calculus with Proofs\n\nESS205H1S: Confronting Global Change"
+  },
+  {
+    "objectID": "courses-taken.html#winter-2",
+    "href": "courses-taken.html#winter-2",
+    "title": "Courses Taken at University of Toronto",
+    "section": "2023 Winter",
+    "text": "2023 Winter\n\nPHL245H1S: Modern Symbolic Logic\n\nMAT244H1S: Introduction to Ordinary Differential Equations\n\nMAT224H1S: Linear Algebra II"
+  },
+  {
+    "objectID": "courses-taken.html#past-courses-20212022",
+    "href": "courses-taken.html#past-courses-20212022",
+    "title": "Courses Taken at University of Toronto",
+    "section": "Past Courses (2021–2022)",
+    "text": "Past Courses (2021–2022)\n\nMAT137Y1: Calculus with Proofs\n\nMAT240H1F: Algebra I\n\nSTA257H1F: Probability and Statistics I\n\nSTA261H1S: Probability and Statistics II\n\nCSC108H1F: Introduction to Computer Programming\n\nCSC148H1S: Introduction to Computer Science"
+  },
+  {
+    "objectID": "courses-taken.html#ams-american-studies",
+    "href": "courses-taken.html#ams-american-studies",
+    "title": "Courses Taken at University of Toronto",
+    "section": "AMS (American Studies)",
+    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
+  },
+  {
+    "objectID": "courses-taken.html#apm-applied-mathematics",
+    "href": "courses-taken.html#apm-applied-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "APM (Applied Mathematics)",
+    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
+  },
+  {
+    "objectID": "courses-taken.html#csc-computer-science",
+    "href": "courses-taken.html#csc-computer-science",
+    "title": "Courses Taken at University of Toronto",
+    "section": "CSC (Computer Science)",
+    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
+  },
+  {
+    "objectID": "courses-taken.html#ess-earth-sciences",
+    "href": "courses-taken.html#ess-earth-sciences",
+    "title": "Courses Taken at University of Toronto",
+    "section": "ESS (Earth Sciences)",
+    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
+  },
+  {
+    "objectID": "courses-taken.html#mat-mathematics",
+    "href": "courses-taken.html#mat-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MAT (Mathematics)",
+    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
+  },
+  {
+    "objectID": "courses-taken.html#mus-music",
+    "href": "courses-taken.html#mus-music",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MUS (Music)",
+    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
+  },
+  {
+    "objectID": "courses-taken.html#phl-philosophy",
+    "href": "courses-taken.html#phl-philosophy",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHL (Philosophy)",
+    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
+  },
+  {
+    "objectID": "courses-taken.html#phy-physics",
+    "href": "courses-taken.html#phy-physics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHY (Physics)",
+    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
+  },
+  {
+    "objectID": "courses-taken.html#psy-psychology",
+    "href": "courses-taken.html#psy-psychology",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PSY (Psychology)",
+    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
+  },
+  {
+    "objectID": "courses-taken.html#sta-statistics",
+    "href": "courses-taken.html#sta-statistics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "STA (Statistics)",
+    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses Taken at University of Toronto",
+    "section": "",
+    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
+  },
+  {
+    "objectID": "courses.html#ams-american-studies",
+    "href": "courses.html#ams-american-studies",
+    "title": "Courses Taken at University of Toronto",
+    "section": "AMS (American Studies)",
+    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#apm-applied-mathematics",
+    "href": "courses.html#apm-applied-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "APM (Applied Mathematics)",
+    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#csc-computer-science",
+    "href": "courses.html#csc-computer-science",
+    "title": "Courses Taken at University of Toronto",
+    "section": "CSC (Computer Science)",
+    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#ess-earth-sciences",
+    "href": "courses.html#ess-earth-sciences",
+    "title": "Courses Taken at University of Toronto",
+    "section": "ESS (Earth Sciences)",
+    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
+  },
+  {
+    "objectID": "courses.html#mat-mathematics",
+    "href": "courses.html#mat-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MAT (Mathematics)",
+    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
+  },
+  {
+    "objectID": "courses.html#mus-music",
+    "href": "courses.html#mus-music",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MUS (Music)",
+    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#phl-philosophy",
+    "href": "courses.html#phl-philosophy",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHL (Philosophy)",
+    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
+  },
+  {
+    "objectID": "courses.html#phy-physics",
+    "href": "courses.html#phy-physics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHY (Physics)",
+    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#psy-psychology",
+    "href": "courses.html#psy-psychology",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PSY (Psychology)",
+    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#sta-statistics",
+    "href": "courses.html#sta-statistics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "STA (Statistics)",
+    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
   }
 ]

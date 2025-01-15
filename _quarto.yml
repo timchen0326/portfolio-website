@@ -9,6 +9,8 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: courses.qmd
+        text: Courses
       - text: Projects
         menu: 
           - toronto-crime-analysis.qmd
@@ -16,7 +18,6 @@ website:
           - bike-theft-analysis.qmd
           - iMDb-analysis.qmd
           - mayohr-intern.qmd
-        
       - href: https://timsplayland.vercel.app/
         text: Portfolio
       - text: "Resume"

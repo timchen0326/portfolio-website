@@ -1,0 +1,84 @@
+---
+title: "Courses Taken at University of Toronto"
+format:
+  html:
+    theme: lux
+    toc: true
+    toc-title: "Course Code Overview"
+---
+
+This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix.
+
+---
+
+## **AMS (American Studies)**
+- **AMS100H1F**: Global Capitalism (2024 Fall)  
+
+---
+
+## **APM (Applied Mathematics)**
+- **APM346H1S**: Partial Differential Equations (2024 Winter)  
+- **APM466H1S**: Mathematical Theory of Finance (2025 Winter)  
+
+---
+
+## **CSC (Computer Science)**
+- **CSC108H1F**: Introduction to Computer Programming (2022 Fall)  
+- **CSC148H1S**: Introduction to Computer Science (2023 Winter)  
+- **CSC165H1S**: Mathematical Expression and Reasoning for Computer Science (2024 Winter)  
+- **CSC207H1F**: Software Design (2024 Fall)  
+- **CSC209H1S**: Software Tools and Systems Programming (2025 Winter)  
+- **CSC236H1F**: Introduction to the Theory of Computation (2024 Fall)  
+- **CSC311H1S**: Introduction to Machine Learning (2025 Winter)  
+- **CSC343H1S**: Introduction to Databases (2025 Winter)  
+
+---
+
+## **ESS (Earth Sciences)**
+- **ESS205H1S**: Confronting Global Change (2023 Summer)  
+
+---
+
+## **MAT (Mathematics)**
+- **MAT137Y1**: Calculus with Proofs (2021 Fall–Winter)  
+- **MAT224H1S**: Linear Algebra II (2023 Winter)  
+- **MAT237Y1**: Multivariable Calculus with Proofs (2023 Summer)  
+- **MAT240H1F**: Algebra I (2021 Fall)  
+- **MAT244H1S**: Introduction to Ordinary Differential Equations (2023 Winter)  
+- **MAT246H1F**: Concepts in Abstract Mathematics (2022 Fall)  
+- **MAT301H1F**: Groups and Symmetries (2023 Fall)  
+- **MAT334H1F**: Complex Variables (2023 Fall)  
+
+---
+
+## **MUS (Music)**
+- **MUS306H1F**: Popular Music in North America (2024 Fall)  
+
+---
+
+## **PHL (Philosophy)**
+- **PHL245H1S**: Modern Symbolic Logic (2023 Winter)  
+
+---
+
+## **PHY (Physics)**
+- **PHY151H1F**: Foundations of Physics I (2021 Fall)  
+- **PHY152H1S**: Foundations of Physics II (2022 Winter)  
+
+---
+
+## **PSY (Psychology)**
+- **PSY100H1S**: Introductory Psychology (2022 Winter)  
+
+---
+
+## **STA (Statistics)**
+- **STA257H1F**: Probability and Statistics I (2022 Fall)  
+- **STA261H1S**: Probability and Statistics II (2023 Winter)  
+- **STA302H1F**: Methods of Data Analysis I (2023 Fall)  
+- **STA303H1S**: Methods of Data Analysis II (2024 Winter)  
+- **STA304H1F**: Surveys, Sampling, and Observational Data (2024 Fall)  
+- **STA313H1S**: Data Visualization (2024 Winter)  
+- **STA347H1F**: Probability (2023 Fall)  
+- **STA437H1F**: Methods for Multivariate Data (2023 Fall)  
+- **STA457H1S**: Time Series Analysis (2024 Winter)  
