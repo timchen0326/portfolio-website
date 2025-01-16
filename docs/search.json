@@ -1,10 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tim Chen",
+    "objectID": "mayohr-intern.html",
+    "href": "mayohr-intern.html",
+    "title": "MAYOHR Internship Progress Report",
     "section": "",
-    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability & Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.\nIn my academic journey, I have completed relevant coursework in Machine Learning (Python), Statistical Theory, Databases (SQL), and Software Design (Java), among others.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript.\nI am skilled in a variety of programming languages, including Python, R, SQL, Java, and C, as well as tools like Tableau, Power BI, and Excel. My certifications include the Google Data Analytics Professional Certificate, showcasing expertise in data cleaning, visualization, and statistical analysis.\n\nProfessional Experience\n\nFrontend Software Engineer Intern, MAYOHR\n\nBuilt and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.\n\nReduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.\n\nCollaborated with product managers to design features that increased troubleshooting efficiency by 40%.\n\n\n\n\n\nEducation\nUniversity of Toronto\nHonours Bachelor of Science (HBSc) in Mathematics & Its Applications (Probability & Statistics)\n- Relevant Coursework: Machine Learning (Python), Statistical Theory, Databases (SQL), Software Design (Java)\n- Expected Graduation: 2026\n\n\n\nSkills\n\nProgramming Languages: Python, R, SQL, Java, C\n\nData Tools: Tableau, Power BI, Excel\n\nCertifications: Google Data Analytics Professional Certificate"
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
+  },
+  {
+    "objectID": "mayohr-intern.html#overview",
+    "href": "mayohr-intern.html#overview",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "",
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
+  },
+  {
+    "objectID": "mayohr-intern.html#progress-timeline",
+    "href": "mayohr-intern.html#progress-timeline",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Progress Timeline",
+    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
+  },
+  {
+    "objectID": "mayohr-intern.html#reflections",
+    "href": "mayohr-intern.html#reflections",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Reflections",
+    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
+  },
+  {
+    "objectID": "mayohr-intern.html#references",
+    "href": "mayohr-intern.html#references",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "References",
+    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
   },
   {
     "objectID": "toronto-crime-analysis.html",
@@ -61,6 +89,139 @@
     "title": "Toronto Crime Analysis",
     "section": "References",
     "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
+  },
+  {
+    "objectID": "iMDb-analysis.html",
+    "href": "iMDb-analysis.html",
+    "title": "IMDb Analysis",
+    "section": "",
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+  },
+  {
+    "objectID": "iMDb-analysis.html#overview",
+    "href": "iMDb-analysis.html#overview",
+    "title": "IMDb Analysis",
+    "section": "",
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+  },
+  {
+    "objectID": "iMDb-analysis.html#objectives",
+    "href": "iMDb-analysis.html#objectives",
+    "title": "IMDb Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
+  },
+  {
+    "objectID": "iMDb-analysis.html#data-and-methods",
+    "href": "iMDb-analysis.html#data-and-methods",
+    "title": "IMDb Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
+  },
+  {
+    "objectID": "iMDb-analysis.html#key-findings",
+    "href": "iMDb-analysis.html#key-findings",
+    "title": "IMDb Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+  },
+  {
+    "objectID": "iMDb-analysis.html#limitations",
+    "href": "iMDb-analysis.html#limitations",
+    "title": "IMDb Analysis",
+    "section": "Limitations",
+    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+  },
+  {
+    "objectID": "iMDb-analysis.html#conclusion",
+    "href": "iMDb-analysis.html#conclusion",
+    "title": "IMDb Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tim Chen",
+    "section": "",
+    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics and its Applications (Probability & Statistics) with minors in Computer Science and Statistics. I am passionate about using data-driven methods to solve real-world problems, particularly through statistical analysis, machine learning, and data visualization.\nIn my academic journey, I have completed relevant coursework in Machine Learning (Python), Statistical Theory, Databases (SQL), and Software Design (Java), among others.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I enhanced customer service efficiency and streamlined backend integration using Python and JavaScript.\nI am skilled in a variety of programming languages, including Python, R, SQL, Java, and C, as well as tools like Tableau, Power BI, and Excel. My certifications include the Google Data Analytics Professional Certificate, showcasing expertise in data cleaning, visualization, and statistical analysis.\n\nProfessional Experience\n\nFrontend Software Engineer Intern, MAYOHR\n\nBuilt and maintained a high-traffic website using JavaScript, HTML, and CSS, enabling a 30% faster resolution time for customer service inquiries.\n\nReduced integration bottlenecks by 25% through Python-based frontend testing before backend implementation.\n\nCollaborated with product managers to design features that increased troubleshooting efficiency by 40%.\n\n\n\n\n\nEducation\nUniversity of Toronto\nHonours Bachelor of Science (HBSc) in Mathematics & Its Applications (Probability & Statistics)\n- Relevant Coursework: Machine Learning (Python), Statistical Theory, Databases (SQL), Software Design (Java)\n- Expected Graduation: 2026\n\n\n\nSkills\n\nProgramming Languages: Python, R, SQL, Java, C\n\nData Tools: Tableau, Power BI, Excel\n\nCertifications: Google Data Analytics Professional Certificate"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses Taken at University of Toronto",
+    "section": "",
+    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
+  },
+  {
+    "objectID": "courses.html#ams-american-studies",
+    "href": "courses.html#ams-american-studies",
+    "title": "Courses Taken at University of Toronto",
+    "section": "AMS (American Studies)",
+    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#apm-applied-mathematics",
+    "href": "courses.html#apm-applied-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "APM (Applied Mathematics)",
+    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#csc-computer-science",
+    "href": "courses.html#csc-computer-science",
+    "title": "Courses Taken at University of Toronto",
+    "section": "CSC (Computer Science)",
+    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#ess-earth-sciences",
+    "href": "courses.html#ess-earth-sciences",
+    "title": "Courses Taken at University of Toronto",
+    "section": "ESS (Earth Sciences)",
+    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
+  },
+  {
+    "objectID": "courses.html#mat-mathematics",
+    "href": "courses.html#mat-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MAT (Mathematics)",
+    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
+  },
+  {
+    "objectID": "courses.html#mus-music",
+    "href": "courses.html#mus-music",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MUS (Music)",
+    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#phl-philosophy",
+    "href": "courses.html#phl-philosophy",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHL (Philosophy)",
+    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
+  },
+  {
+    "objectID": "courses.html#phy-physics",
+    "href": "courses.html#phy-physics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHY (Physics)",
+    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#psy-psychology",
+    "href": "courses.html#psy-psychology",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PSY (Psychology)",
+    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#sta-statistics",
+    "href": "courses.html#sta-statistics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "STA (Statistics)",
+    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
   },
   {
     "objectID": "toronto-shelter-analysis.html",
@@ -175,283 +336,66 @@
     "text": "References\nFurther details and reproducible code can be found in the report’s dataset repository.\nRead the full report: Bike Theft Analysis PDF"
   },
   {
-    "objectID": "iMDb-analysis.html",
-    "href": "iMDb-analysis.html",
-    "title": "IMDb Analysis",
+    "objectID": "us-presidential election.html",
+    "href": "us-presidential election.html",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
   },
   {
-    "objectID": "iMDb-analysis.html#overview",
-    "href": "iMDb-analysis.html#overview",
-    "title": "IMDb Analysis",
+    "objectID": "us-presidential election.html#introduction",
+    "href": "us-presidential election.html#introduction",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
   },
   {
-    "objectID": "iMDb-analysis.html#objectives",
-    "href": "iMDb-analysis.html#objectives",
-    "title": "IMDb Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
+    "objectID": "us-presidential election.html#methodology",
+    "href": "us-presidential election.html#methodology",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Methodology",
+    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
   },
   {
-    "objectID": "iMDb-analysis.html#data-and-methods",
-    "href": "iMDb-analysis.html#data-and-methods",
-    "title": "IMDb Analysis",
-    "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
-  },
-  {
-    "objectID": "iMDb-analysis.html#key-findings",
-    "href": "iMDb-analysis.html#key-findings",
-    "title": "IMDb Analysis",
+    "objectID": "us-presidential election.html#key-findings",
+    "href": "us-presidential election.html#key-findings",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "Key Findings",
-    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
   },
   {
-    "objectID": "iMDb-analysis.html#limitations",
-    "href": "iMDb-analysis.html#limitations",
-    "title": "IMDb Analysis",
+    "objectID": "us-presidential election.html#implications",
+    "href": "us-presidential election.html#implications",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Implications",
+    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
+  },
+  {
+    "objectID": "us-presidential election.html#limitations",
+    "href": "us-presidential election.html#limitations",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "Limitations",
-    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
   },
   {
-    "objectID": "iMDb-analysis.html#conclusion",
-    "href": "iMDb-analysis.html#conclusion",
-    "title": "IMDb Analysis",
+    "objectID": "us-presidential election.html#future-directions",
+    "href": "us-presidential election.html#future-directions",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Future Directions",
+    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
+  },
+  {
+    "objectID": "us-presidential election.html#conclusion",
+    "href": "us-presidential election.html#conclusion",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "Conclusion",
-    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
+    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
   },
   {
-    "objectID": "mayohr-intern.html",
-    "href": "mayohr-intern.html",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "",
-    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
-  },
-  {
-    "objectID": "mayohr-intern.html#overview",
-    "href": "mayohr-intern.html#overview",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "",
-    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
-  },
-  {
-    "objectID": "mayohr-intern.html#progress-timeline",
-    "href": "mayohr-intern.html#progress-timeline",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "Progress Timeline",
-    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
-  },
-  {
-    "objectID": "mayohr-intern.html#reflections",
-    "href": "mayohr-intern.html#reflections",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "Reflections",
-    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
-  },
-  {
-    "objectID": "mayohr-intern.html#references",
-    "href": "mayohr-intern.html#references",
-    "title": "MAYOHR Internship Progress Report",
+    "objectID": "us-presidential election.html#references",
+    "href": "us-presidential election.html#references",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "References",
-    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
-  },
-  {
-    "objectID": "courses-taken.html",
-    "href": "courses-taken.html",
-    "title": "Courses Taken at University of Toronto",
-    "section": "",
-    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
-  },
-  {
-    "objectID": "courses-taken.html#fall",
-    "href": "courses-taken.html#fall",
-    "title": "Courses Taken at University of Toronto",
-    "section": "2024 Fall",
-    "text": "2024 Fall\n\nCSC207H1F: Software Design\n\nCSC236H1F: Introduction to the Theory of Computation\n\nMUS306H1F: Popular Music in North America\n\nSTA304H1F: Surveys, Sampling, and Observational Data\n\nAMS100H1F: Global Capitalism"
-  },
-  {
-    "objectID": "courses-taken.html#winter-1",
-    "href": "courses-taken.html#winter-1",
-    "title": "Courses Taken at University of Toronto",
-    "section": "2024 Winter",
-    "text": "2024 Winter\n\nAPM346H1S: Partial Differential Equations\n\nSTA303H1S: Methods of Data Analysis II\n\nSTA313H1S: Data Visualization\n\nSTA457H1S: Time Series Analysis"
-  },
-  {
-    "objectID": "courses-taken.html#fall-1",
-    "href": "courses-taken.html#fall-1",
-    "title": "Courses Taken at University of Toronto",
-    "section": "2023 Fall",
-    "text": "2023 Fall\n\nMAT301H1F: Groups and Symmetries\n\nMAT334H1F: Complex Variables\n\nSTA302H1F: Methods of Data Analysis I\n\nSTA437H1F: Methods for Multivariate Data"
-  },
-  {
-    "objectID": "courses-taken.html#summer",
-    "href": "courses-taken.html#summer",
-    "title": "Courses Taken at University of Toronto",
-    "section": "2023 Summer",
-    "text": "2023 Summer\n\nMAT237Y1: Multivariable Calculus with Proofs\n\nESS205H1S: Confronting Global Change"
-  },
-  {
-    "objectID": "courses-taken.html#winter-2",
-    "href": "courses-taken.html#winter-2",
-    "title": "Courses Taken at University of Toronto",
-    "section": "2023 Winter",
-    "text": "2023 Winter\n\nPHL245H1S: Modern Symbolic Logic\n\nMAT244H1S: Introduction to Ordinary Differential Equations\n\nMAT224H1S: Linear Algebra II"
-  },
-  {
-    "objectID": "courses-taken.html#past-courses-20212022",
-    "href": "courses-taken.html#past-courses-20212022",
-    "title": "Courses Taken at University of Toronto",
-    "section": "Past Courses (2021–2022)",
-    "text": "Past Courses (2021–2022)\n\nMAT137Y1: Calculus with Proofs\n\nMAT240H1F: Algebra I\n\nSTA257H1F: Probability and Statistics I\n\nSTA261H1S: Probability and Statistics II\n\nCSC108H1F: Introduction to Computer Programming\n\nCSC148H1S: Introduction to Computer Science"
-  },
-  {
-    "objectID": "courses-taken.html#ams-american-studies",
-    "href": "courses-taken.html#ams-american-studies",
-    "title": "Courses Taken at University of Toronto",
-    "section": "AMS (American Studies)",
-    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
-  },
-  {
-    "objectID": "courses-taken.html#apm-applied-mathematics",
-    "href": "courses-taken.html#apm-applied-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "APM (Applied Mathematics)",
-    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
-  },
-  {
-    "objectID": "courses-taken.html#csc-computer-science",
-    "href": "courses-taken.html#csc-computer-science",
-    "title": "Courses Taken at University of Toronto",
-    "section": "CSC (Computer Science)",
-    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
-  },
-  {
-    "objectID": "courses-taken.html#ess-earth-sciences",
-    "href": "courses-taken.html#ess-earth-sciences",
-    "title": "Courses Taken at University of Toronto",
-    "section": "ESS (Earth Sciences)",
-    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
-  },
-  {
-    "objectID": "courses-taken.html#mat-mathematics",
-    "href": "courses-taken.html#mat-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MAT (Mathematics)",
-    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
-  },
-  {
-    "objectID": "courses-taken.html#mus-music",
-    "href": "courses-taken.html#mus-music",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MUS (Music)",
-    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
-  },
-  {
-    "objectID": "courses-taken.html#phl-philosophy",
-    "href": "courses-taken.html#phl-philosophy",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHL (Philosophy)",
-    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
-  },
-  {
-    "objectID": "courses-taken.html#phy-physics",
-    "href": "courses-taken.html#phy-physics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHY (Physics)",
-    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
-  },
-  {
-    "objectID": "courses-taken.html#psy-psychology",
-    "href": "courses-taken.html#psy-psychology",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PSY (Psychology)",
-    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
-  },
-  {
-    "objectID": "courses-taken.html#sta-statistics",
-    "href": "courses-taken.html#sta-statistics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "STA (Statistics)",
-    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses Taken at University of Toronto",
-    "section": "",
-    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
-  },
-  {
-    "objectID": "courses.html#ams-american-studies",
-    "href": "courses.html#ams-american-studies",
-    "title": "Courses Taken at University of Toronto",
-    "section": "AMS (American Studies)",
-    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
-  },
-  {
-    "objectID": "courses.html#apm-applied-mathematics",
-    "href": "courses.html#apm-applied-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "APM (Applied Mathematics)",
-    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
-  },
-  {
-    "objectID": "courses.html#csc-computer-science",
-    "href": "courses.html#csc-computer-science",
-    "title": "Courses Taken at University of Toronto",
-    "section": "CSC (Computer Science)",
-    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
-  },
-  {
-    "objectID": "courses.html#ess-earth-sciences",
-    "href": "courses.html#ess-earth-sciences",
-    "title": "Courses Taken at University of Toronto",
-    "section": "ESS (Earth Sciences)",
-    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
-  },
-  {
-    "objectID": "courses.html#mat-mathematics",
-    "href": "courses.html#mat-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MAT (Mathematics)",
-    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
-  },
-  {
-    "objectID": "courses.html#mus-music",
-    "href": "courses.html#mus-music",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MUS (Music)",
-    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
-  },
-  {
-    "objectID": "courses.html#phl-philosophy",
-    "href": "courses.html#phl-philosophy",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHL (Philosophy)",
-    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
-  },
-  {
-    "objectID": "courses.html#phy-physics",
-    "href": "courses.html#phy-physics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHY (Physics)",
-    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
-  },
-  {
-    "objectID": "courses.html#psy-psychology",
-    "href": "courses.html#psy-psychology",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PSY (Psychology)",
-    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
-  },
-  {
-    "objectID": "courses.html#sta-statistics",
-    "href": "courses.html#sta-statistics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "STA (Statistics)",
-    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
+    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
   }
 ]

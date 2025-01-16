@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tim Chen">
-<meta name="dcterms.date" content="2024-09-27">
+<meta name="author" content="Tim Chen, Steven Li, and Tommy Fu">
+<meta name="dcterms.date" content="2024-11-04">
 
-<title>Toronto Shelter Analysis – Tim Chen</title>
+<title>Forecasting the 2024 U.S. Presidential Election – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -163,26 +163,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-objectives" id="toc-key-objectives" class="nav-link" data-scroll-target="#key-objectives">Key Objectives</a></li>
-  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a>
   <ul class="collapse">
-  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#data-overview" id="toc-data-overview" class="nav-link" data-scroll-target="#data-overview">Data Overview</a></li>
+  <li><a href="#analytical-approach" id="toc-analytical-approach" class="nav-link" data-scroll-target="#analytical-approach">Analytical Approach</a></li>
   </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a>
   <ul class="collapse">
-  <li><a href="#tracking-shelter-bed-occupancy" id="toc-tracking-shelter-bed-occupancy" class="nav-link" data-scroll-target="#tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</a></li>
-  <li><a href="#capacity-by-program-type" id="toc-capacity-by-program-type" class="nav-link" data-scroll-target="#capacity-by-program-type">Capacity by Program Type</a></li>
-  <li><a href="#seasonal-trends" id="toc-seasonal-trends" class="nav-link" data-scroll-target="#seasonal-trends">Seasonal Trends</a></li>
-  <li><a href="#demographic-insights" id="toc-demographic-insights" class="nav-link" data-scroll-target="#demographic-insights">Demographic Insights</a></li>
+  <li><a href="#electoral-vote-projections" id="toc-electoral-vote-projections" class="nav-link" data-scroll-target="#electoral-vote-projections">Electoral Vote Projections</a></li>
+  <li><a href="#polling-insights" id="toc-polling-insights" class="nav-link" data-scroll-target="#polling-insights">Polling Insights</a></li>
   </ul></li>
-  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
-  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a>
+  <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a>
   <ul class="collapse">
+  <li><a href="#for-forecasting" id="toc-for-forecasting" class="nav-link" data-scroll-target="#for-forecasting">For Forecasting</a></li>
+  <li><a href="#for-policy-and-practice" id="toc-for-policy-and-practice" class="nav-link" data-scroll-target="#for-policy-and-practice">For Policy and Practice</a></li>
+  </ul></li>
   <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research">Future Research</a></li>
-  </ul></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -192,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Toronto Shelter Analysis</h1>
+<h1 class="title">Forecasting the 2024 U.S. Presidential Election</h1>
 </div>
 
 
@@ -202,14 +201,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Tim Chen </p>
+             <p>Tim Chen, Steven Li, and Tommy Fu </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 27, 2024</p>
+      <p class="date">November 4, 2024</p>
     </div>
   </div>
   
@@ -221,132 +220,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate <strong>306 electoral votes for Harris</strong> and <strong>232 for Trump</strong>, highlighting the importance of state-specific analysis in predicting election results.</p>
 <hr>
 </section>
-<section id="key-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="key-objectives">Key Objectives</h2>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<section id="data-overview" class="level3">
+<h3 class="anchored" data-anchor-id="data-overview">Data Overview</h3>
+<p>The analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - <strong>Poll Quality</strong>: Measures like pollster rating and transparency scores. - <strong>Sample Characteristics</strong>: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - <strong>State-Level Data</strong>: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.</p>
+</section>
+<section id="analytical-approach" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-approach">Analytical Approach</h3>
 <ol type="1">
-<li><strong>Examine shelter trends:</strong> Understand growth in occupancy rates and assess actual bed capacity by program type.<br>
-</li>
-<li><strong>Explore seasonal impacts:</strong> Identify patterns in service user counts over time.<br>
-</li>
-<li><strong>Address disparities:</strong> Investigate demographic imbalances and their implications for shelter access.</li>
+<li><strong>Regression Models</strong>: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.</li>
+<li><strong>Addressing Bias</strong>: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.</li>
+<li><strong>Predictive Accuracy</strong>: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data.</li>
 </ol>
 <hr>
 </section>
-<section id="data-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
-<section id="data-source" class="level3">
-<h3 class="anchored" data-anchor-id="data-source">Data Source</h3>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<section id="electoral-vote-projections" class="level3">
+<h3 class="anchored" data-anchor-id="electoral-vote-projections">Electoral Vote Projections</h3>
 <ul>
-<li><strong>Dataset:</strong> Daily Shelter Occupancy and Capacity dataset from the City of Toronto.<br>
-</li>
-<li><strong>Key Variables:</strong>
-<ul>
-<li><strong>Occupancy Rate (Beds):</strong> Tracks shelter capacity usage.<br>
-</li>
-<li><strong>Program Model:</strong> Includes emergency and transitional shelters.<br>
-</li>
-<li><strong>Service User Count:</strong> Captures the number of individuals using shelters daily.</li>
-</ul></li>
+<li><strong>Kamala Harris</strong>: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.</li>
+<li><strong>Donald Trump</strong>: 232 votes, with strongholds in Florida, North Carolina, and much of the South.</li>
 </ul>
 </section>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+<section id="polling-insights" class="level3">
+<h3 class="anchored" data-anchor-id="polling-insights">Polling Insights</h3>
 <ul>
-<li><strong>Time-Series Analysis:</strong> Examined shelter trends across years, with a focus on seasonal patterns.<br>
-</li>
-<li><strong>Data Cleaning:</strong> Removed missing data and ensured consistency across variables.<br>
-</li>
-<li><strong>Visualization:</strong> Used R packages like <code>ggplot2</code> for graphical representation of trends.</li>
+<li><strong>High-Quality Polls Dominate</strong>: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.</li>
+<li><strong>Methodology Trends</strong>: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.</li>
+<li><strong>Sample Sizes</strong>: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope.</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<section id="tracking-shelter-bed-occupancy" class="level3">
-<h3 class="anchored" data-anchor-id="tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</h3>
+<section id="implications" class="level2">
+<h2 class="anchored" data-anchor-id="implications">Implications</h2>
+<section id="for-forecasting" class="level3">
+<h3 class="anchored" data-anchor-id="for-forecasting">For Forecasting</h3>
 <ul>
-<li><strong>High Occupancy Rates:</strong> Beds consistently near full capacity (96–98% from 2021 to 2024).<br>
-</li>
-<li><strong>Increase Over Time:</strong> Occupancy peaked at 98.2% in 2024, highlighting growing demand.</li>
+<li><strong>State-Level Emphasis</strong>: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.</li>
+<li><strong>Methodological Rigor</strong>: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.</li>
 </ul>
 </section>
-<section id="capacity-by-program-type" class="level3">
-<h3 class="anchored" data-anchor-id="capacity-by-program-type">Capacity by Program Type</h3>
+<section id="for-policy-and-practice" class="level3">
+<h3 class="anchored" data-anchor-id="for-policy-and-practice">For Policy and Practice</h3>
 <ul>
-<li><strong>Disparities Noted:</strong> Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.</li>
-</ul>
-</section>
-<section id="seasonal-trends" class="level3">
-<h3 class="anchored" data-anchor-id="seasonal-trends">Seasonal Trends</h3>
-<ul>
-<li><strong>Winter Spikes:</strong> Service user counts were highest from November to February, reflecting the impact of extreme weather.</li>
-</ul>
-</section>
-<section id="demographic-insights" class="level3">
-<h3 class="anchored" data-anchor-id="demographic-insights">Demographic Insights</h3>
-<ul>
-<li><strong>Gender Disparities:</strong> Women, particularly in family shelters, may be underrepresented in general shelter data.<br>
-</li>
-<li><strong>Youth and Mixed Adults:</strong> Additional focus needed to address demographic-specific shelter needs.</li>
+<li><strong>Enhancing Data Collection</strong>: Increase polling efforts in underrepresented states to reduce prediction gaps.</li>
+<li><strong>Real-Time Data Integration</strong>: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts.</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="policy-implications" class="level2">
-<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
 <ol type="1">
-<li><strong>Expand Shelter Services:</strong>
-<ul>
-<li>Increase capacity for transitional shelters to support long-term housing solutions.<br>
-</li>
-<li>Enhance emergency shelters with safety and privacy improvements.</li>
-</ul></li>
-<li><strong>Prepare for Winter Demand:</strong>
-<ul>
-<li>Establish more warming centers and mobile shelters during colder months.<br>
-</li>
-<li>Allocate additional resources for emergency services in high-demand periods.</li>
-</ul></li>
-<li><strong>Address Gender Inequities:</strong>
-<ul>
-<li>Increase shelter spaces dedicated to women and families.<br>
-</li>
-<li>Improve data collection to capture underrepresented groups.</li>
-</ul></li>
+<li><strong>Sparse Polling in Safe States</strong>: Low data availability in less competitive regions introduces uncertainty.</li>
+<li><strong>Dynamic Shifts</strong>: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots.</li>
 </ol>
 <hr>
 </section>
-<section id="limitations-and-future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="limitations-and-future-directions">Limitations and Future Directions</h2>
-<section id="limitations" class="level3">
-<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
-<ul>
-<li><strong>Underrepresentation in Data:</strong> Family shelters and gender-specific usage may be underestimated.<br>
-</li>
-<li><strong>Safety Concerns:</strong> Rising violence within shelters affects their usability and trustworthiness.</li>
-</ul>
-</section>
-<section id="future-research" class="level3">
-<h3 class="anchored" data-anchor-id="future-research">Future Research</h3>
-<ul>
-<li>Investigate systemic factors driving the disparity between emergency and transitional shelters.<br>
-</li>
-<li>Explore shelter safety and its influence on occupancy duration.<br>
-</li>
-<li>Include more granular demographic and geographic data for targeted interventions.</li>
-</ul>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<p>To improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies.</p>
 <hr>
 </section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>This study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape.</p>
+<hr>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Data and methodology are fully reproducible, with the dataset and code available at: <a href="https://github.com/timchen0326/toronto-shelter-data">GitHub Repository</a>.</p>
+<ol type="1">
+<li>FiveThirtyEight. “2024 Election Polls.”<br>
+<a href="https://projects.fivethirtyeight.com/polls/" class="uri">https://projects.fivethirtyeight.com/polls/</a><br>
+</li>
+<li>Keeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”<br>
+<a href="https://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/" class="uri">https://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/</a><br>
+</li>
+<li>Viala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”<br>
+<a href="https://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834" class="uri">https://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834</a></li>
+<li>GitHub Repository: <a href="https://github.com/timchen0326/US_presidential_election_forecast_2024">Forecasting the 2024 U.S. Presidential Election</a></li>
+</ol>
 
 
 </section>

@@ -14,6 +14,7 @@ website:
       - text: Projects
         menu: 
           - toronto-crime-analysis.qmd
+          - us-presidential election.qmd
           - toronto-shelter-analysis.qmd
           - bike-theft-analysis.qmd
           - iMDb-analysis.qmd

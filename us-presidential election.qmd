@@ -1,0 +1,84 @@
+---
+title: "Forecasting the 2024 U.S. Presidential Election"
+author: "Tim Chen, Steven Li, and Tommy Fu"
+date: "November 4, 2024"
+format: html
+---
+
+## Introduction
+
+The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate **306 electoral votes for Harris** and **232 for Trump**, highlighting the importance of state-specific analysis in predicting election results.
+
+---
+
+## Methodology
+
+### Data Overview
+The analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include:
+- **Poll Quality**: Measures like pollster rating and transparency scores.
+- **Sample Characteristics**: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends.
+- **State-Level Data**: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.
+
+### Analytical Approach
+1. **Regression Models**: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.
+2. **Addressing Bias**: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.
+3. **Predictive Accuracy**: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data.
+
+---
+
+## Key Findings
+
+### Electoral Vote Projections
+- **Kamala Harris**: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.
+- **Donald Trump**: 232 votes, with strongholds in Florida, North Carolina, and much of the South.
+
+### Polling Insights
+- **High-Quality Polls Dominate**: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.
+- **Methodology Trends**: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.
+- **Sample Sizes**: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope.
+
+---
+
+## Implications
+
+### For Forecasting
+- **State-Level Emphasis**: National averages fail to account for the Electoral College's structure. Detailed state-level analyses are essential for accurate predictions.
+- **Methodological Rigor**: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.
+
+### For Policy and Practice
+- **Enhancing Data Collection**: Increase polling efforts in underrepresented states to reduce prediction gaps.
+- **Real-Time Data Integration**: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts.
+
+---
+
+## Limitations
+
+1. **Sparse Polling in Safe States**: Low data availability in less competitive regions introduces uncertainty.
+2. **Dynamic Shifts**: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots.
+
+---
+
+## Future Directions
+
+To improve electoral forecasting:
+- Adopt machine learning models for non-linear relationships and complex interactions.
+- Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms.
+- Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies.
+
+---
+
+## Conclusion
+
+This study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape.
+
+---
+
+## References
+
+1. FiveThirtyEight. "2024 Election Polls."  
+   <https://projects.fivethirtyeight.com/polls/>  
+2. Keeter, Scott. "Key Things to Know About U.S. Election Polling in 2024."  
+   <https://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/>  
+3. Viala-Gaudefroy, Jérôme. "2024 US Presidential Election: Can We Believe the Polls?"  
+   <https://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834>
+4. GitHub Repository: [Forecasting the 2024 U.S. Presidential Election](https://github.com/timchen0326/US_presidential_election_forecast_2024)  
