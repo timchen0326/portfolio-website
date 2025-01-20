@@ -35,6 +35,34 @@
     "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
   },
   {
+    "objectID": "traffic-collision-analysis.html",
+    "href": "traffic-collision-analysis.html",
+    "title": "Traffic Collisions in Toronto",
+    "section": "",
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+  },
+  {
+    "objectID": "traffic-collision-analysis.html#overview",
+    "href": "traffic-collision-analysis.html#overview",
+    "title": "Traffic Collisions in Toronto",
+    "section": "",
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+  },
+  {
+    "objectID": "traffic-collision-analysis.html#key-highlights",
+    "href": "traffic-collision-analysis.html#key-highlights",
+    "title": "Traffic Collisions in Toronto",
+    "section": "Key Highlights",
+    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
+  },
+  {
+    "objectID": "traffic-collision-analysis.html#references",
+    "href": "traffic-collision-analysis.html#references",
+    "title": "Traffic Collisions in Toronto",
+    "section": "References",
+    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
+  },
+  {
     "objectID": "bike-theft-analysis.html",
     "href": "bike-theft-analysis.html",
     "title": "Bike Theft Analysis",
@@ -397,40 +425,5 @@
     "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "References",
     "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
-  },
-  {
-    "objectID": "traffic-collision-analysis.html",
-    "href": "traffic-collision-analysis.html",
-    "title": "Traffic Collisions in Toronto",
-    "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
-  },
-  {
-    "objectID": "traffic-collision-analysis.html#overview",
-    "href": "traffic-collision-analysis.html#overview",
-    "title": "Traffic Collisions in Toronto",
-    "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
-  },
-  {
-    "objectID": "traffic-collision-analysis.html#interactive-dashboard",
-    "href": "traffic-collision-analysis.html#interactive-dashboard",
-    "title": "Traffic Collisions in Toronto",
-    "section": "Interactive Dashboard",
-    "text": "Interactive Dashboard\nExplore collision data for different neighborhoods, monthly trends, annual trends, and more through the embedded Tableau dashboard below. Click on elements within the dashboard to filter or highlight relevant data."
-  },
-  {
-    "objectID": "traffic-collision-analysis.html#key-highlights",
-    "href": "traffic-collision-analysis.html#key-highlights",
-    "title": "Traffic Collisions in Toronto",
-    "section": "Key Highlights",
-    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
-  },
-  {
-    "objectID": "traffic-collision-analysis.html#references",
-    "href": "traffic-collision-analysis.html#references",
-    "title": "Traffic Collisions in Toronto",
-    "section": "References",
-    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
   }
 ]
