@@ -1,0 +1,30 @@
+---
+title: "Traffic Collisions in Toronto"
+author: "Tim Chen"
+date: "April 1, 2024"
+format: html
+---
+
+## Overview
+
+This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions.
+
+---
+
+## Key Highlights
+
+### Neighborhood Distribution of Injury Collisions
+- The dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.
+
+### Monthly and Annual Trends
+- Patterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.
+
+### Hourly Distribution by Travel Mode
+- Analyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians.
+
+---
+
+## References
+
+Data Source:  
+[Traffic Collisions in Toronto Dashboard by Wei Ting Chen](https://public.tableau.com/app/profile/wei.ting.chen/viz/TrafficCollisionsinToronto/Dashboard1)
