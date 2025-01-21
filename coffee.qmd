@@ -1,5 +1,5 @@
 ---
-title: "My Coffee Setup"
+title: "My Coffee Journey"
 format:
   html:
     css: coffee-style.css
@@ -26,14 +26,16 @@ I began brewing coffee in the summer of 2024, and this page serves as a record o
 
 ## Coffee Beans
 
-### Starbucks Reserve
-- **Location**: New York, United States
+### KOFFEE MAMEYA
+- **Location**: Tokyo, Japan
 
-#### Tanzania Iyenga
-- **Origin**: Tanzania, Southern Highlands, Songwe region (near Iyenga)
-- **Tasting Notes**: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.
-- **Roast Level**: Medium
+#### Ecuador
+- **Roaster**: Leaves Coffee Roasters
+- **Farm**: Finca Cruz Loma
+- **Variety**: Typica Mejorado
 - **Processing**: Washed
+- **Altitude**: 1450m
+- **Tasting Notes**: Black currant, oolong tea, brown sugar
 
 ---
 
@@ -60,6 +62,17 @@ I began brewing coffee in the summer of 2024, and this page serves as a record o
 
 ---
 
+### Starbucks Reserve
+- **Location**: New York, United States
+
+#### Tanzania Iyenga
+- **Origin**: Tanzania, Southern Highlands, Songwe region (near Iyenga)
+- **Tasting Notes**: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.
+- **Roast Level**: Medium
+- **Processing**: Washed
+
+---
+
 ### Rogue Wave Coffee
 - **Location**: Edmonton, Alberta, Canada
 
@@ -78,16 +91,16 @@ I began brewing coffee in the summer of 2024, and this page serves as a record o
 - **Tasting Notes**: Peach, blueberry, floral, pear.
 
 ##### Chelbesa One
-  - **Variety**: Heirloom
-  - **Processing**: Washed
-  - **Altitude**: 1900–2200m
-  - **Tasting Notes**: Apricot, iced tea, jasmine, mango.
+- **Variety**: Heirloom
+- **Processing**: Washed
+- **Altitude**: 1900–2200m
+- **Tasting Notes**: Apricot, iced tea, jasmine, mango.
 
-###### Gutiti Natural
-  - **Variety**: Kurume
-  - **Processing**: Natural
-  - **Altitude**: 2200m
-  - **Tasting Notes**: Strawberry, blueberry, orange, dates, red grape.
+##### Gutiti Natural
+- **Variety**: Kurume
+- **Processing**: Natural
+- **Altitude**: 2200m
+- **Tasting Notes**: Strawberry, blueberry, orange, dates, red grape.
 
 ---
 
