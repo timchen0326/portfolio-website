@@ -11,8 +11,9 @@ website:
         text: Home
       - href: courses.qmd
         text: Courses
-      - href: coffee.qmd
-        text: Coffee
+      - text: Hobbies
+        menu:
+          - href: coffee.qmd
       - text: Projects
         menu: 
           - toronto-crime-analysis.qmd
