@@ -1,0 +1,27 @@
+/* Caffeine Chic Theme CSS */
+
+body {
+    background-color: #f3ece4; /* Warm beige background */
+    color: #4e3629; /* Rich coffee brown text */
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #6f4e37; /* Dark coffee brown for headers */
+  }
+  
+  ul {
+    color: #4e3629;
+  }
+  
+  a {
+    color: #b5651d; /* Warm caramel color for links */
+  }
+  
+  a:hover {
+    color: #8e431e; /* Darker caramel for hover */
+  }
+  
+  header, footer {
+    color: #ffffff; /* White text for contrast */
+  }

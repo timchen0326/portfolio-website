@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tim Chen">
-<meta name="dcterms.date" content="2024-02-09">
 
-<title>IMDb Analysis – Tim Chen</title>
+<title>My Coffee Setup – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +69,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="coffee-style.css">
 </head>
 
 <body class="nav-fixed">
@@ -99,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coffee.html"> 
+    <a class="nav-link active" href="./coffee.html" aria-current="page"> 
 <span class="menu-text">Coffee</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -171,16 +170,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
+  <li><a href="#equipment" id="toc-equipment" class="nav-link active" data-scroll-target="#equipment">Equipment</a>
   <ul class="collapse">
-  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
-  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
+  <li><a href="#grinder" id="toc-grinder" class="nav-link" data-scroll-target="#grinder">Grinder</a></li>
+  <li><a href="#kettle" id="toc-kettle" class="nav-link" data-scroll-target="#kettle">Kettle</a></li>
+  <li><a href="#brewing-tools" id="toc-brewing-tools" class="nav-link" data-scroll-target="#brewing-tools">Brewing Tools</a></li>
   </ul></li>
-  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a></li>
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#coffee-beans" id="toc-coffee-beans" class="nav-link" data-scroll-target="#coffee-beans">Coffee Beans</a>
+  <ul class="collapse">
+  <li><a href="#starbucks-reserve" id="toc-starbucks-reserve" class="nav-link" data-scroll-target="#starbucks-reserve">Starbucks Reserve</a></li>
+  <li><a href="#glitch-coffee" id="toc-glitch-coffee" class="nav-link" data-scroll-target="#glitch-coffee">GLITCH Coffee</a></li>
+  <li><a href="#rogue-wave-coffee" id="toc-rogue-wave-coffee" class="nav-link" data-scroll-target="#rogue-wave-coffee">Rogue Wave Coffee</a></li>
+  <li><a href="#sam-james-coffee-bar" id="toc-sam-james-coffee-bar" class="nav-link" data-scroll-target="#sam-james-coffee-bar">Sam James Coffee Bar</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -189,26 +191,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IMDb Analysis</h1>
+<h1 class="title">My Coffee Setup</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Tim Chen </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 9, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -218,87 +208,168 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes.</p>
+<p>I began brewing coffee in the summer of 2024, and this page serves as a record of my journey into the fascinating world of coffee.</p>
 <hr>
-</section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
-<ol type="1">
-<li>Assess the correlation between IMDb votes and ratings.<br>
-</li>
-<li>Investigate the impact of release year and language diversity.<br>
-</li>
-<li>Communicate findings through visualizations.</li>
-</ol>
-<hr>
-</section>
-<section id="data-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
-<section id="data-description" class="level3">
-<h3 class="anchored" data-anchor-id="data-description">Data Description</h3>
+<section id="equipment" class="level2">
+<h2 class="anchored" data-anchor-id="equipment">Equipment</h2>
+<section id="grinder" class="level3">
+<h3 class="anchored" data-anchor-id="grinder">Grinder</h3>
 <ul>
-<li><strong>Variables</strong>: IMDb votes, ratings, release year, language diversity, and metascores.<br>
-</li>
-<li><strong>Filters</strong>: Only movies with runtimes &gt;75 minutes were analyzed.</li>
+<li><strong>Baratza Encore</strong>: A reliable and precise burr grinder for consistent grind sizes.</li>
 </ul>
 </section>
-<section id="visualization" class="level3">
-<h3 class="anchored" data-anchor-id="visualization">Visualization</h3>
+<section id="kettle" class="level3">
+<h3 class="anchored" data-anchor-id="kettle">Kettle</h3>
 <ul>
-<li>Scatter plots with the following attributes:
+<li><strong>BALMUDA The Kettle</strong>: A stylish and functional kettle with a controlled pour spout, perfect for manual brewing methods.</li>
+</ul>
+</section>
+<section id="brewing-tools" class="level3">
+<h3 class="anchored" data-anchor-id="brewing-tools">Brewing Tools</h3>
 <ul>
-<li><strong>X-Axis</strong>: IMDb votes.<br>
-</li>
-<li><strong>Y-Axis</strong>: IMDb ratings.<br>
-</li>
-<li><strong>Color</strong>: Red for pre-2000 movies, blue for post-2000.<br>
-</li>
-<li><strong>Shape</strong>: Triangles for single-language, squares for multi-language.<br>
-</li>
-<li><strong>Size</strong>: Represents metascores.</li>
-</ul></li>
-<li>Trendlines fitted via linear regression for pre- and post-2000 movies.</li>
+<li><strong>Hario V60</strong>: A classic pour-over brewing device for clean and crisp coffee.</li>
+<li><strong>AeroPress</strong>: A versatile brewer suitable for both espresso-style and immersion brewing.</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="key-findings" class="level2">
-<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
-<ol type="1">
-<li><strong>Votes and Ratings</strong>:
+<section id="coffee-beans" class="level2">
+<h2 class="anchored" data-anchor-id="coffee-beans">Coffee Beans</h2>
+<section id="starbucks-reserve" class="level3">
+<h3 class="anchored" data-anchor-id="starbucks-reserve">Starbucks Reserve</h3>
 <ul>
-<li>Positive correlation observed; higher votes tend to result in higher ratings.<br>
-</li>
-<li>Post-2000 movies show stronger trends in both votes and ratings compared to pre-2000.</li>
-</ul></li>
-<li><strong>Language Diversity</strong>:
+<li><strong>Location</strong>: New York, United States</li>
+</ul>
+<section id="tanzania-iyenga" class="level4">
+<h4 class="anchored" data-anchor-id="tanzania-iyenga">Tanzania Iyenga</h4>
 <ul>
-<li>Single-language movies exhibit slightly higher ratings on average than multi-language ones.</li>
-</ul></li>
-<li><strong>Critical Reception</strong>:
-<ul>
-<li>Larger metascores generally align with higher IMDb ratings.</li>
-</ul></li>
-</ol>
+<li><strong>Origin</strong>: Tanzania, Southern Highlands, Songwe region (near Iyenga)</li>
+<li><strong>Tasting Notes</strong>: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.</li>
+<li><strong>Roast Level</strong>: Medium</li>
+<li><strong>Processing</strong>: Washed</li>
+</ul>
 <hr>
 </section>
-<section id="limitations" class="level2">
-<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
-<ol type="1">
-<li><strong>Filters</strong>: Excluding movies with runtimes &lt;75 minutes may bias results.<br>
-</li>
-<li><strong>Linear Trendlines</strong>: Oversimplify potentially complex relationships.</li>
-</ol>
+</section>
+<section id="glitch-coffee" class="level3">
+<h3 class="anchored" data-anchor-id="glitch-coffee">GLITCH Coffee</h3>
+<ul>
+<li><strong>Location</strong>: Tokyo, Japan</li>
+</ul>
+<section id="china-dehong-yuan-yi-yuan" class="level4">
+<h4 class="anchored" data-anchor-id="china-dehong-yuan-yi-yuan">China: Dehong Yuan Yi Yuan</h4>
+<ul>
+<li><strong>Variety</strong>: Catimor P4 (7963)</li>
+<li><strong>Processing</strong>: Yeast Fermentation Honey</li>
+<li><strong>Altitude</strong>: 1400–1580m</li>
+<li><strong>Tasting Notes</strong>: Oolong tea, lychee, peach; tea-like and smooth.</li>
+</ul>
+</section>
+<section id="brasil-daterra-lot-2005-palco" class="level4">
+<h4 class="anchored" data-anchor-id="brasil-daterra-lot-2005-palco">Brasil: Daterra Lot 2005 Palco</h4>
+<ul>
+<li><strong>Variety</strong>: Geisha</li>
+<li><strong>Processing</strong>: Anaerobic Natural</li>
+<li><strong>Altitude</strong>: 915–1220m</li>
+<li><strong>Tasting Notes</strong>: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.</li>
+</ul>
+</section>
+<section id="colombia-risaralda-pereira-apricot-punch" class="level4">
+<h4 class="anchored" data-anchor-id="colombia-risaralda-pereira-apricot-punch">Colombia: Risaralda Pereira (Apricot Punch)</h4>
+<ul>
+<li><strong>Variety</strong>: Castillo, Caturra</li>
+<li><strong>Processing</strong>: Yeast Fermentation</li>
+<li><strong>Altitude</strong>: 1750–1800m</li>
+<li><strong>Tasting Notes</strong>: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.</li>
+</ul>
 <hr>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>The analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.</p>
-<p><strong>Access the report</strong>: <a href="pdfs/IMDb Analysis.pdf">IMDb Analysis PDF</a></p>
+</section>
+<section id="rogue-wave-coffee" class="level3">
+<h3 class="anchored" data-anchor-id="rogue-wave-coffee">Rogue Wave Coffee</h3>
+<ul>
+<li><strong>Location</strong>: Edmonton, Alberta, Canada</li>
+</ul>
+<section id="brazil" class="level4">
+<h4 class="anchored" data-anchor-id="brazil">Brazil</h4>
+<section id="daterra-low-caf-reserve" class="level5">
+<h5 class="anchored" data-anchor-id="daterra-low-caf-reserve">Daterra Low Caf Reserve</h5>
+<ul>
+<li><strong>Variety</strong>: Aramosa, Laurina</li>
+<li><strong>Processing</strong>: Pulped Natural</li>
+<li><strong>Altitude</strong>: 1150m</li>
+<li><strong>Tasting Notes</strong>: Strawberry, white grape, milk chocolate, plum.</li>
+</ul>
+</section>
+</section>
+<section id="ethiopia" class="level4">
+<h4 class="anchored" data-anchor-id="ethiopia">Ethiopia</h4>
+<section id="teshome-gemechu-lot-2" class="level5">
+<h5 class="anchored" data-anchor-id="teshome-gemechu-lot-2">Teshome Gemechu Lot 2</h5>
+<ul>
+<li><strong>Variety</strong>: Heirloom</li>
+<li><strong>Processing</strong>: Washed</li>
+<li><strong>Altitude</strong>: 1900–2200m</li>
+<li><strong>Tasting Notes</strong>: Peach, blueberry, floral, pear.</li>
+</ul>
+</section>
+<section id="chelbesa-one" class="level5">
+<h5 class="anchored" data-anchor-id="chelbesa-one">Chelbesa One</h5>
+<ul>
+<li><strong>Variety</strong>: Heirloom</li>
+<li><strong>Processing</strong>: Washed</li>
+<li><strong>Altitude</strong>: 1900–2200m</li>
+<li><strong>Tasting Notes</strong>: Apricot, iced tea, jasmine, mango.</li>
+</ul>
+<section id="gutiti-natural" class="level6">
+<h6 class="anchored" data-anchor-id="gutiti-natural">Gutiti Natural</h6>
+<ul>
+<li><strong>Variety</strong>: Kurume</li>
+<li><strong>Processing</strong>: Natural</li>
+<li><strong>Altitude</strong>: 2200m</li>
+<li><strong>Tasting Notes</strong>: Strawberry, blueberry, orange, dates, red grape.</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+</section>
+<section id="sam-james-coffee-bar" class="level3">
+<h3 class="anchored" data-anchor-id="sam-james-coffee-bar">Sam James Coffee Bar</h3>
+<ul>
+<li><strong>Location</strong>: Toronto, Ontario, Canada</li>
+</ul>
+<section id="butter-knife-espresso" class="level4">
+<h4 class="anchored" data-anchor-id="butter-knife-espresso">Butter Knife Espresso</h4>
+<ul>
+<li><strong>Blend</strong>: Brazil (80%), Colombia (20%)
+<ul>
+<li><strong>Brazil</strong>:
+<ul>
+<li><strong>Region</strong>: Minas Gerais</li>
+<li><strong>Farm</strong>: Carmo Estates</li>
+<li><strong>Variety</strong>: Bourbon, Yellow Bourbon, Catimor</li>
+<li><strong>Altitude</strong>: 1100 m.a.s.l</li>
+<li><strong>Processing</strong>: Natural</li>
+</ul></li>
+<li><strong>Colombia</strong>:
+<ul>
+<li><strong>Region</strong>: Nariño</li>
+<li><strong>Farm</strong>: Various smallholders</li>
+<li><strong>Variety</strong>: Castillo, Caturra, Colombia</li>
+<li><strong>Altitude</strong>: 1400–2000 m.a.s.l</li>
+<li><strong>Processing</strong>: Washed</li>
+</ul></li>
+<li><strong>Tasting Notes</strong>: Peanut butter, berry jam, toffee.</li>
+<li><strong>Roast Level</strong>: Medium</li>
+</ul></li>
+</ul>
+<hr>
+<p>This journey has deepened my appreciation for the art of coffee and the global stories behind each cup.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

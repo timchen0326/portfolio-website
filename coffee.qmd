@@ -1,0 +1,116 @@
+---
+title: "My Coffee Setup"
+format:
+  html:
+    css: coffee-style.css
+    toc: true
+---
+
+I began brewing coffee in the summer of 2024, and this page serves as a record of my journey into the fascinating world of coffee.
+
+---
+
+## Equipment
+
+### Grinder
+- **Baratza Encore**: A reliable and precise burr grinder for consistent grind sizes.
+
+### Kettle
+- **BALMUDA The Kettle**: A stylish and functional kettle with a controlled pour spout, perfect for manual brewing methods.
+
+### Brewing Tools
+- **Hario V60**: A classic pour-over brewing device for clean and crisp coffee.
+- **AeroPress**: A versatile brewer suitable for both espresso-style and immersion brewing.
+
+---
+
+## Coffee Beans
+
+### Starbucks Reserve
+- **Location**: New York, United States
+
+#### Tanzania Iyenga
+- **Origin**: Tanzania, Southern Highlands, Songwe region (near Iyenga)
+- **Tasting Notes**: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.
+- **Roast Level**: Medium
+- **Processing**: Washed
+
+---
+
+### GLITCH Coffee
+- **Location**: Tokyo, Japan
+
+#### China: Dehong Yuan Yi Yuan
+- **Variety**: Catimor P4 (7963)
+- **Processing**: Yeast Fermentation Honey
+- **Altitude**: 1400–1580m
+- **Tasting Notes**: Oolong tea, lychee, peach; tea-like and smooth.
+
+#### Brasil: Daterra Lot 2005 Palco
+- **Variety**: Geisha
+- **Processing**: Anaerobic Natural
+- **Altitude**: 915–1220m
+- **Tasting Notes**: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.
+
+#### Colombia: Risaralda Pereira (Apricot Punch)
+- **Variety**: Castillo, Caturra
+- **Processing**: Yeast Fermentation
+- **Altitude**: 1750–1800m
+- **Tasting Notes**: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.
+
+---
+
+### Rogue Wave Coffee
+- **Location**: Edmonton, Alberta, Canada
+
+#### Brazil
+##### Daterra Low Caf Reserve
+- **Variety**: Aramosa, Laurina
+- **Processing**: Pulped Natural
+- **Altitude**: 1150m
+- **Tasting Notes**: Strawberry, white grape, milk chocolate, plum.
+
+#### Ethiopia
+##### Teshome Gemechu Lot 2
+- **Variety**: Heirloom
+- **Processing**: Washed
+- **Altitude**: 1900–2200m
+- **Tasting Notes**: Peach, blueberry, floral, pear.
+
+##### Chelbesa One
+  - **Variety**: Heirloom
+  - **Processing**: Washed
+  - **Altitude**: 1900–2200m
+  - **Tasting Notes**: Apricot, iced tea, jasmine, mango.
+
+###### Gutiti Natural
+  - **Variety**: Kurume
+  - **Processing**: Natural
+  - **Altitude**: 2200m
+  - **Tasting Notes**: Strawberry, blueberry, orange, dates, red grape.
+
+---
+
+### Sam James Coffee Bar
+- **Location**: Toronto, Ontario, Canada
+
+#### Butter Knife Espresso
+- **Blend**: Brazil (80%), Colombia (20%)
+  - **Brazil**:
+    - **Region**: Minas Gerais
+    - **Farm**: Carmo Estates
+    - **Variety**: Bourbon, Yellow Bourbon, Catimor
+    - **Altitude**: 1100 m.a.s.l
+    - **Processing**: Natural
+  - **Colombia**:
+    - **Region**: Nariño
+    - **Farm**: Various smallholders
+    - **Variety**: Castillo, Caturra, Colombia
+    - **Altitude**: 1400–2000 m.a.s.l
+    - **Processing**: Washed
+  - **Tasting Notes**: Peanut butter, berry jam, toffee.
+  - **Roast Level**: Medium
+
+---
+
+This journey has deepened my appreciation for the art of coffee and the global stories behind each cup.
