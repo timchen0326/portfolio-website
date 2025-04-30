@@ -16,6 +16,7 @@ website:
           - href: coffee.qmd
       - text: Projects
         menu: 
+          - ml-challenge.qmd
           - toronto-crime-analysis.qmd
           - us-presidential election.qmd
           - toronto-shelter-analysis.qmd

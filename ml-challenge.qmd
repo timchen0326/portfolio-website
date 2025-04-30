@@ -1,0 +1,52 @@
+---
+title: "CSC311 ML Challenge Project"
+author: "Tim Chen"
+date: "2025-04-30"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+# Introduction
+
+In the Winter 2025 CSC311 Machine Learning Challenge, our team undertook the task of building a classifier to predict which food item a survey respondent described based on their subjective responses. The challenge consisted of four components: data collection, team formation, model prediction, and the final report (# Table 1 in the challenge instructions).
+
+# Data and Preprocessing
+
+We received a CSV file containing survey responses regarding food complexity, ingredient count, serving context, price expectation, movie association, drink pairing, personal associations, and hot-sauce preference. The raw data was cleaned and standardized using custom functions to handle numeric parsing (e.g., converting word descriptors to numbers), free-text normalization, and multi-hot encoding of checkbox responses. Numerical features (ingredient count, price) were binned into quintiles, while categorical and multi-select features were one-hot or multi-hot encoded to produce a high-dimensional feature matrix (see `feature_config.json`).
+
+# Model Development
+
+Our team explored three families of models:
+
+- **Decision Tree Classifier**: Tuned parameters such as splitting criterion, tree depth, and cost-complexity pruning. Achieved ~85% cross-validation accuracy after grid search on parameters like `max_depth` and `ccp_alpha`.
+- **Multiclass Logistic Regression**: Applied multinomial logistic regression with L1 and L2 regularization. The best configuration (L1, C = 1.0) yielded ~88% 10-fold cross-validation accuracy.
+- **Multinomial Naïve Bayes**: Manual implementation with Laplace smoothing (α = 1.0) on discretized features, which excelled on high-dimensional, sparse input and achieved ~90% cross-validation accuracy.
+
+After systematic evaluation, we selected **Multinomial Naïve Bayes** as the final model due to its robust performance (average CV accuracy = 0.9002) and efficiency with sparse feature vectors.
+
+# Final Model and Performance
+
+The final model was implemented in `predict_local.py`, which includes preprocessing, feature alignment, and posterior computations to output the predicted class for each test instance. On the official unseen test set (compiled from TA and instructor responses), we achieved an accuracy of **87%**. Our professor awarded our team a certification for outstanding performance in this challenge.
+
+# Deployment
+
+Building on the project codebase, I individually deployed the trained Naïve Bayes classifier within a Streamlit application for interactive use. The app allows users to input survey responses via sidebar widgets and instantly receive food-item predictions. You can explore the live app here:
+
+[Food-Item Classifier Streamlit App](https://ml-challenge.streamlit.app/)
+
+Below is the Streamlit application entry point (`app.py`):
+
+```python
+import streamlit as st
+import pandas as pd
+import io
+from predict_local import preprocess_raw_data, predict_all
+
+# (See full code in `app.py` in the repository.)
+```
+
+# Conclusion
+
+The CSC311 ML Challenge provided an opportunity to apply end-to-end machine learning practices, from data cleaning and feature engineering to model selection, tuning, and deployment. Achieving 87% accuracy and receiving certification from our professor validated our approach. The live Streamlit app demonstrates the practical utility of the classifier, making the project accessible to end users.

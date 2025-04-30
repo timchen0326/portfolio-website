@@ -3,8 +3,6 @@ title: "Tim Chen"
 about:
   template: trestles
   links:
-    - text: "Resume"
-      href: portfolio-website/pdfs/resume_2025.pdf
     - icon: envelope
       text: "Email"
       href: "mailto:timchen0326ca@gmail.com"

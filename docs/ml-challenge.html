@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tim Chen">
+<meta name="dcterms.date" content="2025-04-30">
 
-<title>Courses Taken at University of Toronto – Tim Chen</title>
+<title>CSC311 ML Challenge Project – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -93,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./courses.html" aria-current="page"> 
+    <a class="nav-link" href="./courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -177,19 +213,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Course Code Overview</h2>
+    <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#ams-american-studies" id="toc-ams-american-studies" class="nav-link active" data-scroll-target="#ams-american-studies"><strong>AMS (American Studies)</strong></a></li>
-  <li><a href="#apm-applied-mathematics" id="toc-apm-applied-mathematics" class="nav-link" data-scroll-target="#apm-applied-mathematics"><strong>APM (Applied Mathematics)</strong></a></li>
-  <li><a href="#csc-computer-science" id="toc-csc-computer-science" class="nav-link" data-scroll-target="#csc-computer-science"><strong>CSC (Computer Science)</strong></a></li>
-  <li><a href="#ess-earth-sciences" id="toc-ess-earth-sciences" class="nav-link" data-scroll-target="#ess-earth-sciences"><strong>ESS (Earth Sciences)</strong></a></li>
-  <li><a href="#mat-mathematics" id="toc-mat-mathematics" class="nav-link" data-scroll-target="#mat-mathematics"><strong>MAT (Mathematics)</strong></a></li>
-  <li><a href="#mus-music" id="toc-mus-music" class="nav-link" data-scroll-target="#mus-music"><strong>MUS (Music)</strong></a></li>
-  <li><a href="#phl-philosophy" id="toc-phl-philosophy" class="nav-link" data-scroll-target="#phl-philosophy"><strong>PHL (Philosophy)</strong></a></li>
-  <li><a href="#phy-physics" id="toc-phy-physics" class="nav-link" data-scroll-target="#phy-physics"><strong>PHY (Physics)</strong></a></li>
-  <li><a href="#psy-psychology" id="toc-psy-psychology" class="nav-link" data-scroll-target="#psy-psychology"><strong>PSY (Psychology)</strong></a></li>
-  <li><a href="#sta-statistics" id="toc-sta-statistics" class="nav-link" data-scroll-target="#sta-statistics"><strong>STA (Statistics)</strong></a></li>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data-and-preprocessing" id="toc-data-and-preprocessing" class="nav-link" data-scroll-target="#data-and-preprocessing">Data and Preprocessing</a></li>
+  <li><a href="#model-development" id="toc-model-development" class="nav-link" data-scroll-target="#model-development">Model Development</a></li>
+  <li><a href="#final-model-and-performance" id="toc-final-model-and-performance" class="nav-link" data-scroll-target="#final-model-and-performance">Final Model and Performance</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment">Deployment</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -198,14 +230,26 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Courses Taken at University of Toronto</h1>
+<h1 class="title">CSC311 ML Challenge Project</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tim Chen </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 30, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -215,124 +259,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix.</p>
-<hr>
-<section id="ams-american-studies" class="level2">
-<h2 class="anchored" data-anchor-id="ams-american-studies"><strong>AMS (American Studies)</strong></h2>
-<ul>
-<li><strong>AMS100H1F</strong>: Global Capitalism (2024 Fall)</li>
-</ul>
-<hr>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>In the Winter 2025 CSC311 Machine Learning Challenge, our team undertook the task of building a classifier to predict which food item a survey respondent described based on their subjective responses. The challenge consisted of four components: data collection, team formation, model prediction, and the final report (# Table 1 in the challenge instructions).</p>
 </section>
-<section id="apm-applied-mathematics" class="level2">
-<h2 class="anchored" data-anchor-id="apm-applied-mathematics"><strong>APM (Applied Mathematics)</strong></h2>
-<ul>
-<li><strong>APM346H1S</strong>: Partial Differential Equations (2024 Winter)<br>
-</li>
-<li><strong>APM466H1S</strong>: Mathematical Theory of Finance (2025 Winter)</li>
-</ul>
-<hr>
+<section id="data-and-preprocessing" class="level1">
+<h1>Data and Preprocessing</h1>
+<p>We received a CSV file containing survey responses regarding food complexity, ingredient count, serving context, price expectation, movie association, drink pairing, personal associations, and hot-sauce preference. The raw data was cleaned and standardized using custom functions to handle numeric parsing (e.g., converting word descriptors to numbers), free-text normalization, and multi-hot encoding of checkbox responses. Numerical features (ingredient count, price) were binned into quintiles, while categorical and multi-select features were one-hot or multi-hot encoded to produce a high-dimensional feature matrix (see <code>feature_config.json</code>).</p>
 </section>
-<section id="csc-computer-science" class="level2">
-<h2 class="anchored" data-anchor-id="csc-computer-science"><strong>CSC (Computer Science)</strong></h2>
+<section id="model-development" class="level1">
+<h1>Model Development</h1>
+<p>Our team explored three families of models:</p>
 <ul>
-<li><strong>CSC108H1F</strong>: Introduction to Computer Programming (2022 Fall)<br>
-</li>
-<li><strong>CSC148H1S</strong>: Introduction to Computer Science (2023 Winter)<br>
-</li>
-<li><strong>CSC165H1S</strong>: Mathematical Expression and Reasoning for Computer Science (2024 Winter)<br>
-</li>
-<li><strong>CSC207H1F</strong>: Software Design (2024 Fall)<br>
-</li>
-<li><strong>CSC209H1S</strong>: Software Tools and Systems Programming (2025 Winter)<br>
-</li>
-<li><strong>CSC236H1F</strong>: Introduction to the Theory of Computation (2024 Fall)<br>
-</li>
-<li><strong>CSC311H1S</strong>: Introduction to Machine Learning (2025 Winter)<br>
-</li>
-<li><strong>CSC343H1S</strong>: Introduction to Databases (2025 Winter)</li>
+<li><strong>Decision Tree Classifier</strong>: Tuned parameters such as splitting criterion, tree depth, and cost-complexity pruning. Achieved ~85% cross-validation accuracy after grid search on parameters like <code>max_depth</code> and <code>ccp_alpha</code>.</li>
+<li><strong>Multiclass Logistic Regression</strong>: Applied multinomial logistic regression with L1 and L2 regularization. The best configuration (L1, C = 1.0) yielded ~88% 10-fold cross-validation accuracy.</li>
+<li><strong>Multinomial Naïve Bayes</strong>: Manual implementation with Laplace smoothing (α = 1.0) on discretized features, which excelled on high-dimensional, sparse input and achieved ~90% cross-validation accuracy.</li>
 </ul>
-<hr>
+<p>After systematic evaluation, we selected <strong>Multinomial Naïve Bayes</strong> as the final model due to its robust performance (average CV accuracy = 0.9002) and efficiency with sparse feature vectors.</p>
 </section>
-<section id="ess-earth-sciences" class="level2">
-<h2 class="anchored" data-anchor-id="ess-earth-sciences"><strong>ESS (Earth Sciences)</strong></h2>
-<ul>
-<li><strong>ESS205H1S</strong>: Confronting Global Change (2023 Summer)</li>
-</ul>
-<hr>
+<section id="final-model-and-performance" class="level1">
+<h1>Final Model and Performance</h1>
+<p>The final model was implemented in <code>predict_local.py</code>, which includes preprocessing, feature alignment, and posterior computations to output the predicted class for each test instance. On the official unseen test set (compiled from TA and instructor responses), we achieved an accuracy of <strong>87%</strong>. Our professor awarded our team a certification for outstanding performance in this challenge.</p>
 </section>
-<section id="mat-mathematics" class="level2">
-<h2 class="anchored" data-anchor-id="mat-mathematics"><strong>MAT (Mathematics)</strong></h2>
-<ul>
-<li><strong>MAT137Y1</strong>: Calculus with Proofs (2021 Fall–Winter)<br>
-</li>
-<li><strong>MAT224H1S</strong>: Linear Algebra II (2023 Winter)<br>
-</li>
-<li><strong>MAT237Y1</strong>: Multivariable Calculus with Proofs (2023 Summer)<br>
-</li>
-<li><strong>MAT240H1F</strong>: Algebra I (2021 Fall)<br>
-</li>
-<li><strong>MAT244H1S</strong>: Introduction to Ordinary Differential Equations (2023 Winter)<br>
-</li>
-<li><strong>MAT246H1F</strong>: Concepts in Abstract Mathematics (2022 Fall)<br>
-</li>
-<li><strong>MAT301H1F</strong>: Groups and Symmetries (2023 Fall)<br>
-</li>
-<li><strong>MAT334H1F</strong>: Complex Variables (2023 Fall)</li>
-</ul>
-<hr>
+<section id="deployment" class="level1">
+<h1>Deployment</h1>
+<p>Building on the project codebase, I individually deployed the trained Naïve Bayes classifier within a Streamlit application for interactive use. The app allows users to input survey responses via sidebar widgets and instantly receive food-item predictions. You can explore the live app here:</p>
+<p><a href="https://ml-challenge.streamlit.app/">Food-Item Classifier Streamlit App</a></p>
+<p>Below is the Streamlit application entry point (<code>app.py</code>):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> io</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> predict_local <span class="im">import</span> preprocess_raw_data, predict_all</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># (See full code in `app.py` in the repository.)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="mus-music" class="level2">
-<h2 class="anchored" data-anchor-id="mus-music"><strong>MUS (Music)</strong></h2>
-<ul>
-<li><strong>MUS306H1F</strong>: Popular Music in North America (2024 Fall)</li>
-</ul>
-<hr>
-</section>
-<section id="phl-philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="phl-philosophy"><strong>PHL (Philosophy)</strong></h2>
-<ul>
-<li><strong>PHL245H1S</strong>: Modern Symbolic Logic (2023 Winter)</li>
-</ul>
-<hr>
-</section>
-<section id="phy-physics" class="level2">
-<h2 class="anchored" data-anchor-id="phy-physics"><strong>PHY (Physics)</strong></h2>
-<ul>
-<li><strong>PHY151H1F</strong>: Foundations of Physics I (2021 Fall)<br>
-</li>
-<li><strong>PHY152H1S</strong>: Foundations of Physics II (2022 Winter)</li>
-</ul>
-<hr>
-</section>
-<section id="psy-psychology" class="level2">
-<h2 class="anchored" data-anchor-id="psy-psychology"><strong>PSY (Psychology)</strong></h2>
-<ul>
-<li><strong>PSY100H1S</strong>: Introductory Psychology (2022 Winter)</li>
-</ul>
-<hr>
-</section>
-<section id="sta-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="sta-statistics"><strong>STA (Statistics)</strong></h2>
-<ul>
-<li><strong>STA257H1F</strong>: Probability and Statistics I (2022 Fall)<br>
-</li>
-<li><strong>STA261H1S</strong>: Probability and Statistics II (2023 Winter)<br>
-</li>
-<li><strong>STA302H1F</strong>: Methods of Data Analysis I (2023 Fall)<br>
-</li>
-<li><strong>STA303H1S</strong>: Methods of Data Analysis II (2024 Winter)<br>
-</li>
-<li><strong>STA304H1F</strong>: Surveys, Sampling, and Observational Data (2024 Fall)<br>
-</li>
-<li><strong>STA313H1S</strong>: Data Visualization (2024 Winter)<br>
-</li>
-<li><strong>STA347H1F</strong>: Probability (2023 Fall)<br>
-</li>
-<li><strong>STA437H1F</strong>: Methods for Multivariate Data (2023 Fall)<br>
-</li>
-<li><strong>STA457H1S</strong>: Time Series Analysis (2024 Winter)</li>
-</ul>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>The CSC311 ML Challenge provided an opportunity to apply end-to-end machine learning practices, from data cleaning and feature engineering to model selection, tuning, and deployment. Achieving 87% accuracy and receiving certification from our professor validated our approach. The live Streamlit app demonstrates the practical utility of the classifier, making the project accessible to end users.</p>
 
 
 </section>
