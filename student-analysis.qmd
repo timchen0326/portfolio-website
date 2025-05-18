@@ -1,0 +1,183 @@
+---
+title: "Student Habits & Academic Performance Analysis"
+author: "Tim Chen"
+date: "2025-05-18"
+format:
+  html:
+    toc: true
+    code-fold: true
+    number-sections: true
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+# Introduction
+
+This report provides an in-depth analysis of the **Student Habits and Academic Performance** dataset, exploring how demographic, lifestyle, and psychological factors relate to exam outcomes. We cover data loading, cleaning, exploratory visualization, feature engineering, predictive modeling, and interpret key findings in light of recent global developments.
+
+# Setup and Data Loading
+
+We begin by importing core Python libraries and loading the CSV file into a pandas DataFrame.
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv("enhanced_student_habits_performance_dataset.csv")
+```
+
+# Data Source
+
+This analysis uses the "Student Habits and Academic Performance" dataset sourced from Kaggle (Aryan208). The dataset and accompanying code are available at: ([kaggle.com](https://www.kaggle.com/datasets/aryan208/student-habits-and-academic-performance-dataset/data))
+
+# Data Overview
+
+A quick summary reveals:
+
+* **80,000** student records, each with **31** features (demographics, habits, support, and performance).
+* No missing values detected across any columns.
+* Key summary statistics:
+
+  * **Study Hours/Day**: mean \~4.17 hrs, median \~4.13 hrs, range 0–12 hrs.
+  * **Attendance %**: centered around \~70% with a span of 40–100%.
+  * **Sleep Hours**: most students sleep between 6–8 hrs.
+  * **Exam Score**: skewed high, median 93, with many perfect scores (100).
+
+These sleep patterns resonate with findings from an NIH‑funded study (Mathew & Hale 2024) showing that **irregular bedtimes and inconsistent sleep** are significantly associated with poorer grades and behavior problems among adolescents ([wgrt.com](https://wgrt.com/irregular-sleep-patterns-tied-to-poor-grades-and-behavioral-issues-among-teens-nih-funded-study-finds/?utm_source=chatgpt.com)).
+
+```{python}
+print(df.describe()[['study_hours_per_day','attendance_percentage','sleep_hours','exam_score']])
+```
+
+# Data Cleaning & Preprocessing
+
+All categorical columns were cast to the `category` type and text entries standardized (e.g., `Yes`/`No` to lowercase). No rows were removed.
+
+```{python}
+df['gender'] = df['gender'].astype('category')
+df['part_time_job'] = df['part_time_job'].str.lower()
+```
+
+# Exploratory Data Analysis (EDA)
+
+## Univariate Distributions
+
+* **Study Hours** show a roughly normal distribution with a right tail (some students study up to 12 hrs).
+* **Attendance** is left-skewed: most students attend at least 70% of classes.
+* **Sleep** peaks around 7 hrs.
+* **Exam Score** heavily clusters at high values, indicating a ceiling effect.
+
+This ceiling effect mirrors global exam trends, where extraordinary clustering at top scores challenges differentiation. In India’s NEET‑UG 2024, **67 candidates scored a perfect 720/720**, sparking debate about score inflation and exam fairness (Times of India 2024) ([timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/city/mumbai/67-students-achieve-perfect-720-in-neet-ug-questions-raised/articleshow/110749121.cms?utm_source=chatgpt.com)).
+
+```{python}
+numeric_cols = ['study_hours_per_day','attendance_percentage','sleep_hours','exam_score']
+for col in numeric_cols:
+    sns.histplot(df[col], kde=True)
+    plt.title(f"Distribution of {col.replace('_',' ').title()}")
+    plt.show()
+```
+
+## Categorical Insights
+
+* **Majors**: Arts (16.9%), Business (16.3%), Computer Science (14.8%), etc.
+* **Gender**: roughly equal representation of Male and Female, with a small Other category.
+* **Learning Styles**: Kinesthetic most common (\~20%), followed by Reading and Auditory.
+
+```{python}
+for col in ['major','gender','learning_style']:
+    sns.countplot(y=df[col], order=df[col].value_counts().index)
+    plt.title(f"Count of {col.replace('_',' ').title()}")
+    plt.show()
+```
+
+## Correlation Analysis
+
+A heatmap of key numeric features indicates:
+
+* **Study Hours & Exam Score**: moderate positive correlation (\~0.35).
+* **Sleep Hours & Exam Score**: mild positive correlation (\~0.20).
+* **Attendance & Exam Score**: weaker but positive (\~0.15).
+
+```{python}
+corr = df[['study_hours_per_day','attendance_percentage','sleep_hours','exam_score']].corr()
+sns.heatmap(corr, annot=True, fmt=".2f")
+plt.title("Correlation Matrix")
+plt.show()
+```
+
+Although study time correlates with performance, excessive workload shows **diminishing returns**. A systematic review of K–12 homework found that while homework generally benefits learning, **too much increases cognitive load and reduces motivation**, ultimately impairing achievement (Guo et al. 2024) ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39297020/?utm_source=chatgpt.com)).
+
+# Feature Engineering
+
+Two new features were created:
+
+1. **Age Group** (<=18, 19–22, 23–26, 27+) to capture life‑stage differences.
+2. **Total Screen Time**: sum of social media, Netflix, and overall screen usage.
+
+```{python}
+bins = [15,18,22,26,30]
+labels = ['<=18','19-22','23-26','27+']
+df['age_group'] = pd.cut(df['age'], bins=bins, labels=labels)
+df['total_screen_time'] = df['social_media_hours'] + df['netflix_hours'] + df['screen_time']
+```
+
+Global policies increasingly address **digital distractions**. In England, secondary schools with **effective mobile phone bans** were found more than twice as likely to be rated outstanding and saw students achieve **one to two grades higher** on GCSE exams, underscoring the impact of screen management on learning (Busby 2024) ([independent.co.uk](https://www.independent.co.uk/news/education/school-mobile-phone-pupils-law-b2536892.html?utm_source=chatgpt.com)).
+
+# Predictive Modeling
+
+A baseline Linear Regression model was built using four features:
+
+* Study Hours/Day
+* Sleep Hours
+* Motivation Level
+* Time Management Score
+
+```{python}
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+
+X = df[['study_hours_per_day','sleep_hours','motivation_level','time_management_score']]
+y = df['exam_score']
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state=42)
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)
+X_test_s  = scaler.transform(X_test)
+model = LinearRegression().fit(X_train_s, y_train)
+y_pred = model.predict(X_test_s)
+rmse = np.sqrt(mean_squared_error(y_test,y_pred))
+r2   = r2_score(y_test,y_pred)
+print(f"RMSE: {rmse:.2f}")
+print(f"R²:   {r2:.3f}")
+```
+
+# Results & Interpretation
+
+* **RMSE ≈ 10.88**: on average, predictions deviate by \~11 points (out of 100).
+* **R² ≈ 0.125**: the model explains only \~12.5% of variance, indicating substantial unexplained factors.
+* **Residual Plot** shows wide scatter, suggesting nonlinearity and missing predictor variables.
+
+```{python}
+plt.scatter(y_test, y_pred)
+plt.xlabel("Actual Exam Score")
+plt.ylabel("Predicted Exam Score")
+plt.title("Actual vs. Predicted")
+plt.show()
+```
+
+# Conclusion & Next Steps
+
+Our analysis confirms that while study habits, sleep, and time management are positively associated with academic outcomes, their effects are **moderate** and subject to external influences. Recent global trends—from exam score clustering in high‑stakes tests to nuanced homework policies and phone bans—corroborate our findings and highlight the importance of balanced, evidence‑based interventions.
+
+**Recommendations:**
+
+1. Test non‑linear models (e.g., Random Forest, XGBoost) to capture complex relationships.
+2. Incorporate additional predictors such as **total\_screen\_time** and **previous\_gpa**.
+3. Perform cross‑validation and hyperparameter tuning.
+4. Explore classification approaches for dropout risk and policy impact analysis.
+

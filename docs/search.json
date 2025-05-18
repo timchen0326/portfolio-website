@@ -1,5 +1,152 @@
 [
   {
+    "objectID": "us-presidential election.html",
+    "href": "us-presidential election.html",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "",
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+  },
+  {
+    "objectID": "us-presidential election.html#introduction",
+    "href": "us-presidential election.html#introduction",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "",
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+  },
+  {
+    "objectID": "us-presidential election.html#methodology",
+    "href": "us-presidential election.html#methodology",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Methodology",
+    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
+  },
+  {
+    "objectID": "us-presidential election.html#key-findings",
+    "href": "us-presidential election.html#key-findings",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
+  },
+  {
+    "objectID": "us-presidential election.html#implications",
+    "href": "us-presidential election.html#implications",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Implications",
+    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
+  },
+  {
+    "objectID": "us-presidential election.html#limitations",
+    "href": "us-presidential election.html#limitations",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Limitations",
+    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
+  },
+  {
+    "objectID": "us-presidential election.html#future-directions",
+    "href": "us-presidential election.html#future-directions",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Future Directions",
+    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
+  },
+  {
+    "objectID": "us-presidential election.html#conclusion",
+    "href": "us-presidential election.html#conclusion",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
+  },
+  {
+    "objectID": "us-presidential election.html#references",
+    "href": "us-presidential election.html#references",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "References",
+    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html",
+    "href": "toronto-shelter-analysis.html",
+    "title": "Toronto Shelter Analysis",
+    "section": "",
+    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#overview",
+    "href": "toronto-shelter-analysis.html#overview",
+    "title": "Toronto Shelter Analysis",
+    "section": "",
+    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#key-objectives",
+    "href": "toronto-shelter-analysis.html#key-objectives",
+    "title": "Toronto Shelter Analysis",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\nExamine shelter trends: Understand growth in occupancy rates and assess actual bed capacity by program type.\n\nExplore seasonal impacts: Identify patterns in service user counts over time.\n\nAddress disparities: Investigate demographic imbalances and their implications for shelter access."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#data-and-methods",
+    "href": "toronto-shelter-analysis.html#data-and-methods",
+    "title": "Toronto Shelter Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Source\n\nDataset: Daily Shelter Occupancy and Capacity dataset from the City of Toronto.\n\nKey Variables:\n\nOccupancy Rate (Beds): Tracks shelter capacity usage.\n\nProgram Model: Includes emergency and transitional shelters.\n\nService User Count: Captures the number of individuals using shelters daily.\n\n\n\n\nMethodology\n\nTime-Series Analysis: Examined shelter trends across years, with a focus on seasonal patterns.\n\nData Cleaning: Removed missing data and ensured consistency across variables.\n\nVisualization: Used R packages like ggplot2 for graphical representation of trends."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#results",
+    "href": "toronto-shelter-analysis.html#results",
+    "title": "Toronto Shelter Analysis",
+    "section": "Results",
+    "text": "Results\n\nTracking Shelter Bed Occupancy\n\nHigh Occupancy Rates: Beds consistently near full capacity (96–98% from 2021 to 2024).\n\nIncrease Over Time: Occupancy peaked at 98.2% in 2024, highlighting growing demand.\n\n\n\nCapacity by Program Type\n\nDisparities Noted: Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.\n\n\n\nSeasonal Trends\n\nWinter Spikes: Service user counts were highest from November to February, reflecting the impact of extreme weather.\n\n\n\nDemographic Insights\n\nGender Disparities: Women, particularly in family shelters, may be underrepresented in general shelter data.\n\nYouth and Mixed Adults: Additional focus needed to address demographic-specific shelter needs."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#policy-implications",
+    "href": "toronto-shelter-analysis.html#policy-implications",
+    "title": "Toronto Shelter Analysis",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nExpand Shelter Services:\n\nIncrease capacity for transitional shelters to support long-term housing solutions.\n\nEnhance emergency shelters with safety and privacy improvements.\n\nPrepare for Winter Demand:\n\nEstablish more warming centers and mobile shelters during colder months.\n\nAllocate additional resources for emergency services in high-demand periods.\n\nAddress Gender Inequities:\n\nIncrease shelter spaces dedicated to women and families.\n\nImprove data collection to capture underrepresented groups."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#limitations-and-future-directions",
+    "href": "toronto-shelter-analysis.html#limitations-and-future-directions",
+    "title": "Toronto Shelter Analysis",
+    "section": "Limitations and Future Directions",
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderrepresentation in Data: Family shelters and gender-specific usage may be underestimated.\n\nSafety Concerns: Rising violence within shelters affects their usability and trustworthiness.\n\n\n\nFuture Research\n\nInvestigate systemic factors driving the disparity between emergency and transitional shelters.\n\nExplore shelter safety and its influence on occupancy duration.\n\nInclude more granular demographic and geographic data for targeted interventions."
+  },
+  {
+    "objectID": "toronto-shelter-analysis.html#references",
+    "href": "toronto-shelter-analysis.html#references",
+    "title": "Toronto Shelter Analysis",
+    "section": "References",
+    "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
+  },
+  {
+    "objectID": "student-analysis.html",
+    "href": "student-analysis.html",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "",
+    "text": "This report provides an in-depth analysis of the Student Habits and Academic Performance dataset, exploring how demographic, lifestyle, and psychological factors relate to exam outcomes. We cover data loading, cleaning, exploratory visualization, feature engineering, predictive modeling, and interpret key findings in light of recent global developments."
+  },
+  {
+    "objectID": "student-analysis.html#univariate-distributions",
+    "href": "student-analysis.html#univariate-distributions",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "6.1 Univariate Distributions",
+    "text": "6.1 Univariate Distributions\n\nStudy Hours show a roughly normal distribution with a right tail (some students study up to 12 hrs).\nAttendance is left-skewed: most students attend at least 70% of classes.\nSleep peaks around 7 hrs.\nExam Score heavily clusters at high values, indicating a ceiling effect.\n\nThis ceiling effect mirrors global exam trends, where extraordinary clustering at top scores challenges differentiation. In India’s NEET‑UG 2024, 67 candidates scored a perfect 720/720, sparking debate about score inflation and exam fairness (Times of India 2024) (timesofindia.indiatimes.com)."
+  },
+  {
+    "objectID": "student-analysis.html#categorical-insights",
+    "href": "student-analysis.html#categorical-insights",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "6.2 Categorical Insights",
+    "text": "6.2 Categorical Insights\n\nMajors: Arts (16.9%), Business (16.3%), Computer Science (14.8%), etc.\nGender: roughly equal representation of Male and Female, with a small Other category.\nLearning Styles: Kinesthetic most common (~20%), followed by Reading and Auditory."
+  },
+  {
+    "objectID": "student-analysis.html#correlation-analysis",
+    "href": "student-analysis.html#correlation-analysis",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "6.3 Correlation Analysis",
+    "text": "6.3 Correlation Analysis\nA heatmap of key numeric features indicates:\n\nStudy Hours & Exam Score: moderate positive correlation (~0.35).\nSleep Hours & Exam Score: mild positive correlation (~0.20).\nAttendance & Exam Score: weaker but positive (~0.15).\n\n\n\n\n\n\n\n\n\n\nAlthough study time correlates with performance, excessive workload shows diminishing returns. A systematic review of K–12 homework found that while homework generally benefits learning, too much increases cognitive load and reduces motivation, ultimately impairing achievement (Guo et al. 2024) (pubmed.ncbi.nlm.nih.gov)."
+  },
+  {
     "objectID": "mayohr-intern.html",
     "href": "mayohr-intern.html",
     "title": "MAYOHR Internship Progress Report",
@@ -35,32 +182,74 @@
     "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
   },
   {
-    "objectID": "traffic-collision-analysis.html",
-    "href": "traffic-collision-analysis.html",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "iMDb-analysis.html",
+    "href": "iMDb-analysis.html",
+    "title": "IMDb Analysis",
     "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
   },
   {
-    "objectID": "traffic-collision-analysis.html#overview",
-    "href": "traffic-collision-analysis.html#overview",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "iMDb-analysis.html#overview",
+    "href": "iMDb-analysis.html#overview",
+    "title": "IMDb Analysis",
     "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
   },
   {
-    "objectID": "traffic-collision-analysis.html#key-highlights",
-    "href": "traffic-collision-analysis.html#key-highlights",
-    "title": "Traffic Collisions in Toronto",
-    "section": "Key Highlights",
-    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
+    "objectID": "iMDb-analysis.html#objectives",
+    "href": "iMDb-analysis.html#objectives",
+    "title": "IMDb Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
   },
   {
-    "objectID": "traffic-collision-analysis.html#references",
-    "href": "traffic-collision-analysis.html#references",
-    "title": "Traffic Collisions in Toronto",
-    "section": "References",
-    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
+    "objectID": "iMDb-analysis.html#data-and-methods",
+    "href": "iMDb-analysis.html#data-and-methods",
+    "title": "IMDb Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
+  },
+  {
+    "objectID": "iMDb-analysis.html#key-findings",
+    "href": "iMDb-analysis.html#key-findings",
+    "title": "IMDb Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+  },
+  {
+    "objectID": "iMDb-analysis.html#limitations",
+    "href": "iMDb-analysis.html#limitations",
+    "title": "IMDb Analysis",
+    "section": "Limitations",
+    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+  },
+  {
+    "objectID": "iMDb-analysis.html#conclusion",
+    "href": "iMDb-analysis.html#conclusion",
+    "title": "IMDb Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
+  },
+  {
+    "objectID": "coffee.html",
+    "href": "coffee.html",
+    "title": "My Coffee Journey",
+    "section": "",
+    "text": "I began brewing coffee in the summer of 2024, and this page serves as a record of my journey into the fascinating world of coffee."
+  },
+  {
+    "objectID": "coffee.html#equipment",
+    "href": "coffee.html#equipment",
+    "title": "My Coffee Journey",
+    "section": "Equipment",
+    "text": "Equipment\n\nGrinder\n\nBaratza Encore: A reliable and precise burr grinder for consistent grind sizes.\n\n\n\nKettle\n\nBALMUDA The Kettle: A stylish and functional kettle with a controlled pour spout, perfect for manual brewing methods.\n\n\n\nBrewing Tools\n\nHario V60: A classic pour-over brewing device for clean and crisp coffee.\nAeroPress: A versatile brewer suitable for both espresso-style and immersion brewing."
+  },
+  {
+    "objectID": "coffee.html#coffee-beans",
+    "href": "coffee.html#coffee-beans",
+    "title": "My Coffee Journey",
+    "section": "Coffee Beans",
+    "text": "Coffee Beans\n\nKOFFEE MAMEYA\n\nLocation: Tokyo, Japan\n\n\nEcuador\n\nRoaster: Leaves Coffee Roasters\nFarm: Finca Cruz Loma\nVariety: Typica Mejorado\nProcessing: Washed\nAltitude: 1450m\nTasting Notes: Black currant, oolong tea, brown sugar\n\n\n\n\n\nGLITCH Coffee\n\nLocation: Tokyo, Japan\n\n\nChina: Dehong Yuan Yi Yuan\n\nVariety: Catimor P4 (7963)\nProcessing: Yeast Fermentation Honey\nAltitude: 1400–1580m\nTasting Notes: Oolong tea, lychee, peach; tea-like and smooth.\n\n\n\nBrasil: Daterra Lot 2005 Palco\n\nVariety: Geisha\nProcessing: Anaerobic Natural\nAltitude: 915–1220m\nTasting Notes: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.\n\n\n\nColombia: Risaralda Pereira (Apricot Punch)\n\nVariety: Castillo, Caturra\nProcessing: Yeast Fermentation\nAltitude: 1750–1800m\nTasting Notes: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.\n\n\n\n\n\nBacha Coffee\n\nMaui Sun Coffee\n\nType: Fine Blended\nGrind: Whole Beans\nWeight: 100g\nRoast Level: Medium Dark\nTasting Notes: Chocolate, Fruity\nBest Enjoyed: Afternoon\n\n\n\n\n\nStarbucks Reserve\n\nLocation: New York, United States\n\n\nTanzania Iyenga\n\nOrigin: Tanzania, Southern Highlands, Songwe region (near Iyenga)\nTasting Notes: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.\nRoast Level: Medium\nProcessing: Washed\n\n\n\n\n\nRogue Wave Coffee\n\nLocation: Edmonton, Alberta, Canada\n\n\nBrazil\n\nDaterra Low Caf Reserve\n\nVariety: Aramosa, Laurina\nProcessing: Pulped Natural\nAltitude: 1150m\nTasting Notes: Strawberry, white grape, milk chocolate, plum.\n\n\n\n\nEthiopia\n\nTeshome Gemechu Lot 2\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Peach, blueberry, floral, pear.\n\n\n\nChelbesa One\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Apricot, iced tea, jasmine, mango.\n\n\n\nGutiti Natural\n\nVariety: Kurume\nProcessing: Natural\nAltitude: 2200m\nTasting Notes: Strawberry, blueberry, orange, dates, red grape.\n\n\n\n\n\n\nSam James Coffee Bar\n\nLocation: Toronto, Ontario, Canada\n\n\nButter Knife Espresso\n\nBlend: Brazil (80%), Colombia (20%)\n\nBrazil:\n\nRegion: Minas Gerais\nFarm: Carmo Estates\nVariety: Bourbon, Yellow Bourbon, Catimor\nAltitude: 1100 m.a.s.l\nProcessing: Natural\n\nColombia:\n\nRegion: Nariño\nFarm: Various smallholders\nVariety: Castillo, Caturra, Colombia\nAltitude: 1400–2000 m.a.s.l\nProcessing: Washed\n\nTasting Notes: Peanut butter, berry jam, toffee.\nRoast Level: Medium\n\n\n\nThis journey has deepened my appreciation for the art of coffee and the global stories behind each cup."
   },
   {
     "objectID": "bike-theft-analysis.html",
@@ -117,62 +306,6 @@
     "title": "Bike Theft Analysis",
     "section": "References",
     "text": "References\nFurther details and reproducible code can be found in the report’s dataset repository.\nRead the full report: Bike Theft Analysis PDF"
-  },
-  {
-    "objectID": "iMDb-analysis.html",
-    "href": "iMDb-analysis.html",
-    "title": "IMDb Analysis",
-    "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
-  },
-  {
-    "objectID": "iMDb-analysis.html#overview",
-    "href": "iMDb-analysis.html#overview",
-    "title": "IMDb Analysis",
-    "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
-  },
-  {
-    "objectID": "iMDb-analysis.html#objectives",
-    "href": "iMDb-analysis.html#objectives",
-    "title": "IMDb Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
-  },
-  {
-    "objectID": "iMDb-analysis.html#data-and-methods",
-    "href": "iMDb-analysis.html#data-and-methods",
-    "title": "IMDb Analysis",
-    "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
-  },
-  {
-    "objectID": "iMDb-analysis.html#key-findings",
-    "href": "iMDb-analysis.html#key-findings",
-    "title": "IMDb Analysis",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
-  },
-  {
-    "objectID": "iMDb-analysis.html#limitations",
-    "href": "iMDb-analysis.html#limitations",
-    "title": "IMDb Analysis",
-    "section": "Limitations",
-    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
-  },
-  {
-    "objectID": "iMDb-analysis.html#conclusion",
-    "href": "iMDb-analysis.html#conclusion",
-    "title": "IMDb Analysis",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tim Chen",
-    "section": "",
-    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics with a focus on Probability and Statistics. Alongside my major, I am pursuing minors in Computer Science and Statistics. I am deeply passionate about solving practical problems using statistical analysis, machine learning, and data visualization techniques.\nDuring my academic journey, I have completed advanced coursework in fields like Machine Learning, Data Analysis, Statistical Theory, and Software Design. These studies have equipped me with a strong foundation in data-driven methodologies and programming.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I worked with TypeScript, React, and RESTful APIs to develop features that improved user efficiency. Additionally, I utilized Python for frontend testing, streamlining integration and enhancing overall troubleshooting processes.\nMy project portfolio includes an analysis of Toronto crime patterns using Bayesian logistic regression, developing an app for managing NBA statistics with Java and Python, and forecasting U.S. presidential election results using regression models. I also conducted a detailed examination of shelter trends in Toronto, highlighting key seasonal demands.\nI am proficient in Python, SQL, R, TypeScript, JavaScript, and Java, with experience using tools like Tableau, Power BI, and Quarto. I hold the Google Data Analytics Professional Certificate, underscoring my skills in data cleaning, analysis, and visualization. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects."
   },
   {
     "objectID": "courses.html",
@@ -252,81 +385,11 @@
     "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
   },
   {
-    "objectID": "coffee.html",
-    "href": "coffee.html",
-    "title": "My Coffee Journey",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tim Chen",
     "section": "",
-    "text": "I began brewing coffee in the summer of 2024, and this page serves as a record of my journey into the fascinating world of coffee."
-  },
-  {
-    "objectID": "coffee.html#equipment",
-    "href": "coffee.html#equipment",
-    "title": "My Coffee Journey",
-    "section": "Equipment",
-    "text": "Equipment\n\nGrinder\n\nBaratza Encore: A reliable and precise burr grinder for consistent grind sizes.\n\n\n\nKettle\n\nBALMUDA The Kettle: A stylish and functional kettle with a controlled pour spout, perfect for manual brewing methods.\n\n\n\nBrewing Tools\n\nHario V60: A classic pour-over brewing device for clean and crisp coffee.\nAeroPress: A versatile brewer suitable for both espresso-style and immersion brewing."
-  },
-  {
-    "objectID": "coffee.html#coffee-beans",
-    "href": "coffee.html#coffee-beans",
-    "title": "My Coffee Journey",
-    "section": "Coffee Beans",
-    "text": "Coffee Beans\n\nKOFFEE MAMEYA\n\nLocation: Tokyo, Japan\n\n\nEcuador\n\nRoaster: Leaves Coffee Roasters\nFarm: Finca Cruz Loma\nVariety: Typica Mejorado\nProcessing: Washed\nAltitude: 1450m\nTasting Notes: Black currant, oolong tea, brown sugar\n\n\n\n\n\nGLITCH Coffee\n\nLocation: Tokyo, Japan\n\n\nChina: Dehong Yuan Yi Yuan\n\nVariety: Catimor P4 (7963)\nProcessing: Yeast Fermentation Honey\nAltitude: 1400–1580m\nTasting Notes: Oolong tea, lychee, peach; tea-like and smooth.\n\n\n\nBrasil: Daterra Lot 2005 Palco\n\nVariety: Geisha\nProcessing: Anaerobic Natural\nAltitude: 915–1220m\nTasting Notes: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.\n\n\n\nColombia: Risaralda Pereira (Apricot Punch)\n\nVariety: Castillo, Caturra\nProcessing: Yeast Fermentation\nAltitude: 1750–1800m\nTasting Notes: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.\n\n\n\n\n\nBacha Coffee\n\nMaui Sun Coffee\n\nType: Fine Blended\nGrind: Whole Beans\nWeight: 100g\nRoast Level: Medium Dark\nTasting Notes: Chocolate, Fruity\nBest Enjoyed: Afternoon\n\n\n\n\n\nStarbucks Reserve\n\nLocation: New York, United States\n\n\nTanzania Iyenga\n\nOrigin: Tanzania, Southern Highlands, Songwe region (near Iyenga)\nTasting Notes: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.\nRoast Level: Medium\nProcessing: Washed\n\n\n\n\n\nRogue Wave Coffee\n\nLocation: Edmonton, Alberta, Canada\n\n\nBrazil\n\nDaterra Low Caf Reserve\n\nVariety: Aramosa, Laurina\nProcessing: Pulped Natural\nAltitude: 1150m\nTasting Notes: Strawberry, white grape, milk chocolate, plum.\n\n\n\n\nEthiopia\n\nTeshome Gemechu Lot 2\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Peach, blueberry, floral, pear.\n\n\n\nChelbesa One\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Apricot, iced tea, jasmine, mango.\n\n\n\nGutiti Natural\n\nVariety: Kurume\nProcessing: Natural\nAltitude: 2200m\nTasting Notes: Strawberry, blueberry, orange, dates, red grape.\n\n\n\n\n\n\nSam James Coffee Bar\n\nLocation: Toronto, Ontario, Canada\n\n\nButter Knife Espresso\n\nBlend: Brazil (80%), Colombia (20%)\n\nBrazil:\n\nRegion: Minas Gerais\nFarm: Carmo Estates\nVariety: Bourbon, Yellow Bourbon, Catimor\nAltitude: 1100 m.a.s.l\nProcessing: Natural\n\nColombia:\n\nRegion: Nariño\nFarm: Various smallholders\nVariety: Castillo, Caturra, Colombia\nAltitude: 1400–2000 m.a.s.l\nProcessing: Washed\n\nTasting Notes: Peanut butter, berry jam, toffee.\nRoast Level: Medium\n\n\n\nThis journey has deepened my appreciation for the art of coffee and the global stories behind each cup."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html",
-    "href": "toronto-shelter-analysis.html",
-    "title": "Toronto Shelter Analysis",
-    "section": "",
-    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#overview",
-    "href": "toronto-shelter-analysis.html#overview",
-    "title": "Toronto Shelter Analysis",
-    "section": "",
-    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#key-objectives",
-    "href": "toronto-shelter-analysis.html#key-objectives",
-    "title": "Toronto Shelter Analysis",
-    "section": "Key Objectives",
-    "text": "Key Objectives\n\nExamine shelter trends: Understand growth in occupancy rates and assess actual bed capacity by program type.\n\nExplore seasonal impacts: Identify patterns in service user counts over time.\n\nAddress disparities: Investigate demographic imbalances and their implications for shelter access."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#data-and-methods",
-    "href": "toronto-shelter-analysis.html#data-and-methods",
-    "title": "Toronto Shelter Analysis",
-    "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Source\n\nDataset: Daily Shelter Occupancy and Capacity dataset from the City of Toronto.\n\nKey Variables:\n\nOccupancy Rate (Beds): Tracks shelter capacity usage.\n\nProgram Model: Includes emergency and transitional shelters.\n\nService User Count: Captures the number of individuals using shelters daily.\n\n\n\n\nMethodology\n\nTime-Series Analysis: Examined shelter trends across years, with a focus on seasonal patterns.\n\nData Cleaning: Removed missing data and ensured consistency across variables.\n\nVisualization: Used R packages like ggplot2 for graphical representation of trends."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#results",
-    "href": "toronto-shelter-analysis.html#results",
-    "title": "Toronto Shelter Analysis",
-    "section": "Results",
-    "text": "Results\n\nTracking Shelter Bed Occupancy\n\nHigh Occupancy Rates: Beds consistently near full capacity (96–98% from 2021 to 2024).\n\nIncrease Over Time: Occupancy peaked at 98.2% in 2024, highlighting growing demand.\n\n\n\nCapacity by Program Type\n\nDisparities Noted: Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.\n\n\n\nSeasonal Trends\n\nWinter Spikes: Service user counts were highest from November to February, reflecting the impact of extreme weather.\n\n\n\nDemographic Insights\n\nGender Disparities: Women, particularly in family shelters, may be underrepresented in general shelter data.\n\nYouth and Mixed Adults: Additional focus needed to address demographic-specific shelter needs."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#policy-implications",
-    "href": "toronto-shelter-analysis.html#policy-implications",
-    "title": "Toronto Shelter Analysis",
-    "section": "Policy Implications",
-    "text": "Policy Implications\n\nExpand Shelter Services:\n\nIncrease capacity for transitional shelters to support long-term housing solutions.\n\nEnhance emergency shelters with safety and privacy improvements.\n\nPrepare for Winter Demand:\n\nEstablish more warming centers and mobile shelters during colder months.\n\nAllocate additional resources for emergency services in high-demand periods.\n\nAddress Gender Inequities:\n\nIncrease shelter spaces dedicated to women and families.\n\nImprove data collection to capture underrepresented groups."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#limitations-and-future-directions",
-    "href": "toronto-shelter-analysis.html#limitations-and-future-directions",
-    "title": "Toronto Shelter Analysis",
-    "section": "Limitations and Future Directions",
-    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderrepresentation in Data: Family shelters and gender-specific usage may be underestimated.\n\nSafety Concerns: Rising violence within shelters affects their usability and trustworthiness.\n\n\n\nFuture Research\n\nInvestigate systemic factors driving the disparity between emergency and transitional shelters.\n\nExplore shelter safety and its influence on occupancy duration.\n\nInclude more granular demographic and geographic data for targeted interventions."
-  },
-  {
-    "objectID": "toronto-shelter-analysis.html#references",
-    "href": "toronto-shelter-analysis.html#references",
-    "title": "Toronto Shelter Analysis",
-    "section": "References",
-    "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
+    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics with a focus on Probability and Statistics. Alongside my major, I am pursuing minors in Computer Science and Statistics. I am deeply passionate about solving practical problems using statistical analysis, machine learning, and data visualization techniques.\nDuring my academic journey, I have completed advanced coursework in fields like Machine Learning, Data Analysis, Statistical Theory, and Software Design. These studies have equipped me with a strong foundation in data-driven methodologies and programming.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I worked with TypeScript, React, and RESTful APIs to develop features that improved user efficiency. Additionally, I utilized Python for frontend testing, streamlining integration and enhancing overall troubleshooting processes.\nMy project portfolio includes an analysis of Toronto crime patterns using Bayesian logistic regression, developing an app for managing NBA statistics with Java and Python, and forecasting U.S. presidential election results using regression models. I also conducted a detailed examination of shelter trends in Toronto, highlighting key seasonal demands.\nI am proficient in Python, SQL, R, TypeScript, JavaScript, and Java, with experience using tools like Tableau, Power BI, and Quarto. I hold the Google Data Analytics Professional Certificate, underscoring my skills in data cleaning, analysis, and visualization. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects."
   },
   {
     "objectID": "ml-challenge.html",
@@ -392,66 +455,31 @@
     "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
   },
   {
-    "objectID": "us-presidential election.html",
-    "href": "us-presidential election.html",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "traffic-collision-analysis.html",
+    "href": "traffic-collision-analysis.html",
+    "title": "Traffic Collisions in Toronto",
     "section": "",
-    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
   },
   {
-    "objectID": "us-presidential election.html#introduction",
-    "href": "us-presidential election.html#introduction",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "traffic-collision-analysis.html#overview",
+    "href": "traffic-collision-analysis.html#overview",
+    "title": "Traffic Collisions in Toronto",
     "section": "",
-    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
   },
   {
-    "objectID": "us-presidential election.html#methodology",
-    "href": "us-presidential election.html#methodology",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Methodology",
-    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
+    "objectID": "traffic-collision-analysis.html#key-highlights",
+    "href": "traffic-collision-analysis.html#key-highlights",
+    "title": "Traffic Collisions in Toronto",
+    "section": "Key Highlights",
+    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
   },
   {
-    "objectID": "us-presidential election.html#key-findings",
-    "href": "us-presidential election.html#key-findings",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
-  },
-  {
-    "objectID": "us-presidential election.html#implications",
-    "href": "us-presidential election.html#implications",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Implications",
-    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
-  },
-  {
-    "objectID": "us-presidential election.html#limitations",
-    "href": "us-presidential election.html#limitations",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Limitations",
-    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
-  },
-  {
-    "objectID": "us-presidential election.html#future-directions",
-    "href": "us-presidential election.html#future-directions",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Future Directions",
-    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
-  },
-  {
-    "objectID": "us-presidential election.html#conclusion",
-    "href": "us-presidential election.html#conclusion",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Conclusion",
-    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
-  },
-  {
-    "objectID": "us-presidential election.html#references",
-    "href": "us-presidential election.html#references",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "traffic-collision-analysis.html#references",
+    "href": "traffic-collision-analysis.html#references",
+    "title": "Traffic Collisions in Toronto",
     "section": "References",
-    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
+    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
   }
 ]

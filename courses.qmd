@@ -2,7 +2,6 @@
 title: "Courses Taken at University of Toronto"
 format:
   html:
-    theme: lux
     toc: true
     toc-title: "Course Code Overview"
 ---
