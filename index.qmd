@@ -2,6 +2,9 @@
 title: "Tim Chen"
 about:
   template: trestles
+  image-width: 15em
+  image-shape: round
+  image: photos\Canon-0806.JPG
   links:
     - icon: envelope
       text: "Email"
