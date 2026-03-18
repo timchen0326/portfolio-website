@@ -21,7 +21,9 @@ I am an **Honours Bachelor of Science (HBSc)** student at the **University of To
 
 During my academic journey, I have completed advanced coursework in fields like **Machine Learning**, **Data Analysis**, **Statistical Theory**, and **Software Design**. These studies have equipped me with a strong foundation in data-driven methodologies and programming.
 
-I have professional experience as a **Frontend Software Engineer Intern** at **MAYOHR**, where I worked with **TypeScript**, **React**, and **RESTful APIs** to develop features that improved user efficiency. Additionally, I utilized **Python** for frontend testing, streamlining integration and enhancing overall troubleshooting processes.
+I currently work as a **Junior Software Engineer** at **ElectionBuddy**, where I build and maintain workflow automations across finance, onboarding, and admin teams using tools like **Zapier**, **QuickBooks Online**, and **Paperform**. My work focuses on reducing manual effort, improving process reliability, and supporting cross-functional teams through technical troubleshooting and clear documentation.
+
+I also have professional experience as a **Frontend Software Engineer Intern** at **MAYOHR**, where I worked with **TypeScript**, **React**, and **RESTful APIs** to develop features that improved user efficiency. Additionally, I utilized **Python** for frontend testing, streamlining integration and enhancing overall troubleshooting processes.
 
 My project portfolio includes an analysis of **Toronto crime patterns** using **Bayesian logistic regression**, developing an app for managing **NBA statistics** with **Java** and **Python**, and forecasting **U.S. presidential election results** using regression models. I also conducted a detailed examination of **shelter trends in Toronto**, highlighting key seasonal demands.
 

@@ -24,6 +24,7 @@ website:
           - bike-theft-analysis.qmd
           - iMDb-analysis.qmd
           - mayohr-intern.qmd
+          - electionbuddy.qmd
           - traffic-collision-analysis.qmd
       - href: https://timsplayland.vercel.app/
         text: Portfolio

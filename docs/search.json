@@ -1,66 +1,318 @@
 [
   {
-    "objectID": "us-presidential election.html",
-    "href": "us-presidential election.html",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "mayohr-intern.html",
+    "href": "mayohr-intern.html",
+    "title": "MAYOHR Internship Progress Report",
     "section": "",
-    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
   },
   {
-    "objectID": "us-presidential election.html#introduction",
-    "href": "us-presidential election.html#introduction",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "mayohr-intern.html#overview",
+    "href": "mayohr-intern.html#overview",
+    "title": "MAYOHR Internship Progress Report",
     "section": "",
-    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
   },
   {
-    "objectID": "us-presidential election.html#methodology",
-    "href": "us-presidential election.html#methodology",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Methodology",
-    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
+    "objectID": "mayohr-intern.html#progress-timeline",
+    "href": "mayohr-intern.html#progress-timeline",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Progress Timeline",
+    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
   },
   {
-    "objectID": "us-presidential election.html#key-findings",
-    "href": "us-presidential election.html#key-findings",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
+    "objectID": "mayohr-intern.html#reflections",
+    "href": "mayohr-intern.html#reflections",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Reflections",
+    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
   },
   {
-    "objectID": "us-presidential election.html#implications",
-    "href": "us-presidential election.html#implications",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Implications",
-    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
-  },
-  {
-    "objectID": "us-presidential election.html#limitations",
-    "href": "us-presidential election.html#limitations",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Limitations",
-    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
-  },
-  {
-    "objectID": "us-presidential election.html#future-directions",
-    "href": "us-presidential election.html#future-directions",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Future Directions",
-    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
-  },
-  {
-    "objectID": "us-presidential election.html#conclusion",
-    "href": "us-presidential election.html#conclusion",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Conclusion",
-    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
-  },
-  {
-    "objectID": "us-presidential election.html#references",
-    "href": "us-presidential election.html#references",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "mayohr-intern.html#references",
+    "href": "mayohr-intern.html#references",
+    "title": "MAYOHR Internship Progress Report",
     "section": "References",
-    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
+    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
+  },
+  {
+    "objectID": "traffic-collision-analysis.html",
+    "href": "traffic-collision-analysis.html",
+    "title": "Traffic Collisions in Toronto",
+    "section": "",
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+  },
+  {
+    "objectID": "traffic-collision-analysis.html#overview",
+    "href": "traffic-collision-analysis.html#overview",
+    "title": "Traffic Collisions in Toronto",
+    "section": "",
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+  },
+  {
+    "objectID": "traffic-collision-analysis.html#key-highlights",
+    "href": "traffic-collision-analysis.html#key-highlights",
+    "title": "Traffic Collisions in Toronto",
+    "section": "Key Highlights",
+    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
+  },
+  {
+    "objectID": "traffic-collision-analysis.html#references",
+    "href": "traffic-collision-analysis.html#references",
+    "title": "Traffic Collisions in Toronto",
+    "section": "References",
+    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
+  },
+  {
+    "objectID": "bike-theft-analysis.html",
+    "href": "bike-theft-analysis.html",
+    "title": "Bike Theft Analysis",
+    "section": "",
+    "text": "This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#overview",
+    "href": "bike-theft-analysis.html#overview",
+    "title": "Bike Theft Analysis",
+    "section": "",
+    "text": "This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#key-objectives",
+    "href": "bike-theft-analysis.html#key-objectives",
+    "title": "Bike Theft Analysis",
+    "section": "Key Objectives",
+    "text": "Key Objectives\n\nAnalyze spatial patterns: Identify neighborhoods with high bike theft incidence.\n\nExamine temporal dynamics: Study when bike thefts are most likely to occur.\n\nProvide recommendations: Suggest strategies for individuals and authorities to mitigate bike theft risks."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#data-and-methods",
+    "href": "bike-theft-analysis.html#data-and-methods",
+    "title": "Bike Theft Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Source\n\nDataset: Toronto bike theft dataset, as reported to Toronto Police Service.\n\nKey Variables:\n\nNeighborhoods: Areas in Toronto with varying theft frequencies.\n\nPremises Type: Categories such as outdoor, apartments, and commercial locations.\n\nTimeframe: Grouped into hourly ranges.\n\nBike Type and Cost: Includes categories like regular and mountain bikes, analyzed by cost range.\n\n\n\n\nMethodology\n\nData Visualization: Heatmaps and bar charts to highlight theft hotspots and trends.\n\nCategorical Analysis: Examining the role of neighborhood, bike type, cost, premises type, and time of theft in shaping theft patterns."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#results",
+    "href": "bike-theft-analysis.html#results",
+    "title": "Bike Theft Analysis",
+    "section": "Results",
+    "text": "Results\n\nHigh-Risk Neighborhoods\n\nTop Neighborhoods:\n\nWaterfront Communities – The Island, Bay Street Corridor, and Church–Yonge Corridor report the highest theft rates, exceeding 2,000 cases.\n\nOther high-risk areas include Niagara, Annex, and Kensington–Chinatown.\n\n\n\n\nPremises and Time of Theft\n\nPremises Type: Outdoor areas and apartments exhibit the highest theft occurrences.\n\nPeak Hours:\n\nTheft is most frequent between 12 PM to 11 PM, coinciding with peak activity times.\n\nLeast theft activity is observed between 12 AM to 5 AM, aligning with lower public activity.\n\n\n\n\nBike Types and Costs\n\nHigh-Risk Categories:\n\nRegular bikes priced at $401–$650 and mountain bikes priced at $101–$400 are most prone to theft.\n\n\n\n\nDivisions for Reporting Theft\n\nTop Divisions:\n\nD52, D14, and D51 have the highest number of reported cases, each exceeding 5,000.\n\nRecovery rates are low, with over 98% of bikes reported as stolen."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#policy-implications",
+    "href": "bike-theft-analysis.html#policy-implications",
+    "title": "Bike Theft Analysis",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nUrban Safety Enhancements:\n\nIncrease surveillance in high-risk neighborhoods.\n\nImprove bike parking infrastructure with secure locking mechanisms.\n\nPublic Awareness Campaigns:\n\nEducate residents about high-risk areas and bike types.\n\nPromote usage of advanced locking systems and GPS tracking devices.\n\nLaw Enforcement Strategies:\n\nDeploy targeted patrols during peak theft hours in hotspots.\n\nCollaborate with community organizations to monitor and reduce thefts."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#limitations-and-future-directions",
+    "href": "bike-theft-analysis.html#limitations-and-future-directions",
+    "title": "Bike Theft Analysis",
+    "section": "Limitations and Future Directions",
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderreporting Bias: Unreported cases may skew the data.\n\nSpatial Granularity: Analysis is limited to neighborhood and division-level data.\n\n\n\nFuture Research\n\nExplore additional factors such as weather, traffic density, and socio-economic indicators.\n\nIncorporate GIS tools for detailed spatial analysis."
+  },
+  {
+    "objectID": "bike-theft-analysis.html#references",
+    "href": "bike-theft-analysis.html#references",
+    "title": "Bike Theft Analysis",
+    "section": "References",
+    "text": "References\nFurther details and reproducible code can be found in the report’s dataset repository.\nRead the full report: Bike Theft Analysis PDF"
+  },
+  {
+    "objectID": "iMDb-analysis.html",
+    "href": "iMDb-analysis.html",
+    "title": "IMDb Analysis",
+    "section": "",
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+  },
+  {
+    "objectID": "iMDb-analysis.html#overview",
+    "href": "iMDb-analysis.html#overview",
+    "title": "IMDb Analysis",
+    "section": "",
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+  },
+  {
+    "objectID": "iMDb-analysis.html#objectives",
+    "href": "iMDb-analysis.html#objectives",
+    "title": "IMDb Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
+  },
+  {
+    "objectID": "iMDb-analysis.html#data-and-methods",
+    "href": "iMDb-analysis.html#data-and-methods",
+    "title": "IMDb Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
+  },
+  {
+    "objectID": "iMDb-analysis.html#key-findings",
+    "href": "iMDb-analysis.html#key-findings",
+    "title": "IMDb Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+  },
+  {
+    "objectID": "iMDb-analysis.html#limitations",
+    "href": "iMDb-analysis.html#limitations",
+    "title": "IMDb Analysis",
+    "section": "Limitations",
+    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+  },
+  {
+    "objectID": "iMDb-analysis.html#conclusion",
+    "href": "iMDb-analysis.html#conclusion",
+    "title": "IMDb Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
+  },
+  {
+    "objectID": "electionbuddy.html",
+    "href": "electionbuddy.html",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "",
+    "text": "This report highlights my contributions and growth as a Junior Software Engineer at ElectionBuddy, where I have been working since August 2025. My work has centered on designing and maintaining workflow automations, supporting cross-functional teams, and improving process reliability across the organization using tools like Zapier, QuickBooks Online, Paperform, and ClickUp."
+  },
+  {
+    "objectID": "electionbuddy.html#overview",
+    "href": "electionbuddy.html#overview",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "",
+    "text": "This report highlights my contributions and growth as a Junior Software Engineer at ElectionBuddy, where I have been working since August 2025. My work has centered on designing and maintaining workflow automations, supporting cross-functional teams, and improving process reliability across the organization using tools like Zapier, QuickBooks Online, Paperform, and ClickUp."
+  },
+  {
+    "objectID": "electionbuddy.html#role-overview-key-themes",
+    "href": "electionbuddy.html#role-overview-key-themes",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "Role Overview & Key Themes",
+    "text": "Role Overview & Key Themes\n\n1. Workflow Automation & Process Improvements\nA core part of my role has been automating repetitive and error-prone processes for the Services, Onboarding, Finance, and Admin teams:\n\nBuilt and enhanced Paperform integrations for travel requests, billing workflows, and credit memo generation.\nDeveloped and maintained Zapier automations to reduce manual work, optimize task quotas, and improve reliability across pipelines.\nAddressed logic gaps in billing account creation flows and automated reminders for expiring credits.\nStreamlined admin automations and improved error handling for edge cases in payment and invoice workflows.\n\n\n\n2. Cross-Team Collaboration\nI regularly collaborated with stakeholders across multiple teams to iterate quickly and deliver reliable solutions:\n\nWorked alongside team members including Chelsea, Ryan, Henrique, and Michael to troubleshoot issues in Pipedrive, QuickBooks Online, and other integrated platforms.\nGathered feedback and rapidly iterated on forms and automations in response to team needs.\nSupported onboarding and offboarding processes, ensuring smooth transitions and handoffs between teams.\n\n\n\n3. Technical Troubleshooting & Support\nI handled a range of technical challenges requiring both analytical thinking and careful debugging:\n\nDebugged Zapier paths, fixed API integration issues, and reconciled legacy vs. non-legacy automations.\nInvestigated and resolved integration issues with Read.ai, QuickBooks Online, and other third-party tools.\nSupported urgent billing and account issues, ensuring data accuracy across interconnected systems.\n\n\n\n4. Documentation & Communication\nClear communication and documentation were essential to keeping stakeholders aligned:\n\nMaintained detailed daily and weekly logs summarizing progress, blockers, and next steps.\nLed live demos for updated forms and automations, clarifying manual vs. automated steps for non-technical team members.\nCommunicated technical limitations and solutions clearly to ensure transparency across teams.\n\n\n\n5. Continuous Learning & Growth\nI proactively sought out opportunities to grow and contribute beyond my immediate responsibilities:\n\nActively sought feedback and documented pain points for future optimization.\nExplored new automation ideas including Slack engagement features and team notification workflows.\nContributed to brainstorming sessions for improving team efficiency and tool adoption."
+  },
+  {
+    "objectID": "electionbuddy.html#tools-platforms",
+    "href": "electionbuddy.html#tools-platforms",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "Tools & Platforms",
+    "text": "Tools & Platforms\n\n\n\n\n\n\n\nTool / Platform\nHow I Used It\n\n\n\n\nZapier\nCore automation engine — built and maintained Zaps for onboarding, billing, credit memos, and notifications; managed task quotas and handled legacy vs. non-legacy flows\n\n\nQuickBooks Online (QBO)\nAutomated sales receipts and invoice handling; resolved tax automation discrepancies and synced transaction data\n\n\nPaperform\nBuilt custom forms for travel requests, billing, and credit memos; integrated forms into support modules\n\n\nClickUp\nProject management and documentation — daily journaling, task tracking, AR report automation, and custom field management\n\n\nSlack\nAutomated team notifications and birthday messages via Zapier integrations\n\n\nRe:amaze\nManaged customer support workflows, voicemail distribution, and integrated Paperform links into custom modules\n\n\nPipedrive\nCRM automation — synced credit memo expiration dates, managed renewal deals, and updated deal statuses\n\n\nStripe\nAutomated self-service charges and created corresponding QBO sales receipts via Stripe metadata\n\n\nRead.ai\nMapped integration issues for meeting summary automation and reporting workflows"
+  },
+  {
+    "objectID": "electionbuddy.html#impact-summary",
+    "href": "electionbuddy.html#impact-summary",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "Impact Summary",
+    "text": "Impact Summary\nAutomation Champion Played a key role in reducing manual work and improving process consistency across multiple teams. Delivered reliable automations that saved time and reduced errors for finance, onboarding, and admin workflows.\nProblem Solver Tackled technical and process challenges head-on — debugging integration issues, resolving API inconsistencies, and finding practical solutions in collaboration with colleagues.\nCommunicator Maintained detailed documentation and provided proactive updates that kept projects on track and ensured all stakeholders remained informed throughout each initiative.\nTeam Player Responded quickly to teammate feedback, supported colleagues during urgent situations, and contributed to a culture of continuous improvement across the organization."
+  },
+  {
+    "objectID": "electionbuddy.html#references",
+    "href": "electionbuddy.html#references",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "References",
+    "text": "References\n\nElectionBuddy Website\nZapier Documentation\nQuickBooks Online\nPaperform\nClickUp"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tim Chen",
+    "section": "",
+    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics with a focus on Probability and Statistics. Alongside my major, I am pursuing minors in Computer Science and Statistics. I am deeply passionate about solving practical problems using statistical analysis, machine learning, and data visualization techniques.\nDuring my academic journey, I have completed advanced coursework in fields like Machine Learning, Data Analysis, Statistical Theory, and Software Design. These studies have equipped me with a strong foundation in data-driven methodologies and programming.\nI currently work as a Junior Software Engineer at ElectionBuddy, where I build and maintain workflow automations across finance, onboarding, and admin teams using tools like Zapier, QuickBooks Online, and Paperform. My work focuses on reducing manual effort, improving process reliability, and supporting cross-functional teams through technical troubleshooting and clear documentation.\nI also have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I worked with TypeScript, React, and RESTful APIs to develop features that improved user efficiency. Additionally, I utilized Python for frontend testing, streamlining integration and enhancing overall troubleshooting processes.\nMy project portfolio includes an analysis of Toronto crime patterns using Bayesian logistic regression, developing an app for managing NBA statistics with Java and Python, and forecasting U.S. presidential election results using regression models. I also conducted a detailed examination of shelter trends in Toronto, highlighting key seasonal demands.\nI am proficient in Python, SQL, R, TypeScript, JavaScript, and Java, with experience using tools like Tableau, Power BI, and Quarto. I hold the Google Data Analytics Professional Certificate, underscoring my skills in data cleaning, analysis, and visualization. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses Taken at University of Toronto",
+    "section": "",
+    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
+  },
+  {
+    "objectID": "courses.html#ams-american-studies",
+    "href": "courses.html#ams-american-studies",
+    "title": "Courses Taken at University of Toronto",
+    "section": "AMS (American Studies)",
+    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#apm-applied-mathematics",
+    "href": "courses.html#apm-applied-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "APM (Applied Mathematics)",
+    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#csc-computer-science",
+    "href": "courses.html#csc-computer-science",
+    "title": "Courses Taken at University of Toronto",
+    "section": "CSC (Computer Science)",
+    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#ess-earth-sciences",
+    "href": "courses.html#ess-earth-sciences",
+    "title": "Courses Taken at University of Toronto",
+    "section": "ESS (Earth Sciences)",
+    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
+  },
+  {
+    "objectID": "courses.html#mat-mathematics",
+    "href": "courses.html#mat-mathematics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MAT (Mathematics)",
+    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
+  },
+  {
+    "objectID": "courses.html#mus-music",
+    "href": "courses.html#mus-music",
+    "title": "Courses Taken at University of Toronto",
+    "section": "MUS (Music)",
+    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#phl-philosophy",
+    "href": "courses.html#phl-philosophy",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHL (Philosophy)",
+    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
+  },
+  {
+    "objectID": "courses.html#phy-physics",
+    "href": "courses.html#phy-physics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PHY (Physics)",
+    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#psy-psychology",
+    "href": "courses.html#psy-psychology",
+    "title": "Courses Taken at University of Toronto",
+    "section": "PSY (Psychology)",
+    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#sta-statistics",
+    "href": "courses.html#sta-statistics",
+    "title": "Courses Taken at University of Toronto",
+    "section": "STA (Statistics)",
+    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
+  },
+  {
+    "objectID": "coffee.html",
+    "href": "coffee.html",
+    "title": "My Coffee Journey",
+    "section": "",
+    "text": "I began brewing coffee in the summer of 2024, and this page serves as a record of my journey into the fascinating world of coffee."
+  },
+  {
+    "objectID": "coffee.html#equipment",
+    "href": "coffee.html#equipment",
+    "title": "My Coffee Journey",
+    "section": "Equipment",
+    "text": "Equipment\n\nGrinder\n\nBaratza Encore: A reliable and precise burr grinder for consistent grind sizes.\n\n\n\nKettle\n\nBALMUDA The Kettle: A stylish and functional kettle with a controlled pour spout, perfect for manual brewing methods.\n\n\n\nBrewing Tools\n\nHario V60: A classic pour-over brewing device for clean and crisp coffee.\nAeroPress: A versatile brewer suitable for both espresso-style and immersion brewing."
+  },
+  {
+    "objectID": "coffee.html#coffee-beans",
+    "href": "coffee.html#coffee-beans",
+    "title": "My Coffee Journey",
+    "section": "Coffee Beans",
+    "text": "Coffee Beans\n\nKOFFEE MAMEYA\n\nLocation: Tokyo, Japan\n\n\nEcuador\n\nRoaster: Leaves Coffee Roasters\nFarm: Finca Cruz Loma\nVariety: Typica Mejorado\nProcessing: Washed\nAltitude: 1450m\nTasting Notes: Black currant, oolong tea, brown sugar\n\n\n\n\n\nGLITCH Coffee\n\nLocation: Tokyo, Japan\n\n\nChina: Dehong Yuan Yi Yuan\n\nVariety: Catimor P4 (7963)\nProcessing: Yeast Fermentation Honey\nAltitude: 1400–1580m\nTasting Notes: Oolong tea, lychee, peach; tea-like and smooth.\n\n\n\nBrasil: Daterra Lot 2005 Palco\n\nVariety: Geisha\nProcessing: Anaerobic Natural\nAltitude: 915–1220m\nTasting Notes: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.\n\n\n\nColombia: Risaralda Pereira (Apricot Punch)\n\nVariety: Castillo, Caturra\nProcessing: Yeast Fermentation\nAltitude: 1750–1800m\nTasting Notes: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.\n\n\n\n\n\nBacha Coffee\n\nMaui Sun Coffee\n\nType: Fine Blended\nGrind: Whole Beans\nWeight: 100g\nRoast Level: Medium Dark\nTasting Notes: Chocolate, Fruity\nBest Enjoyed: Afternoon\n\n\n\n\n\nStarbucks Reserve\n\nLocation: New York, United States\n\n\nTanzania Iyenga\n\nOrigin: Tanzania, Southern Highlands, Songwe region (near Iyenga)\nTasting Notes: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.\nRoast Level: Medium\nProcessing: Washed\n\n\n\n\n\nRogue Wave Coffee\n\nLocation: Edmonton, Alberta, Canada\n\n\nBrazil\n\nDaterra Low Caf Reserve\n\nVariety: Aramosa, Laurina\nProcessing: Pulped Natural\nAltitude: 1150m\nTasting Notes: Strawberry, white grape, milk chocolate, plum.\n\n\n\n\nEthiopia\n\nTeshome Gemechu Lot 2\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Peach, blueberry, floral, pear.\n\n\n\nChelbesa One\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Apricot, iced tea, jasmine, mango.\n\n\n\nGutiti Natural\n\nVariety: Kurume\nProcessing: Natural\nAltitude: 2200m\nTasting Notes: Strawberry, blueberry, orange, dates, red grape.\n\n\n\n\n\n\nSam James Coffee Bar\n\nLocation: Toronto, Ontario, Canada\n\n\nButter Knife Espresso\n\nBlend: Brazil (80%), Colombia (20%)\n\nBrazil:\n\nRegion: Minas Gerais\nFarm: Carmo Estates\nVariety: Bourbon, Yellow Bourbon, Catimor\nAltitude: 1100 m.a.s.l\nProcessing: Natural\n\nColombia:\n\nRegion: Nariño\nFarm: Various smallholders\nVariety: Castillo, Caturra, Colombia\nAltitude: 1400–2000 m.a.s.l\nProcessing: Washed\n\nTasting Notes: Peanut butter, berry jam, toffee.\nRoast Level: Medium\n\n\n\nThis journey has deepened my appreciation for the art of coffee and the global stories behind each cup."
   },
   {
     "objectID": "toronto-shelter-analysis.html",
@@ -147,251 +399,6 @@
     "text": "6.3 Correlation Analysis\nA heatmap of key numeric features indicates:\n\nStudy Hours & Exam Score: moderate positive correlation (~0.35).\nSleep Hours & Exam Score: mild positive correlation (~0.20).\nAttendance & Exam Score: weaker but positive (~0.15).\n\n\n\n\n\n\n\n\n\n\nAlthough study time correlates with performance, excessive workload shows diminishing returns. A systematic review of K–12 homework found that while homework generally benefits learning, too much increases cognitive load and reduces motivation, ultimately impairing achievement (Guo et al. 2024) (pubmed.ncbi.nlm.nih.gov)."
   },
   {
-    "objectID": "mayohr-intern.html",
-    "href": "mayohr-intern.html",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "",
-    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
-  },
-  {
-    "objectID": "mayohr-intern.html#overview",
-    "href": "mayohr-intern.html#overview",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "",
-    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
-  },
-  {
-    "objectID": "mayohr-intern.html#progress-timeline",
-    "href": "mayohr-intern.html#progress-timeline",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "Progress Timeline",
-    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
-  },
-  {
-    "objectID": "mayohr-intern.html#reflections",
-    "href": "mayohr-intern.html#reflections",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "Reflections",
-    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
-  },
-  {
-    "objectID": "mayohr-intern.html#references",
-    "href": "mayohr-intern.html#references",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "References",
-    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
-  },
-  {
-    "objectID": "iMDb-analysis.html",
-    "href": "iMDb-analysis.html",
-    "title": "IMDb Analysis",
-    "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
-  },
-  {
-    "objectID": "iMDb-analysis.html#overview",
-    "href": "iMDb-analysis.html#overview",
-    "title": "IMDb Analysis",
-    "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
-  },
-  {
-    "objectID": "iMDb-analysis.html#objectives",
-    "href": "iMDb-analysis.html#objectives",
-    "title": "IMDb Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
-  },
-  {
-    "objectID": "iMDb-analysis.html#data-and-methods",
-    "href": "iMDb-analysis.html#data-and-methods",
-    "title": "IMDb Analysis",
-    "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
-  },
-  {
-    "objectID": "iMDb-analysis.html#key-findings",
-    "href": "iMDb-analysis.html#key-findings",
-    "title": "IMDb Analysis",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
-  },
-  {
-    "objectID": "iMDb-analysis.html#limitations",
-    "href": "iMDb-analysis.html#limitations",
-    "title": "IMDb Analysis",
-    "section": "Limitations",
-    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
-  },
-  {
-    "objectID": "iMDb-analysis.html#conclusion",
-    "href": "iMDb-analysis.html#conclusion",
-    "title": "IMDb Analysis",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
-  },
-  {
-    "objectID": "coffee.html",
-    "href": "coffee.html",
-    "title": "My Coffee Journey",
-    "section": "",
-    "text": "I began brewing coffee in the summer of 2024, and this page serves as a record of my journey into the fascinating world of coffee."
-  },
-  {
-    "objectID": "coffee.html#equipment",
-    "href": "coffee.html#equipment",
-    "title": "My Coffee Journey",
-    "section": "Equipment",
-    "text": "Equipment\n\nGrinder\n\nBaratza Encore: A reliable and precise burr grinder for consistent grind sizes.\n\n\n\nKettle\n\nBALMUDA The Kettle: A stylish and functional kettle with a controlled pour spout, perfect for manual brewing methods.\n\n\n\nBrewing Tools\n\nHario V60: A classic pour-over brewing device for clean and crisp coffee.\nAeroPress: A versatile brewer suitable for both espresso-style and immersion brewing."
-  },
-  {
-    "objectID": "coffee.html#coffee-beans",
-    "href": "coffee.html#coffee-beans",
-    "title": "My Coffee Journey",
-    "section": "Coffee Beans",
-    "text": "Coffee Beans\n\nKOFFEE MAMEYA\n\nLocation: Tokyo, Japan\n\n\nEcuador\n\nRoaster: Leaves Coffee Roasters\nFarm: Finca Cruz Loma\nVariety: Typica Mejorado\nProcessing: Washed\nAltitude: 1450m\nTasting Notes: Black currant, oolong tea, brown sugar\n\n\n\n\n\nGLITCH Coffee\n\nLocation: Tokyo, Japan\n\n\nChina: Dehong Yuan Yi Yuan\n\nVariety: Catimor P4 (7963)\nProcessing: Yeast Fermentation Honey\nAltitude: 1400–1580m\nTasting Notes: Oolong tea, lychee, peach; tea-like and smooth.\n\n\n\nBrasil: Daterra Lot 2005 Palco\n\nVariety: Geisha\nProcessing: Anaerobic Natural\nAltitude: 915–1220m\nTasting Notes: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.\n\n\n\nColombia: Risaralda Pereira (Apricot Punch)\n\nVariety: Castillo, Caturra\nProcessing: Yeast Fermentation\nAltitude: 1750–1800m\nTasting Notes: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.\n\n\n\n\n\nBacha Coffee\n\nMaui Sun Coffee\n\nType: Fine Blended\nGrind: Whole Beans\nWeight: 100g\nRoast Level: Medium Dark\nTasting Notes: Chocolate, Fruity\nBest Enjoyed: Afternoon\n\n\n\n\n\nStarbucks Reserve\n\nLocation: New York, United States\n\n\nTanzania Iyenga\n\nOrigin: Tanzania, Southern Highlands, Songwe region (near Iyenga)\nTasting Notes: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.\nRoast Level: Medium\nProcessing: Washed\n\n\n\n\n\nRogue Wave Coffee\n\nLocation: Edmonton, Alberta, Canada\n\n\nBrazil\n\nDaterra Low Caf Reserve\n\nVariety: Aramosa, Laurina\nProcessing: Pulped Natural\nAltitude: 1150m\nTasting Notes: Strawberry, white grape, milk chocolate, plum.\n\n\n\n\nEthiopia\n\nTeshome Gemechu Lot 2\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Peach, blueberry, floral, pear.\n\n\n\nChelbesa One\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Apricot, iced tea, jasmine, mango.\n\n\n\nGutiti Natural\n\nVariety: Kurume\nProcessing: Natural\nAltitude: 2200m\nTasting Notes: Strawberry, blueberry, orange, dates, red grape.\n\n\n\n\n\n\nSam James Coffee Bar\n\nLocation: Toronto, Ontario, Canada\n\n\nButter Knife Espresso\n\nBlend: Brazil (80%), Colombia (20%)\n\nBrazil:\n\nRegion: Minas Gerais\nFarm: Carmo Estates\nVariety: Bourbon, Yellow Bourbon, Catimor\nAltitude: 1100 m.a.s.l\nProcessing: Natural\n\nColombia:\n\nRegion: Nariño\nFarm: Various smallholders\nVariety: Castillo, Caturra, Colombia\nAltitude: 1400–2000 m.a.s.l\nProcessing: Washed\n\nTasting Notes: Peanut butter, berry jam, toffee.\nRoast Level: Medium\n\n\n\nThis journey has deepened my appreciation for the art of coffee and the global stories behind each cup."
-  },
-  {
-    "objectID": "bike-theft-analysis.html",
-    "href": "bike-theft-analysis.html",
-    "title": "Bike Theft Analysis",
-    "section": "",
-    "text": "This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#overview",
-    "href": "bike-theft-analysis.html#overview",
-    "title": "Bike Theft Analysis",
-    "section": "",
-    "text": "This paper examines bike theft patterns in Toronto using data-driven insights to provide actionable recommendations for individuals and organizations. The report identifies high-risk areas, timeframes, and bike types prone to theft, aiming to improve public awareness and reduce bike theft incidents."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#key-objectives",
-    "href": "bike-theft-analysis.html#key-objectives",
-    "title": "Bike Theft Analysis",
-    "section": "Key Objectives",
-    "text": "Key Objectives\n\nAnalyze spatial patterns: Identify neighborhoods with high bike theft incidence.\n\nExamine temporal dynamics: Study when bike thefts are most likely to occur.\n\nProvide recommendations: Suggest strategies for individuals and authorities to mitigate bike theft risks."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#data-and-methods",
-    "href": "bike-theft-analysis.html#data-and-methods",
-    "title": "Bike Theft Analysis",
-    "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Source\n\nDataset: Toronto bike theft dataset, as reported to Toronto Police Service.\n\nKey Variables:\n\nNeighborhoods: Areas in Toronto with varying theft frequencies.\n\nPremises Type: Categories such as outdoor, apartments, and commercial locations.\n\nTimeframe: Grouped into hourly ranges.\n\nBike Type and Cost: Includes categories like regular and mountain bikes, analyzed by cost range.\n\n\n\n\nMethodology\n\nData Visualization: Heatmaps and bar charts to highlight theft hotspots and trends.\n\nCategorical Analysis: Examining the role of neighborhood, bike type, cost, premises type, and time of theft in shaping theft patterns."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#results",
-    "href": "bike-theft-analysis.html#results",
-    "title": "Bike Theft Analysis",
-    "section": "Results",
-    "text": "Results\n\nHigh-Risk Neighborhoods\n\nTop Neighborhoods:\n\nWaterfront Communities – The Island, Bay Street Corridor, and Church–Yonge Corridor report the highest theft rates, exceeding 2,000 cases.\n\nOther high-risk areas include Niagara, Annex, and Kensington–Chinatown.\n\n\n\n\nPremises and Time of Theft\n\nPremises Type: Outdoor areas and apartments exhibit the highest theft occurrences.\n\nPeak Hours:\n\nTheft is most frequent between 12 PM to 11 PM, coinciding with peak activity times.\n\nLeast theft activity is observed between 12 AM to 5 AM, aligning with lower public activity.\n\n\n\n\nBike Types and Costs\n\nHigh-Risk Categories:\n\nRegular bikes priced at $401–$650 and mountain bikes priced at $101–$400 are most prone to theft.\n\n\n\n\nDivisions for Reporting Theft\n\nTop Divisions:\n\nD52, D14, and D51 have the highest number of reported cases, each exceeding 5,000.\n\nRecovery rates are low, with over 98% of bikes reported as stolen."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#policy-implications",
-    "href": "bike-theft-analysis.html#policy-implications",
-    "title": "Bike Theft Analysis",
-    "section": "Policy Implications",
-    "text": "Policy Implications\n\nUrban Safety Enhancements:\n\nIncrease surveillance in high-risk neighborhoods.\n\nImprove bike parking infrastructure with secure locking mechanisms.\n\nPublic Awareness Campaigns:\n\nEducate residents about high-risk areas and bike types.\n\nPromote usage of advanced locking systems and GPS tracking devices.\n\nLaw Enforcement Strategies:\n\nDeploy targeted patrols during peak theft hours in hotspots.\n\nCollaborate with community organizations to monitor and reduce thefts."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#limitations-and-future-directions",
-    "href": "bike-theft-analysis.html#limitations-and-future-directions",
-    "title": "Bike Theft Analysis",
-    "section": "Limitations and Future Directions",
-    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderreporting Bias: Unreported cases may skew the data.\n\nSpatial Granularity: Analysis is limited to neighborhood and division-level data.\n\n\n\nFuture Research\n\nExplore additional factors such as weather, traffic density, and socio-economic indicators.\n\nIncorporate GIS tools for detailed spatial analysis."
-  },
-  {
-    "objectID": "bike-theft-analysis.html#references",
-    "href": "bike-theft-analysis.html#references",
-    "title": "Bike Theft Analysis",
-    "section": "References",
-    "text": "References\nFurther details and reproducible code can be found in the report’s dataset repository.\nRead the full report: Bike Theft Analysis PDF"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses Taken at University of Toronto",
-    "section": "",
-    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
-  },
-  {
-    "objectID": "courses.html#ams-american-studies",
-    "href": "courses.html#ams-american-studies",
-    "title": "Courses Taken at University of Toronto",
-    "section": "AMS (American Studies)",
-    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
-  },
-  {
-    "objectID": "courses.html#apm-applied-mathematics",
-    "href": "courses.html#apm-applied-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "APM (Applied Mathematics)",
-    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
-  },
-  {
-    "objectID": "courses.html#csc-computer-science",
-    "href": "courses.html#csc-computer-science",
-    "title": "Courses Taken at University of Toronto",
-    "section": "CSC (Computer Science)",
-    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
-  },
-  {
-    "objectID": "courses.html#ess-earth-sciences",
-    "href": "courses.html#ess-earth-sciences",
-    "title": "Courses Taken at University of Toronto",
-    "section": "ESS (Earth Sciences)",
-    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
-  },
-  {
-    "objectID": "courses.html#mat-mathematics",
-    "href": "courses.html#mat-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MAT (Mathematics)",
-    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
-  },
-  {
-    "objectID": "courses.html#mus-music",
-    "href": "courses.html#mus-music",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MUS (Music)",
-    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
-  },
-  {
-    "objectID": "courses.html#phl-philosophy",
-    "href": "courses.html#phl-philosophy",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHL (Philosophy)",
-    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
-  },
-  {
-    "objectID": "courses.html#phy-physics",
-    "href": "courses.html#phy-physics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHY (Physics)",
-    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
-  },
-  {
-    "objectID": "courses.html#psy-psychology",
-    "href": "courses.html#psy-psychology",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PSY (Psychology)",
-    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
-  },
-  {
-    "objectID": "courses.html#sta-statistics",
-    "href": "courses.html#sta-statistics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "STA (Statistics)",
-    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tim Chen",
-    "section": "",
-    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics with a focus on Probability and Statistics. Alongside my major, I am pursuing minors in Computer Science and Statistics. I am deeply passionate about solving practical problems using statistical analysis, machine learning, and data visualization techniques.\nDuring my academic journey, I have completed advanced coursework in fields like Machine Learning, Data Analysis, Statistical Theory, and Software Design. These studies have equipped me with a strong foundation in data-driven methodologies and programming.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I worked with TypeScript, React, and RESTful APIs to develop features that improved user efficiency. Additionally, I utilized Python for frontend testing, streamlining integration and enhancing overall troubleshooting processes.\nMy project portfolio includes an analysis of Toronto crime patterns using Bayesian logistic regression, developing an app for managing NBA statistics with Java and Python, and forecasting U.S. presidential election results using regression models. I also conducted a detailed examination of shelter trends in Toronto, highlighting key seasonal demands.\nI am proficient in Python, SQL, R, TypeScript, JavaScript, and Java, with experience using tools like Tableau, Power BI, and Quarto. I hold the Google Data Analytics Professional Certificate, underscoring my skills in data cleaning, analysis, and visualization. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects."
-  },
-  {
     "objectID": "ml-challenge.html",
     "href": "ml-challenge.html",
     "title": "CSC311 ML Challenge Project",
@@ -455,31 +462,66 @@
     "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
   },
   {
-    "objectID": "traffic-collision-analysis.html",
-    "href": "traffic-collision-analysis.html",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "us-presidential election.html",
+    "href": "us-presidential election.html",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
   },
   {
-    "objectID": "traffic-collision-analysis.html#overview",
-    "href": "traffic-collision-analysis.html#overview",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "us-presidential election.html#introduction",
+    "href": "us-presidential election.html#introduction",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
   },
   {
-    "objectID": "traffic-collision-analysis.html#key-highlights",
-    "href": "traffic-collision-analysis.html#key-highlights",
-    "title": "Traffic Collisions in Toronto",
-    "section": "Key Highlights",
-    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
+    "objectID": "us-presidential election.html#methodology",
+    "href": "us-presidential election.html#methodology",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Methodology",
+    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
   },
   {
-    "objectID": "traffic-collision-analysis.html#references",
-    "href": "traffic-collision-analysis.html#references",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "us-presidential election.html#key-findings",
+    "href": "us-presidential election.html#key-findings",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
+  },
+  {
+    "objectID": "us-presidential election.html#implications",
+    "href": "us-presidential election.html#implications",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Implications",
+    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
+  },
+  {
+    "objectID": "us-presidential election.html#limitations",
+    "href": "us-presidential election.html#limitations",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Limitations",
+    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
+  },
+  {
+    "objectID": "us-presidential election.html#future-directions",
+    "href": "us-presidential election.html#future-directions",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Future Directions",
+    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
+  },
+  {
+    "objectID": "us-presidential election.html#conclusion",
+    "href": "us-presidential election.html#conclusion",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
+  },
+  {
+    "objectID": "us-presidential election.html#references",
+    "href": "us-presidential election.html#references",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "References",
-    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
+    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
   }
 ]
