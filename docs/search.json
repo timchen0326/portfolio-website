@@ -214,84 +214,7 @@
     "href": "index.html",
     "title": "Tim Chen",
     "section": "",
-    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics with a focus on Probability and Statistics. Alongside my major, I am pursuing minors in Computer Science and Statistics. I am deeply passionate about solving practical problems using statistical analysis, machine learning, and data visualization techniques.\nDuring my academic journey, I have completed advanced coursework in fields like Machine Learning, Data Analysis, Statistical Theory, and Software Design. These studies have equipped me with a strong foundation in data-driven methodologies and programming.\nI currently work as a Junior Software Engineer at ElectionBuddy, where I build and maintain workflow automations across finance, onboarding, and admin teams using tools like Zapier, QuickBooks Online, and Paperform. My work focuses on reducing manual effort, improving process reliability, and supporting cross-functional teams through technical troubleshooting and clear documentation.\nI also have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I worked with TypeScript, React, and RESTful APIs to develop features that improved user efficiency. Additionally, I utilized Python for frontend testing, streamlining integration and enhancing overall troubleshooting processes.\nMy project portfolio includes an analysis of Toronto crime patterns using Bayesian logistic regression, developing an app for managing NBA statistics with Java and Python, and forecasting U.S. presidential election results using regression models. I also conducted a detailed examination of shelter trends in Toronto, highlighting key seasonal demands.\nI am proficient in Python, SQL, R, TypeScript, JavaScript, and Java, with experience using tools like Tableau, Power BI, and Quarto. I hold the Google Data Analytics Professional Certificate, underscoring my skills in data cleaning, analysis, and visualization. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects."
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses Taken at University of Toronto",
-    "section": "",
-    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
-  },
-  {
-    "objectID": "courses.html#ams-american-studies",
-    "href": "courses.html#ams-american-studies",
-    "title": "Courses Taken at University of Toronto",
-    "section": "AMS (American Studies)",
-    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
-  },
-  {
-    "objectID": "courses.html#apm-applied-mathematics",
-    "href": "courses.html#apm-applied-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "APM (Applied Mathematics)",
-    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
-  },
-  {
-    "objectID": "courses.html#csc-computer-science",
-    "href": "courses.html#csc-computer-science",
-    "title": "Courses Taken at University of Toronto",
-    "section": "CSC (Computer Science)",
-    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
-  },
-  {
-    "objectID": "courses.html#ess-earth-sciences",
-    "href": "courses.html#ess-earth-sciences",
-    "title": "Courses Taken at University of Toronto",
-    "section": "ESS (Earth Sciences)",
-    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
-  },
-  {
-    "objectID": "courses.html#mat-mathematics",
-    "href": "courses.html#mat-mathematics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MAT (Mathematics)",
-    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
-  },
-  {
-    "objectID": "courses.html#mus-music",
-    "href": "courses.html#mus-music",
-    "title": "Courses Taken at University of Toronto",
-    "section": "MUS (Music)",
-    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
-  },
-  {
-    "objectID": "courses.html#phl-philosophy",
-    "href": "courses.html#phl-philosophy",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHL (Philosophy)",
-    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
-  },
-  {
-    "objectID": "courses.html#phy-physics",
-    "href": "courses.html#phy-physics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PHY (Physics)",
-    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
-  },
-  {
-    "objectID": "courses.html#psy-psychology",
-    "href": "courses.html#psy-psychology",
-    "title": "Courses Taken at University of Toronto",
-    "section": "PSY (Psychology)",
-    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
-  },
-  {
-    "objectID": "courses.html#sta-statistics",
-    "href": "courses.html#sta-statistics",
-    "title": "Courses Taken at University of Toronto",
-    "section": "STA (Statistics)",
-    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
+    "text": "Tim Chen\n    \n      Software engineer and data analyst based in Toronto. I build workflow\n      automations at ElectionBuddy and have shipped frontend features with\n      TypeScript and React. At UofT I study mathematics with a focus on\n      probability and statistics — which means I also spend a lot of time in\n      R and Python building models and finding patterns in data.\n    \n    \n      Email\n      GitHub\n      LinkedIn\n      Resume\n    \n  \n\n  \n\n  \n  \n    Skills\n    \n      Python\n      R\n      SQL\n      TypeScript\n      JavaScript\n      Java\n      React\n      Tableau\n      Power BI\n      Quarto\n    \n  \n\n  \n  \n    Experience\n    \n      \n        \n          Junior Software Engineer\n          ElectionBuddy\n          2025 – Present\n          Building workflow automations across finance, onboarding, and admin teams using Zapier, QuickBooks Online, and Paperform to reduce manual effort and improve process reliability.\n        \n      \n      \n        \n          Frontend Software Engineer Intern\n          MAYOHR\n          2024\n          Developed features with TypeScript, React, and RESTful APIs. Used Python for frontend testing to streamline integration and improve troubleshooting workflows.\n        \n      \n    \n  \n\n  \n  \n    Featured Projects\n    \n\n      \n        \n          Data Analysis\n          Student Habits & Performance\n          Explores how lifestyle factors predict academic outcomes using regression and visualization on 80K records.\n          Python\n          pandas\n          seaborn\n        \n      \n\n      \n        \n          Machine Learning\n          CSC311 ML Food Classifier\n          Multinomial Naïve Bayes classifier achieving 87% accuracy to predict food items from survey data.\n          Python\n          scikit-learn\n          Streamlit\n        \n      \n\n      \n        \n          Statistical Modelling\n          Toronto Crime Patterns\n          Bayesian logistic regression uncovering how premises type and time of day shape violent crime risk.\n          R\n          Bayesian\n          rstanarm\n        \n      \n\n      \n        \n          Statistical Modelling\n          2024 U.S. Election Forecast\n          State-level polling regression model predicting Electoral College outcomes for the 2024 presidential race.\n          R\n          regression\n          polling data\n        \n      \n\n    \n  \n\n  \n    View all projects →"
   },
   {
     "objectID": "coffee.html",
@@ -313,6 +236,90 @@
     "title": "My Coffee Journey",
     "section": "Coffee Beans",
     "text": "Coffee Beans\n\nKOFFEE MAMEYA\n\nLocation: Tokyo, Japan\n\n\nEcuador\n\nRoaster: Leaves Coffee Roasters\nFarm: Finca Cruz Loma\nVariety: Typica Mejorado\nProcessing: Washed\nAltitude: 1450m\nTasting Notes: Black currant, oolong tea, brown sugar\n\n\n\n\n\nGLITCH Coffee\n\nLocation: Tokyo, Japan\n\n\nChina: Dehong Yuan Yi Yuan\n\nVariety: Catimor P4 (7963)\nProcessing: Yeast Fermentation Honey\nAltitude: 1400–1580m\nTasting Notes: Oolong tea, lychee, peach; tea-like and smooth.\n\n\n\nBrasil: Daterra Lot 2005 Palco\n\nVariety: Geisha\nProcessing: Anaerobic Natural\nAltitude: 915–1220m\nTasting Notes: Pineapple, rum, cacao, cherry, dried fig, nutmeg; well-balanced.\n\n\n\nColombia: Risaralda Pereira (Apricot Punch)\n\nVariety: Castillo, Caturra\nProcessing: Yeast Fermentation\nAltitude: 1750–1800m\nTasting Notes: Strawberry, mango, papaya, star fruit, yellow peach; sweet finish.\n\n\n\n\n\nBacha Coffee\n\nMaui Sun Coffee\n\nType: Fine Blended\nGrind: Whole Beans\nWeight: 100g\nRoast Level: Medium Dark\nTasting Notes: Chocolate, Fruity\nBest Enjoyed: Afternoon\n\n\n\n\n\nStarbucks Reserve\n\nLocation: New York, United States\n\n\nTanzania Iyenga\n\nOrigin: Tanzania, Southern Highlands, Songwe region (near Iyenga)\nTasting Notes: Sweet and zesty with notes of pink grapefruit, caviar lime, cocoa nib, and cedar accents.\nRoast Level: Medium\nProcessing: Washed\n\n\n\n\n\nRogue Wave Coffee\n\nLocation: Edmonton, Alberta, Canada\n\n\nBrazil\n\nDaterra Low Caf Reserve\n\nVariety: Aramosa, Laurina\nProcessing: Pulped Natural\nAltitude: 1150m\nTasting Notes: Strawberry, white grape, milk chocolate, plum.\n\n\n\n\nEthiopia\n\nTeshome Gemechu Lot 2\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Peach, blueberry, floral, pear.\n\n\n\nChelbesa One\n\nVariety: Heirloom\nProcessing: Washed\nAltitude: 1900–2200m\nTasting Notes: Apricot, iced tea, jasmine, mango.\n\n\n\nGutiti Natural\n\nVariety: Kurume\nProcessing: Natural\nAltitude: 2200m\nTasting Notes: Strawberry, blueberry, orange, dates, red grape.\n\n\n\n\n\n\nSam James Coffee Bar\n\nLocation: Toronto, Ontario, Canada\n\n\nButter Knife Espresso\n\nBlend: Brazil (80%), Colombia (20%)\n\nBrazil:\n\nRegion: Minas Gerais\nFarm: Carmo Estates\nVariety: Bourbon, Yellow Bourbon, Catimor\nAltitude: 1100 m.a.s.l\nProcessing: Natural\n\nColombia:\n\nRegion: Nariño\nFarm: Various smallholders\nVariety: Castillo, Caturra, Colombia\nAltitude: 1400–2000 m.a.s.l\nProcessing: Washed\n\nTasting Notes: Peanut butter, berry jam, toffee.\nRoast Level: Medium\n\n\n\nThis journey has deepened my appreciation for the art of coffee and the global stories behind each cup."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Coursework",
+    "section": "",
+    "text": "Courses taken at the University of Toronto, organized by department prefix."
+  },
+  {
+    "objectID": "courses.html#ams-american-studies",
+    "href": "courses.html#ams-american-studies",
+    "title": "Coursework",
+    "section": "AMS (American Studies)",
+    "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#apm-applied-mathematics",
+    "href": "courses.html#apm-applied-mathematics",
+    "title": "Coursework",
+    "section": "APM (Applied Mathematics)",
+    "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#csc-computer-science",
+    "href": "courses.html#csc-computer-science",
+    "title": "Coursework",
+    "section": "CSC (Computer Science)",
+    "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
+  },
+  {
+    "objectID": "courses.html#ess-earth-sciences",
+    "href": "courses.html#ess-earth-sciences",
+    "title": "Coursework",
+    "section": "ESS (Earth Sciences)",
+    "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
+  },
+  {
+    "objectID": "courses.html#mat-mathematics",
+    "href": "courses.html#mat-mathematics",
+    "title": "Coursework",
+    "section": "MAT (Mathematics)",
+    "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
+  },
+  {
+    "objectID": "courses.html#mus-music",
+    "href": "courses.html#mus-music",
+    "title": "Coursework",
+    "section": "MUS (Music)",
+    "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
+  },
+  {
+    "objectID": "courses.html#phl-philosophy",
+    "href": "courses.html#phl-philosophy",
+    "title": "Coursework",
+    "section": "PHL (Philosophy)",
+    "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
+  },
+  {
+    "objectID": "courses.html#phy-physics",
+    "href": "courses.html#phy-physics",
+    "title": "Coursework",
+    "section": "PHY (Physics)",
+    "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#psy-psychology",
+    "href": "courses.html#psy-psychology",
+    "title": "Coursework",
+    "section": "PSY (Psychology)",
+    "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
+  },
+  {
+    "objectID": "courses.html#sta-statistics",
+    "href": "courses.html#sta-statistics",
+    "title": "Coursework",
+    "section": "STA (Statistics)",
+    "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Machine Learning & Statistical Modelling\n  \n\n    \n      \n        Machine Learning\n        CSC311 ML Food Classifier\n        Built a multinomial Naïve Bayes classifier to predict food items from survey data, achieving 87% accuracy with a Streamlit deployment.\n        Python\n        scikit-learn\n        Naive Bayes\n        Streamlit\n      \n    \n\n    \n      \n        Statistical Modelling\n        Toronto Crime Patterns\n        Applies Bayesian logistic regression to uncover how premises type and time of day shape violent crime risk in Toronto.\n        R\n        rstanarm\n        Bayesian\n      \n    \n\n    \n      \n        Statistical Modelling\n        2024 U.S. Election Forecast\n        State-level polling regression model predicting Electoral College outcomes for the 2024 Harris vs. Trump presidential race.\n        R\n        regression\n        polling data\n      \n    \n\n    \n      \n        Statistical Modelling\n        IMDb Ratings Analysis\n        Regression study on whether vote count predicts IMDb ratings, controlling for language and release year across thousands of titles.\n        R\n        regression\n        EDA\n      \n    \n\n  \n\n  \n  Data Analysis & Visualization\n  \n\n    \n      \n        Data Analysis\n        Student Habits & Performance\n        Explores how sleep, study habits, and demographics predict exam outcomes using regression and visualization on 80K student records.\n        Python\n        pandas\n        seaborn\n      \n    \n\n    \n      \n        Data Analysis\n        Toronto Shelter Trends\n        Analyzes occupancy rates and seasonal demand across Toronto shelter programs from 2021 to 2024, highlighting key capacity pressures.\n        R\n        time series\n        ggplot2\n      \n    \n\n    \n      \n        Data Analysis\n        Toronto Bike Theft\n        Identifies high-risk areas, times, and bike types for theft across Toronto neighbourhoods using open city data.\n        R\n        spatial\n        ggplot2\n      \n    \n\n    \n      \n        Data Visualization\n        Toronto Traffic Collisions\n        Interactive Tableau dashboard exploring collision patterns, severity, and contributing factors across Toronto neighbourhoods.\n        R\n        Tableau\n      \n    \n\n  \n\n  \n  Work Experience\n  \n\n    \n      \n        Work Experience\n        ElectionBuddy — Junior Software Engineer\n        Workflow automation across finance, onboarding, and admin teams to reduce manual effort and improve process reliability.\n        Zapier\n        QuickBooks\n        Paperform\n      \n    \n\n    \n      \n        Work Experience\n        MAYOHR — Frontend Engineer Intern\n        Built features with TypeScript, React, and RESTful APIs. Used Python for frontend testing to improve integration and troubleshooting workflows.\n        TypeScript\n        React\n        Next.js\n        Python"
   },
   {
     "objectID": "toronto-shelter-analysis.html",

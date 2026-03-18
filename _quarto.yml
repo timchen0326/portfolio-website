@@ -6,41 +6,37 @@ website:
   title: "Tim Chen"
   site-url: "https://weitingchen.com"
   navbar:
+    background: light
     right:
-      - href: index.qmd
-        text: Home
+      - href: projects.qmd
+        text: Projects
       - href: courses.qmd
         text: Courses
       - text: Hobbies
         menu:
           - href: coffee.qmd
-      - text: Projects
-        menu: 
-          - student-analysis.qmd
-          - ml-challenge.qmd
-          - toronto-crime-analysis.qmd
-          - us-presidential election.qmd
-          - toronto-shelter-analysis.qmd
-          - bike-theft-analysis.qmd
-          - iMDb-analysis.qmd
-          - mayohr-intern.qmd
-          - electionbuddy.qmd
-          - traffic-collision-analysis.qmd
+            text: Coffee
       - href: https://timsplayland.vercel.app/
         text: Portfolio
-      - text: "Resume"
+      - text: Resume
         href: pdfs/resume_2025.pdf
       - icon: github
         href: https://github.com/timchen0326
+        aria-label: GitHub
       - icon: envelope
         href: "mailto:timchen0326ca@gmail.com"
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Tim Chen"
+    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - flatly
+      - styles.scss
     toc: true
+    toc-depth: 2
 
 execute:
   freeze: true
-
