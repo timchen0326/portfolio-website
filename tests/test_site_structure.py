@@ -53,7 +53,8 @@ class TestSourceOrganization:
         assert (project_dir / "index.qmd").exists()
 
     def test_no_loose_qmds_in_root(self, project_dir):
-        loose = [f.name for f in project_dir.glob("*.qmd") if f.name != "index.qmd"]
+        allowed_root = {"index.qmd", "projects.qmd"}
+        loose = [f.name for f in project_dir.glob("*.qmd") if f.name not in allowed_root]
         assert loose == [], f"Unexpected QMD files in root: {loose}"
 
     def test_pages_exist(self, project_dir):

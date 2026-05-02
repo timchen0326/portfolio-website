@@ -1,185 +1,150 @@
 [
   {
-    "objectID": "projects/us-presidential-election.html",
-    "href": "projects/us-presidential-election.html",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+    "text": "Machine Learning & Statistical Modelling\n  \n\n    \n      \n        Machine Learning\n        CSC311 ML Food Classifier\n        Built a multinomial NaÃ¯ve Bayes classifier to predict food items from survey data, achieving 87% accuracy with a Streamlit deployment.\n        Python\n        scikit-learn\n        Naive Bayes\n        Streamlit\n      \n    \n\n    \n      \n        Statistical Modelling\n        Toronto Crime Patterns\n        Applies Bayesian logistic regression to uncover how premises type and time of day shape violent crime risk in Toronto.\n        R\n        rstanarm\n        Bayesian\n      \n    \n\n    \n      \n        Statistical Modelling\n        2024 U.S. Election Forecast\n        State-level polling regression model predicting Electoral College outcomes for the 2024 Harris vs. Trump presidential race.\n        R\n        regression\n        polling data\n      \n    \n\n    \n      \n        Statistical Modelling\n        IMDb Ratings Analysis\n        Regression study on whether vote count predicts IMDb ratings, controlling for language and release year across thousands of titles.\n        R\n        regression\n        EDA\n      \n    \n\n  \n\n  \n  Data Analysis & Visualization\n  \n\n    \n      \n        Data Analysis\n        Student Habits & Performance\n        Explores how sleep, study habits, and demographics predict exam outcomes using regression and visualization on 80K student records.\n        Python\n        pandas\n        seaborn\n      \n    \n\n    \n      \n        Data Analysis\n        Toronto Shelter Trends\n        Analyzes occupancy rates and seasonal demand across Toronto shelter programs from 2021 to 2024, highlighting key capacity pressures.\n        R\n        time series\n        ggplot2\n      \n    \n\n    \n      \n        Data Analysis\n        Toronto Bike Theft\n        Identifies high-risk areas, times, and bike types for theft across Toronto neighbourhoods using open city data.\n        R\n        spatial\n        ggplot2\n      \n    \n\n    \n      \n        Data Visualization\n        Toronto Traffic Collisions\n        Interactive Tableau dashboard exploring collision patterns, severity, and contributing factors across Toronto neighbourhoods.\n        R\n        Tableau\n      \n    \n\n  \n\n  \n  Work Experience\n  \n\n    \n      \n        Work Experience\n        ElectionBuddy â€” Junior Software Engineer\n        Workflow automation across finance, onboarding, and admin teams to reduce manual effort and improve process reliability.\n        Zapier\n        QuickBooks\n        Paperform\n      \n    \n\n    \n      \n        Work Experience\n        MAYOHR â€” Frontend Engineer Intern\n        Built features with TypeScript, React, and RESTful APIs. Used Python for frontend testing to improve integration and troubleshooting workflows.\n        TypeScript\n        React\n        Next.js\n        Python"
   },
   {
-    "objectID": "projects/us-presidential-election.html#introduction",
-    "href": "projects/us-presidential-election.html#introduction",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "projects/traffic-collision-analysis.html",
+    "href": "projects/traffic-collision-analysis.html",
+    "title": "Traffic Collisions in Toronto",
     "section": "",
-    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
   },
   {
-    "objectID": "projects/us-presidential-election.html#methodology",
-    "href": "projects/us-presidential-election.html#methodology",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Methodology",
-    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
+    "objectID": "projects/traffic-collision-analysis.html#overview",
+    "href": "projects/traffic-collision-analysis.html#overview",
+    "title": "Traffic Collisions in Toronto",
+    "section": "",
+    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
   },
   {
-    "objectID": "projects/us-presidential-election.html#key-findings",
-    "href": "projects/us-presidential-election.html#key-findings",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
+    "objectID": "projects/traffic-collision-analysis.html#key-highlights",
+    "href": "projects/traffic-collision-analysis.html#key-highlights",
+    "title": "Traffic Collisions in Toronto",
+    "section": "Key Highlights",
+    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
   },
   {
-    "objectID": "projects/us-presidential-election.html#implications",
-    "href": "projects/us-presidential-election.html#implications",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Implications",
-    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
-  },
-  {
-    "objectID": "projects/us-presidential-election.html#limitations",
-    "href": "projects/us-presidential-election.html#limitations",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Limitations",
-    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
-  },
-  {
-    "objectID": "projects/us-presidential-election.html#future-directions",
-    "href": "projects/us-presidential-election.html#future-directions",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Future Directions",
-    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
-  },
-  {
-    "objectID": "projects/us-presidential-election.html#conclusion",
-    "href": "projects/us-presidential-election.html#conclusion",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
-    "section": "Conclusion",
-    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
-  },
-  {
-    "objectID": "projects/us-presidential-election.html#references",
-    "href": "projects/us-presidential-election.html#references",
-    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "objectID": "projects/traffic-collision-analysis.html#references",
+    "href": "projects/traffic-collision-analysis.html#references",
+    "title": "Traffic Collisions in Toronto",
     "section": "References",
-    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
+    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html",
-    "href": "projects/toronto-shelter-analysis.html",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html",
+    "href": "projects/toronto-crime-analysis.html",
+    "title": "Toronto Crime Analysis",
     "section": "",
-    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+    "text": "This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#overview",
-    "href": "projects/toronto-shelter-analysis.html#overview",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#overview",
+    "href": "projects/toronto-crime-analysis.html#overview",
+    "title": "Toronto Crime Analysis",
     "section": "",
-    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+    "text": "This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#key-objectives",
-    "href": "projects/toronto-shelter-analysis.html#key-objectives",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#key-objectives",
+    "href": "projects/toronto-crime-analysis.html#key-objectives",
+    "title": "Toronto Crime Analysis",
     "section": "Key Objectives",
-    "text": "Key Objectives\n\nExamine shelter trends: Understand growth in occupancy rates and assess actual bed capacity by program type.\n\nExplore seasonal impacts: Identify patterns in service user counts over time.\n\nAddress disparities: Investigate demographic imbalances and their implications for shelter access."
+    "text": "Key Objectives\n\nAnalyze contextual factors: Examine how different premises types affect the likelihood of violent crime.\n\nExplore temporal dynamics: Investigate the role of time of day in shaping crime patterns.\n\nInform policy and urban design: Provide evidence-based recommendations for improving public safety."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#data-and-methods",
-    "href": "projects/toronto-shelter-analysis.html#data-and-methods",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#data-and-methods",
+    "href": "projects/toronto-crime-analysis.html#data-and-methods",
+    "title": "Toronto Crime Analysis",
     "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Source\n\nDataset: Daily Shelter Occupancy and Capacity dataset from the City of Toronto.\n\nKey Variables:\n\nOccupancy Rate (Beds): Tracks shelter capacity usage.\n\nProgram Model: Includes emergency and transitional shelters.\n\nService User Count: Captures the number of individuals using shelters daily.\n\n\n\n\nMethodology\n\nTime-Series Analysis: Examined shelter trends across years, with a focus on seasonal patterns.\n\nData Cleaning: Removed missing data and ensured consistency across variables.\n\nVisualization: Used R packages like ggplot2 for graphical representation of trends."
+    "text": "Data and Methods\n\nData Source\n\nDataset: Major Crime Indicators dataset from the Toronto Police Service.\nKey Variables:\n\nPremises Type: Categories include residential, transit, outdoor, and educational premises.\nTime of Day: Grouped into early morning, morning, afternoon, and evening.\nOutcome: Binary variable indicating whether a crime is violent or non-violent.\n\n\n\n\nMethodology\n\nBayesian Logistic Regression: Utilized to model the relationship between premises type, time of day, and crime likelihood.\nData Cleaning: Involved removing missing data, categorizing variables, and aligning time categories with existing research."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#results",
-    "href": "projects/toronto-shelter-analysis.html#results",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#results",
+    "href": "projects/toronto-crime-analysis.html#results",
+    "title": "Toronto Crime Analysis",
     "section": "Results",
-    "text": "Results\n\nTracking Shelter Bed Occupancy\n\nHigh Occupancy Rates: Beds consistently near full capacity (96–98% from 2021 to 2024).\n\nIncrease Over Time: Occupancy peaked at 98.2% in 2024, highlighting growing demand.\n\n\n\nCapacity by Program Type\n\nDisparities Noted: Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.\n\n\n\nSeasonal Trends\n\nWinter Spikes: Service user counts were highest from November to February, reflecting the impact of extreme weather.\n\n\n\nDemographic Insights\n\nGender Disparities: Women, particularly in family shelters, may be underrepresented in general shelter data.\n\nYouth and Mixed Adults: Additional focus needed to address demographic-specific shelter needs."
+    "text": "Results\n\nInfluence of Premises Type\n\nHigh-Risk Locations: Transit and outdoor areas exhibit higher odds of violent crimes.\nLow-Risk Locations: Residential and educational premises demonstrate lower violence likelihood.\n\n\n\nTemporal Patterns\n\nPeak Times: Violent crimes are more likely in the afternoon and evening, correlating with increased social interaction.\nLower Risk: Early mornings show reduced crime rates, reflecting lower activity and greater institutional oversight.\n\n\n\nStatistical Insights\n\nCredible intervals confirm the significance of predictors like transit and evening periods.\nResults suggest the need for targeted interventions during high-risk times and locations."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#policy-implications",
-    "href": "projects/toronto-shelter-analysis.html#policy-implications",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#policy-implications",
+    "href": "projects/toronto-crime-analysis.html#policy-implications",
+    "title": "Toronto Crime Analysis",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\nExpand Shelter Services:\n\nIncrease capacity for transitional shelters to support long-term housing solutions.\n\nEnhance emergency shelters with safety and privacy improvements.\n\nPrepare for Winter Demand:\n\nEstablish more warming centers and mobile shelters during colder months.\n\nAllocate additional resources for emergency services in high-demand periods.\n\nAddress Gender Inequities:\n\nIncrease shelter spaces dedicated to women and families.\n\nImprove data collection to capture underrepresented groups."
+    "text": "Policy Implications\n\nEnhanced Surveillance:\n\nInstall cameras and improve lighting in transit and outdoor areas.\nAdopt Crime Prevention Through Environmental Design (CPTED) principles.\n\nTargeted Policing:\n\nIncrease police presence during peak crime hours (afternoon and evening).\nUse predictive modeling for efficient resource allocation.\n\nCommunity Interventions:\n\nPromote awareness and safety campaigns in high-risk zones.\nDevelop socioeconomic upliftment programs near transit hubs."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#limitations-and-future-directions",
-    "href": "projects/toronto-shelter-analysis.html#limitations-and-future-directions",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#limitations-and-future-directions",
+    "href": "projects/toronto-crime-analysis.html#limitations-and-future-directions",
+    "title": "Toronto Crime Analysis",
     "section": "Limitations and Future Directions",
-    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderrepresentation in Data: Family shelters and gender-specific usage may be underestimated.\n\nSafety Concerns: Rising violence within shelters affects their usability and trustworthiness.\n\n\n\nFuture Research\n\nInvestigate systemic factors driving the disparity between emergency and transitional shelters.\n\nExplore shelter safety and its influence on occupancy duration.\n\nInclude more granular demographic and geographic data for targeted interventions."
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderreporting Bias: Data only includes reported crimes, potentially underestimating true incidence.\n\nBroad Time Categories: Grouping times of day may obscure finer trends.\n\n\n\nFuture Research\n\nIncorporate more granular temporal and spatial data using GIS technology.\n\nAnalyze additional factors such as weather, crowd density, and socioeconomic indicators."
   },
   {
-    "objectID": "projects/toronto-shelter-analysis.html#references",
-    "href": "projects/toronto-shelter-analysis.html#references",
-    "title": "Toronto Shelter Analysis",
+    "objectID": "projects/toronto-crime-analysis.html#references",
+    "href": "projects/toronto-crime-analysis.html#references",
+    "title": "Toronto Crime Analysis",
     "section": "References",
     "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
   },
   {
-    "objectID": "projects/student-analysis.html",
-    "href": "projects/student-analysis.html",
-    "title": "Student Habits & Academic Performance Analysis",
+    "objectID": "projects/ml-challenge.html",
+    "href": "projects/ml-challenge.html",
+    "title": "CSC311 ML Challenge Project",
     "section": "",
-    "text": "This report provides an in-depth analysis of the Student Habits and Academic Performance dataset, exploring how demographic, lifestyle, and psychological factors relate to exam outcomes. We cover data loading, cleaning, exploratory visualization, feature engineering, predictive modeling, and interpret key findings in light of recent global developments."
+    "text": "Introduction\nIn the Winter 2025 CSC311 Machine Learning Challenge, our team undertook the task of building a classifier to predict which food item a survey respondent described based on their subjective responses. The challenge consisted of four components: data collection, team formation, model prediction, and the final report (# Table 1 in the challenge instructions).\n\n\nData and Preprocessing\nWe received a CSV file containing survey responses regarding food complexity, ingredient count, serving context, price expectation, movie association, drink pairing, personal associations, and hot-sauce preference. The raw data was cleaned and standardized using custom functions to handle numeric parsing (e.g., converting word descriptors to numbers), free-text normalization, and multi-hot encoding of checkbox responses. Numerical features (ingredient count, price) were binned into quintiles, while categorical and multi-select features were one-hot or multi-hot encoded to produce a high-dimensional feature matrix (see feature_config.json).\n\n\nModel Development\nOur team explored three families of models:\n\nDecision Tree Classifier: Tuned parameters such as splitting criterion, tree depth, and cost-complexity pruning. Achieved ~85% cross-validation accuracy after grid search on parameters like max_depth and ccp_alpha.\nMulticlass Logistic Regression: Applied multinomial logistic regression with L1 and L2 regularization. The best configuration (L1, C = 1.0) yielded ~88% 10-fold cross-validation accuracy.\nMultinomial Naïve Bayes: Manual implementation with Laplace smoothing (α = 1.0) on discretized features, which excelled on high-dimensional, sparse input and achieved ~90% cross-validation accuracy.\n\nAfter systematic evaluation, we selected Multinomial Naïve Bayes as the final model due to its robust performance (average CV accuracy = 0.9002) and efficiency with sparse feature vectors.\n\n\nFinal Model and Performance\nThe final model was implemented in predict_local.py, which includes preprocessing, feature alignment, and posterior computations to output the predicted class for each test instance. On the official unseen test set (compiled from TA and instructor responses), we achieved an accuracy of 87%. Our professor awarded our team a certification for outstanding performance in this challenge.\n\n\nDeployment\nBuilding on the project codebase, I individually deployed the trained Naïve Bayes classifier within a Streamlit application for interactive use. The app allows users to input survey responses via sidebar widgets and instantly receive food-item predictions. You can explore the live app here:\nFood-Item Classifier Streamlit App\nBelow is the Streamlit application entry point (app.py):\nimport streamlit as st\nimport pandas as pd\nimport io\nfrom predict_local import preprocess_raw_data, predict_all\n\n# (See full code in `app.py` in the repository.)\n\n\nConclusion\nThe CSC311 ML Challenge provided an opportunity to apply end-to-end machine learning practices, from data cleaning and feature engineering to model selection, tuning, and deployment. Achieving 87% accuracy and receiving certification from our professor validated our approach. The live Streamlit app demonstrates the practical utility of the classifier, making the project accessible to end users."
   },
   {
-    "objectID": "projects/student-analysis.html#univariate-distributions",
-    "href": "projects/student-analysis.html#univariate-distributions",
-    "title": "Student Habits & Academic Performance Analysis",
-    "section": "6.1 Univariate Distributions",
-    "text": "6.1 Univariate Distributions\n\nStudy Hours show a roughly normal distribution with a right tail (some students study up to 12 hrs).\nAttendance is left-skewed: most students attend at least 70% of classes.\nSleep peaks around 7 hrs.\nExam Score heavily clusters at high values, indicating a ceiling effect.\n\nThis ceiling effect mirrors global exam trends, where extraordinary clustering at top scores challenges differentiation. In India’s NEET‑UG 2024, 67 candidates scored a perfect 720/720, sparking debate about score inflation and exam fairness (Times of India 2024) (timesofindia.indiatimes.com)."
-  },
-  {
-    "objectID": "projects/student-analysis.html#categorical-insights",
-    "href": "projects/student-analysis.html#categorical-insights",
-    "title": "Student Habits & Academic Performance Analysis",
-    "section": "6.2 Categorical Insights",
-    "text": "6.2 Categorical Insights\n\nMajors: Arts (16.9%), Business (16.3%), Computer Science (14.8%), etc.\nGender: roughly equal representation of Male and Female, with a small Other category.\nLearning Styles: Kinesthetic most common (~20%), followed by Reading and Auditory."
-  },
-  {
-    "objectID": "projects/student-analysis.html#correlation-analysis",
-    "href": "projects/student-analysis.html#correlation-analysis",
-    "title": "Student Habits & Academic Performance Analysis",
-    "section": "6.3 Correlation Analysis",
-    "text": "6.3 Correlation Analysis\nA heatmap of key numeric features indicates:\n\nStudy Hours & Exam Score: moderate positive correlation (~0.35).\nSleep Hours & Exam Score: mild positive correlation (~0.20).\nAttendance & Exam Score: weaker but positive (~0.15).\n\n\n\n\n\n\n\n\n\n\nAlthough study time correlates with performance, excessive workload shows diminishing returns. A systematic review of K–12 homework found that while homework generally benefits learning, too much increases cognitive load and reduces motivation, ultimately impairing achievement (Guo et al. 2024) (pubmed.ncbi.nlm.nih.gov)."
-  },
-  {
-    "objectID": "projects/mayohr-intern.html",
-    "href": "projects/mayohr-intern.html",
-    "title": "MAYOHR Internship Progress Report",
+    "objectID": "projects/imdb-analysis.html",
+    "href": "projects/imdb-analysis.html",
+    "title": "IMDb Analysis",
     "section": "",
-    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
   },
   {
-    "objectID": "projects/mayohr-intern.html#overview",
-    "href": "projects/mayohr-intern.html#overview",
-    "title": "MAYOHR Internship Progress Report",
+    "objectID": "projects/imdb-analysis.html#overview",
+    "href": "projects/imdb-analysis.html#overview",
+    "title": "IMDb Analysis",
     "section": "",
-    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
+    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
   },
   {
-    "objectID": "projects/mayohr-intern.html#progress-timeline",
-    "href": "projects/mayohr-intern.html#progress-timeline",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "Progress Timeline",
-    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
+    "objectID": "projects/imdb-analysis.html#objectives",
+    "href": "projects/imdb-analysis.html#objectives",
+    "title": "IMDb Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
   },
   {
-    "objectID": "projects/mayohr-intern.html#reflections",
-    "href": "projects/mayohr-intern.html#reflections",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "Reflections",
-    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
+    "objectID": "projects/imdb-analysis.html#data-and-methods",
+    "href": "projects/imdb-analysis.html#data-and-methods",
+    "title": "IMDb Analysis",
+    "section": "Data and Methods",
+    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
   },
   {
-    "objectID": "projects/mayohr-intern.html#references",
-    "href": "projects/mayohr-intern.html#references",
-    "title": "MAYOHR Internship Progress Report",
-    "section": "References",
-    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
+    "objectID": "projects/imdb-analysis.html#key-findings",
+    "href": "projects/imdb-analysis.html#key-findings",
+    "title": "IMDb Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+  },
+  {
+    "objectID": "projects/imdb-analysis.html#limitations",
+    "href": "projects/imdb-analysis.html#limitations",
+    "title": "IMDb Analysis",
+    "section": "Limitations",
+    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+  },
+  {
+    "objectID": "projects/imdb-analysis.html#conclusion",
+    "href": "projects/imdb-analysis.html#conclusion",
+    "title": "IMDb Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
   },
   {
     "objectID": "projects/bike-theft-analysis.html",
@@ -263,223 +228,307 @@
     "href": "index.html",
     "title": "Tim Chen",
     "section": "",
-    "text": "I am an Honours Bachelor of Science (HBSc) student at the University of Toronto, specializing in Mathematics with a focus on Probability and Statistics. Alongside my major, I am pursuing minors in Computer Science and Statistics. I am deeply passionate about solving practical problems using statistical analysis, machine learning, and data visualization techniques.\nDuring my academic journey, I have completed advanced coursework in fields like Machine Learning, Data Analysis, Statistical Theory, and Software Design. These studies have equipped me with a strong foundation in data-driven methodologies and programming.\nI have professional experience as a Frontend Software Engineer Intern at MAYOHR, where I worked with TypeScript, React, and RESTful APIs to develop features that improved user efficiency. Additionally, I utilized Python for frontend testing, streamlining integration and enhancing overall troubleshooting processes.\nMy project portfolio includes an analysis of Toronto crime patterns using Bayesian logistic regression, developing an app for managing NBA statistics with Java and Python, and forecasting U.S. presidential election results using regression models. I also conducted a detailed examination of shelter trends in Toronto, highlighting key seasonal demands.\nI am proficient in Python, SQL, R, TypeScript, JavaScript, and Java, with experience using tools like Tableau, Power BI, and Quarto. I hold the Google Data Analytics Professional Certificate, underscoring my skills in data cleaning, analysis, and visualization. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects."
+    "text": "Tim Chen\n    \n      Software engineer and data analyst based in Toronto. I build workflow\n      automations at ElectionBuddy and have shipped frontend features with\n      TypeScript and React. At UofT I study mathematics with a focus on\n      probability and statistics — which means I also spend a lot of time in\n      R and Python building models and finding patterns in data.\n    \n    \n      Email\n      GitHub\n      LinkedIn\n      Resume\n    \n  \n\n  \n\n  \n  \n    Skills\n    \n      Python\n      R\n      SQL\n      TypeScript\n      JavaScript\n      Java\n      React\n      Tableau\n      Power BI\n      Quarto\n    \n  \n\n  \n  \n    Experience\n    \n      \n        \n          Junior Software Engineer\n          ElectionBuddy\n          2025 – Present\n          Building workflow automations across finance, onboarding, and admin teams using Zapier, QuickBooks Online, and Paperform to reduce manual effort and improve process reliability.\n        \n      \n      \n        \n          Frontend Software Engineer Intern\n          MAYOHR\n          2024\n          Developed features with TypeScript, React, and RESTful APIs. Used Python for frontend testing to streamline integration and improve troubleshooting workflows.\n        \n      \n    \n  \n\n  \n  \n    Featured Projects\n    \n\n      \n        \n          Data Analysis\n          Student Habits & Performance\n          Explores how lifestyle factors predict academic outcomes using regression and visualization on 80K records.\n          Python\n          pandas\n          seaborn\n        \n      \n\n      \n        \n          Machine Learning\n          CSC311 ML Food Classifier\n          Multinomial Naïve Bayes classifier achieving 87% accuracy to predict food items from survey data.\n          Python\n          scikit-learn\n          Streamlit\n        \n      \n\n      \n        \n          Statistical Modelling\n          Toronto Crime Patterns\n          Bayesian logistic regression uncovering how premises type and time of day shape violent crime risk.\n          R\n          Bayesian\n          rstanarm\n        \n      \n\n      \n        \n          Statistical Modelling\n          2024 U.S. Election Forecast\n          State-level polling regression model predicting Electoral College outcomes for the 2024 presidential race.\n          R\n          regression\n          polling data\n        \n      \n\n    \n  \n\n  \n    View all projects →"
   },
   {
     "objectID": "pages/courses.html",
     "href": "pages/courses.html",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "",
-    "text": "This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix."
+    "text": "Courses taken at the University of Toronto, organized by department prefix."
   },
   {
     "objectID": "pages/courses.html#ams-american-studies",
     "href": "pages/courses.html#ams-american-studies",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "AMS (American Studies)",
     "text": "AMS (American Studies)\n\nAMS100H1F: Global Capitalism (2024 Fall)"
   },
   {
     "objectID": "pages/courses.html#apm-applied-mathematics",
     "href": "pages/courses.html#apm-applied-mathematics",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "APM (Applied Mathematics)",
     "text": "APM (Applied Mathematics)\n\nAPM346H1S: Partial Differential Equations (2024 Winter)\n\nAPM466H1S: Mathematical Theory of Finance (2025 Winter)"
   },
   {
     "objectID": "pages/courses.html#csc-computer-science",
     "href": "pages/courses.html#csc-computer-science",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "CSC (Computer Science)",
     "text": "CSC (Computer Science)\n\nCSC108H1F: Introduction to Computer Programming (2022 Fall)\n\nCSC148H1S: Introduction to Computer Science (2023 Winter)\n\nCSC165H1S: Mathematical Expression and Reasoning for Computer Science (2024 Winter)\n\nCSC207H1F: Software Design (2024 Fall)\n\nCSC209H1S: Software Tools and Systems Programming (2025 Winter)\n\nCSC236H1F: Introduction to the Theory of Computation (2024 Fall)\n\nCSC311H1S: Introduction to Machine Learning (2025 Winter)\n\nCSC343H1S: Introduction to Databases (2025 Winter)"
   },
   {
     "objectID": "pages/courses.html#ess-earth-sciences",
     "href": "pages/courses.html#ess-earth-sciences",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "ESS (Earth Sciences)",
     "text": "ESS (Earth Sciences)\n\nESS205H1S: Confronting Global Change (2023 Summer)"
   },
   {
     "objectID": "pages/courses.html#mat-mathematics",
     "href": "pages/courses.html#mat-mathematics",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "MAT (Mathematics)",
     "text": "MAT (Mathematics)\n\nMAT137Y1: Calculus with Proofs (2021 Fall–Winter)\n\nMAT224H1S: Linear Algebra II (2023 Winter)\n\nMAT237Y1: Multivariable Calculus with Proofs (2023 Summer)\n\nMAT240H1F: Algebra I (2021 Fall)\n\nMAT244H1S: Introduction to Ordinary Differential Equations (2023 Winter)\n\nMAT246H1F: Concepts in Abstract Mathematics (2022 Fall)\n\nMAT301H1F: Groups and Symmetries (2023 Fall)\n\nMAT334H1F: Complex Variables (2023 Fall)"
   },
   {
     "objectID": "pages/courses.html#mus-music",
     "href": "pages/courses.html#mus-music",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "MUS (Music)",
     "text": "MUS (Music)\n\nMUS306H1F: Popular Music in North America (2024 Fall)"
   },
   {
     "objectID": "pages/courses.html#phl-philosophy",
     "href": "pages/courses.html#phl-philosophy",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "PHL (Philosophy)",
     "text": "PHL (Philosophy)\n\nPHL245H1S: Modern Symbolic Logic (2023 Winter)"
   },
   {
     "objectID": "pages/courses.html#phy-physics",
     "href": "pages/courses.html#phy-physics",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "PHY (Physics)",
     "text": "PHY (Physics)\n\nPHY151H1F: Foundations of Physics I (2021 Fall)\n\nPHY152H1S: Foundations of Physics II (2022 Winter)"
   },
   {
     "objectID": "pages/courses.html#psy-psychology",
     "href": "pages/courses.html#psy-psychology",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "PSY (Psychology)",
     "text": "PSY (Psychology)\n\nPSY100H1S: Introductory Psychology (2022 Winter)"
   },
   {
     "objectID": "pages/courses.html#sta-statistics",
     "href": "pages/courses.html#sta-statistics",
-    "title": "Courses Taken at University of Toronto",
+    "title": "Coursework",
     "section": "STA (Statistics)",
     "text": "STA (Statistics)\n\nSTA257H1F: Probability and Statistics I (2022 Fall)\n\nSTA261H1S: Probability and Statistics II (2023 Winter)\n\nSTA302H1F: Methods of Data Analysis I (2023 Fall)\n\nSTA303H1S: Methods of Data Analysis II (2024 Winter)\n\nSTA304H1F: Surveys, Sampling, and Observational Data (2024 Fall)\n\nSTA313H1S: Data Visualization (2024 Winter)\n\nSTA347H1F: Probability (2023 Fall)\n\nSTA437H1F: Methods for Multivariate Data (2023 Fall)\n\nSTA457H1S: Time Series Analysis (2024 Winter)"
   },
   {
-    "objectID": "projects/imdb-analysis.html",
-    "href": "projects/imdb-analysis.html",
-    "title": "IMDb Analysis",
+    "objectID": "projects/electionbuddy.html",
+    "href": "projects/electionbuddy.html",
+    "title": "ElectionBuddy — Junior Software Engineer",
     "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+    "text": "This report highlights my contributions and growth as a Junior Software Engineer at ElectionBuddy, where I have been working since August 2025. My work has centered on designing and maintaining workflow automations, supporting cross-functional teams, and improving process reliability across the organization using tools like Zapier, QuickBooks Online, Paperform, and ClickUp."
   },
   {
-    "objectID": "projects/imdb-analysis.html#overview",
-    "href": "projects/imdb-analysis.html#overview",
-    "title": "IMDb Analysis",
+    "objectID": "projects/electionbuddy.html#overview",
+    "href": "projects/electionbuddy.html#overview",
+    "title": "ElectionBuddy — Junior Software Engineer",
     "section": "",
-    "text": "This analysis explores whether IMDb votes predict higher IMDb ratings and examines the influence of language diversity and release year on this relationship. The study focuses on movies with runtimes longer than 75 minutes."
+    "text": "This report highlights my contributions and growth as a Junior Software Engineer at ElectionBuddy, where I have been working since August 2025. My work has centered on designing and maintaining workflow automations, supporting cross-functional teams, and improving process reliability across the organization using tools like Zapier, QuickBooks Online, Paperform, and ClickUp."
   },
   {
-    "objectID": "projects/imdb-analysis.html#objectives",
-    "href": "projects/imdb-analysis.html#objectives",
-    "title": "IMDb Analysis",
-    "section": "Objectives",
-    "text": "Objectives\n\nAssess the correlation between IMDb votes and ratings.\n\nInvestigate the impact of release year and language diversity.\n\nCommunicate findings through visualizations."
+    "objectID": "projects/electionbuddy.html#role-overview-key-themes",
+    "href": "projects/electionbuddy.html#role-overview-key-themes",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "Role Overview & Key Themes",
+    "text": "Role Overview & Key Themes\n\n1. Workflow Automation & Process Improvements\nA core part of my role has been automating repetitive and error-prone processes for the Services, Onboarding, Finance, and Admin teams:\n\nBuilt and enhanced Paperform integrations for travel requests, billing workflows, and credit memo generation.\nDeveloped and maintained Zapier automations to reduce manual work, optimize task quotas, and improve reliability across pipelines.\nAddressed logic gaps in billing account creation flows and automated reminders for expiring credits.\nStreamlined admin automations and improved error handling for edge cases in payment and invoice workflows.\n\n\n\n2. Cross-Team Collaboration\nI regularly collaborated with stakeholders across multiple teams to iterate quickly and deliver reliable solutions:\n\nWorked alongside team members including Chelsea, Ryan, Henrique, and Michael to troubleshoot issues in Pipedrive, QuickBooks Online, and other integrated platforms.\nGathered feedback and rapidly iterated on forms and automations in response to team needs.\nSupported onboarding and offboarding processes, ensuring smooth transitions and handoffs between teams.\n\n\n\n3. Technical Troubleshooting & Support\nI handled a range of technical challenges requiring both analytical thinking and careful debugging:\n\nDebugged Zapier paths, fixed API integration issues, and reconciled legacy vs. non-legacy automations.\nInvestigated and resolved integration issues with Read.ai, QuickBooks Online, and other third-party tools.\nSupported urgent billing and account issues, ensuring data accuracy across interconnected systems.\n\n\n\n4. Documentation & Communication\nClear communication and documentation were essential to keeping stakeholders aligned:\n\nMaintained detailed daily and weekly logs summarizing progress, blockers, and next steps.\nLed live demos for updated forms and automations, clarifying manual vs. automated steps for non-technical team members.\nCommunicated technical limitations and solutions clearly to ensure transparency across teams.\n\n\n\n5. Continuous Learning & Growth\nI proactively sought out opportunities to grow and contribute beyond my immediate responsibilities:\n\nActively sought feedback and documented pain points for future optimization.\nExplored new automation ideas including Slack engagement features and team notification workflows.\nContributed to brainstorming sessions for improving team efficiency and tool adoption."
   },
   {
-    "objectID": "projects/imdb-analysis.html#data-and-methods",
-    "href": "projects/imdb-analysis.html#data-and-methods",
-    "title": "IMDb Analysis",
-    "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Description\n\nVariables: IMDb votes, ratings, release year, language diversity, and metascores.\n\nFilters: Only movies with runtimes &gt;75 minutes were analyzed.\n\n\n\nVisualization\n\nScatter plots with the following attributes:\n\nX-Axis: IMDb votes.\n\nY-Axis: IMDb ratings.\n\nColor: Red for pre-2000 movies, blue for post-2000.\n\nShape: Triangles for single-language, squares for multi-language.\n\nSize: Represents metascores.\n\nTrendlines fitted via linear regression for pre- and post-2000 movies."
+    "objectID": "projects/electionbuddy.html#tools-platforms",
+    "href": "projects/electionbuddy.html#tools-platforms",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "Tools & Platforms",
+    "text": "Tools & Platforms\n\n\n\n\n\n\n\nTool / Platform\nHow I Used It\n\n\n\n\nZapier\nCore automation engine — built and maintained Zaps for onboarding, billing, credit memos, and notifications; managed task quotas and handled legacy vs. non-legacy flows\n\n\nQuickBooks Online (QBO)\nAutomated sales receipts and invoice handling; resolved tax automation discrepancies and synced transaction data\n\n\nPaperform\nBuilt custom forms for travel requests, billing, and credit memos; integrated forms into support modules\n\n\nClickUp\nProject management and documentation — daily journaling, task tracking, AR report automation, and custom field management\n\n\nSlack\nAutomated team notifications and birthday messages via Zapier integrations\n\n\nRe:amaze\nManaged customer support workflows, voicemail distribution, and integrated Paperform links into custom modules\n\n\nPipedrive\nCRM automation — synced credit memo expiration dates, managed renewal deals, and updated deal statuses\n\n\nStripe\nAutomated self-service charges and created corresponding QBO sales receipts via Stripe metadata\n\n\nRead.ai\nMapped integration issues for meeting summary automation and reporting workflows"
   },
   {
-    "objectID": "projects/imdb-analysis.html#key-findings",
-    "href": "projects/imdb-analysis.html#key-findings",
-    "title": "IMDb Analysis",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nVotes and Ratings:\n\nPositive correlation observed; higher votes tend to result in higher ratings.\n\nPost-2000 movies show stronger trends in both votes and ratings compared to pre-2000.\n\nLanguage Diversity:\n\nSingle-language movies exhibit slightly higher ratings on average than multi-language ones.\n\nCritical Reception:\n\nLarger metascores generally align with higher IMDb ratings."
+    "objectID": "projects/electionbuddy.html#impact-summary",
+    "href": "projects/electionbuddy.html#impact-summary",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "Impact Summary",
+    "text": "Impact Summary\nAutomation Champion Played a key role in reducing manual work and improving process consistency across multiple teams. Delivered reliable automations that saved time and reduced errors for finance, onboarding, and admin workflows.\nProblem Solver Tackled technical and process challenges head-on — debugging integration issues, resolving API inconsistencies, and finding practical solutions in collaboration with colleagues.\nCommunicator Maintained detailed documentation and provided proactive updates that kept projects on track and ensured all stakeholders remained informed throughout each initiative.\nTeam Player Responded quickly to teammate feedback, supported colleagues during urgent situations, and contributed to a culture of continuous improvement across the organization."
   },
   {
-    "objectID": "projects/imdb-analysis.html#limitations",
-    "href": "projects/imdb-analysis.html#limitations",
-    "title": "IMDb Analysis",
-    "section": "Limitations",
-    "text": "Limitations\n\nFilters: Excluding movies with runtimes &lt;75 minutes may bias results.\n\nLinear Trendlines: Oversimplify potentially complex relationships."
+    "objectID": "projects/electionbuddy.html#references",
+    "href": "projects/electionbuddy.html#references",
+    "title": "ElectionBuddy — Junior Software Engineer",
+    "section": "References",
+    "text": "References\n\nElectionBuddy Website\nZapier Documentation\nQuickBooks Online\nPaperform\nClickUp"
   },
   {
-    "objectID": "projects/imdb-analysis.html#conclusion",
-    "href": "projects/imdb-analysis.html#conclusion",
-    "title": "IMDb Analysis",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.\nAccess the report: IMDb Analysis PDF"
-  },
-  {
-    "objectID": "projects/ml-challenge.html",
-    "href": "projects/ml-challenge.html",
-    "title": "CSC311 ML Challenge Project",
+    "objectID": "projects/mayohr-intern.html",
+    "href": "projects/mayohr-intern.html",
+    "title": "MAYOHR Internship Progress Report",
     "section": "",
-    "text": "Introduction\nIn the Winter 2025 CSC311 Machine Learning Challenge, our team undertook the task of building a classifier to predict which food item a survey respondent described based on their subjective responses. The challenge consisted of four components: data collection, team formation, model prediction, and the final report (# Table 1 in the challenge instructions).\n\n\nData and Preprocessing\nWe received a CSV file containing survey responses regarding food complexity, ingredient count, serving context, price expectation, movie association, drink pairing, personal associations, and hot-sauce preference. The raw data was cleaned and standardized using custom functions to handle numeric parsing (e.g., converting word descriptors to numbers), free-text normalization, and multi-hot encoding of checkbox responses. Numerical features (ingredient count, price) were binned into quintiles, while categorical and multi-select features were one-hot or multi-hot encoded to produce a high-dimensional feature matrix (see feature_config.json).\n\n\nModel Development\nOur team explored three families of models:\n\nDecision Tree Classifier: Tuned parameters such as splitting criterion, tree depth, and cost-complexity pruning. Achieved ~85% cross-validation accuracy after grid search on parameters like max_depth and ccp_alpha.\nMulticlass Logistic Regression: Applied multinomial logistic regression with L1 and L2 regularization. The best configuration (L1, C = 1.0) yielded ~88% 10-fold cross-validation accuracy.\nMultinomial Naïve Bayes: Manual implementation with Laplace smoothing (α = 1.0) on discretized features, which excelled on high-dimensional, sparse input and achieved ~90% cross-validation accuracy.\n\nAfter systematic evaluation, we selected Multinomial Naïve Bayes as the final model due to its robust performance (average CV accuracy = 0.9002) and efficiency with sparse feature vectors.\n\n\nFinal Model and Performance\nThe final model was implemented in predict_local.py, which includes preprocessing, feature alignment, and posterior computations to output the predicted class for each test instance. On the official unseen test set (compiled from TA and instructor responses), we achieved an accuracy of 87%. Our professor awarded our team a certification for outstanding performance in this challenge.\n\n\nDeployment\nBuilding on the project codebase, I individually deployed the trained Naïve Bayes classifier within a Streamlit application for interactive use. The app allows users to input survey responses via sidebar widgets and instantly receive food-item predictions. You can explore the live app here:\nFood-Item Classifier Streamlit App\nBelow is the Streamlit application entry point (app.py):\nimport streamlit as st\nimport pandas as pd\nimport io\nfrom predict_local import preprocess_raw_data, predict_all\n\n# (See full code in `app.py` in the repository.)\n\n\nConclusion\nThe CSC311 ML Challenge provided an opportunity to apply end-to-end machine learning practices, from data cleaning and feature engineering to model selection, tuning, and deployment. Achieving 87% accuracy and receiving certification from our professor validated our approach. The live Streamlit app demonstrates the practical utility of the classifier, making the project accessible to end users."
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html",
-    "href": "projects/toronto-crime-analysis.html",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/mayohr-intern.html#overview",
+    "href": "projects/mayohr-intern.html#overview",
+    "title": "MAYOHR Internship Progress Report",
     "section": "",
-    "text": "This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention."
+    "text": "This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#overview",
-    "href": "projects/toronto-crime-analysis.html#overview",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/mayohr-intern.html#progress-timeline",
+    "href": "projects/mayohr-intern.html#progress-timeline",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Progress Timeline",
+    "text": "Progress Timeline\n\n1. Development Environment Setup\n\nConfigured Development Tools\nEstablished a productive development environment by configuring Visual Studio Code, React.js, and Next.js.\nDate: May 9, 2024\n\n\n\n2. Foundational Web Development\n\nStrengthened HTML and CSS Proficiency\nEnhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.\nDate: May 13, 2024\n\n\n\n3. Interactive Application Development\n\nBuilt a Dynamic BMI Calculator\nDeveloped an interactive BMI calculator to explore React’s state management capabilities through useState.\nDate: May 14, 2024\n\n\n\n4. Data Extraction and API Integration\n\nImplemented Web Scraping and APIs\nUtilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.\nDate: May 15, 2024\n\n\n\n5. Full-Stack Project Development\n\nDeveloped a Sports Card Auction Platform\nCreated a full-stack application for a sports card auction system, integrating scraped data and user interactions.\nDate: May 24, 2024\n\n\n\n6. Version Control with Git\n\nMastered Version Control Workflows\nGained proficiency in Git to manage code repositories and collaborate effectively in a team environment.\nDate: May 26, 2024\n\n\n\n7. Collaborative Development Practices\n\nContributed to Front-End Features\nWorked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.\nDate: May 28, 2024\n\n\n\n8. JSON File Management\n\nIntegrated Advanced JSON Editing Tools\nLeveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.\nDate: May 30, 2024\n\n\n\n9. Data Visualization\n\nDeveloped Interactive Dashboards\nDesigned a user-friendly dashboard for data visualization, employing React to present insights effectively.\nDate: June 14, 2024\n\n\n\n10. Organizational Chart Implementation\n\nCustomized Data-Driven Visualizations\nAdapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.\nDate: June 26, 2024\n\n\n\n11. User Access Control\n\nEstablished Role-Based Access Systems\nImplemented secure user access controls to manage permissions and restrict page visibility based on roles.\nDate: July 4, 2024\n\n\n\n12. Advanced State Management\n\nApplied Redux for State Management\nImproved application performance and maintainability by integrating Redux for advanced state management.\nDate: July 8, 2024\n\n\n\n13. Code Contributions and Collaboration\n\nDelivered Consistent Code Contributions\nContributed to multiple projects with a strong focus on code quality and collaborative problem-solving.\nDate Range: May 9, 2024 – August 1, 2024"
+  },
+  {
+    "objectID": "projects/mayohr-intern.html#reflections",
+    "href": "projects/mayohr-intern.html#reflections",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "Reflections",
+    "text": "Reflections\nThis internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions."
+  },
+  {
+    "objectID": "projects/mayohr-intern.html#references",
+    "href": "projects/mayohr-intern.html#references",
+    "title": "MAYOHR Internship Progress Report",
+    "section": "References",
+    "text": "References\n\nInternship Project Overview\nFlask Documentation\n\nReact Documentation\n\nRedux Documentation\n\nAzure DevOps\n\nJsonEditor Documentation\n\nGit Documentation"
+  },
+  {
+    "objectID": "projects/student-analysis.html",
+    "href": "projects/student-analysis.html",
+    "title": "Student Habits & Academic Performance Analysis",
     "section": "",
-    "text": "This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention."
+    "text": "This report provides an in-depth analysis of the Student Habits and Academic Performance dataset, exploring how demographic, lifestyle, and psychological factors relate to exam outcomes. We cover data loading, cleaning, exploratory visualization, feature engineering, predictive modeling, and interpret key findings in light of recent global developments."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#key-objectives",
-    "href": "projects/toronto-crime-analysis.html#key-objectives",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/student-analysis.html#univariate-distributions",
+    "href": "projects/student-analysis.html#univariate-distributions",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "6.1 Univariate Distributions",
+    "text": "6.1 Univariate Distributions\n\nStudy Hours show a roughly normal distribution with a right tail (some students study up to 12 hrs).\nAttendance is left-skewed: most students attend at least 70% of classes.\nSleep peaks around 7 hrs.\nExam Score heavily clusters at high values, indicating a ceiling effect.\n\nThis ceiling effect mirrors global exam trends, where extraordinary clustering at top scores challenges differentiation. In India’s NEET‑UG 2024, 67 candidates scored a perfect 720/720, sparking debate about score inflation and exam fairness (Times of India 2024) (timesofindia.indiatimes.com)."
+  },
+  {
+    "objectID": "projects/student-analysis.html#categorical-insights",
+    "href": "projects/student-analysis.html#categorical-insights",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "6.2 Categorical Insights",
+    "text": "6.2 Categorical Insights\n\nMajors: Arts (16.9%), Business (16.3%), Computer Science (14.8%), etc.\nGender: roughly equal representation of Male and Female, with a small Other category.\nLearning Styles: Kinesthetic most common (~20%), followed by Reading and Auditory."
+  },
+  {
+    "objectID": "projects/student-analysis.html#correlation-analysis",
+    "href": "projects/student-analysis.html#correlation-analysis",
+    "title": "Student Habits & Academic Performance Analysis",
+    "section": "6.3 Correlation Analysis",
+    "text": "6.3 Correlation Analysis\nA heatmap of key numeric features indicates:\n\nStudy Hours & Exam Score: moderate positive correlation (~0.35).\nSleep Hours & Exam Score: mild positive correlation (~0.20).\nAttendance & Exam Score: weaker but positive (~0.15).\n\n\n\n\n\n\n\n\n\n\nAlthough study time correlates with performance, excessive workload shows diminishing returns. A systematic review of K–12 homework found that while homework generally benefits learning, too much increases cognitive load and reduces motivation, ultimately impairing achievement (Guo et al. 2024) (pubmed.ncbi.nlm.nih.gov)."
+  },
+  {
+    "objectID": "projects/toronto-shelter-analysis.html",
+    "href": "projects/toronto-shelter-analysis.html",
+    "title": "Toronto Shelter Analysis",
+    "section": "",
+    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+  },
+  {
+    "objectID": "projects/toronto-shelter-analysis.html#overview",
+    "href": "projects/toronto-shelter-analysis.html#overview",
+    "title": "Toronto Shelter Analysis",
+    "section": "",
+    "text": "This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies."
+  },
+  {
+    "objectID": "projects/toronto-shelter-analysis.html#key-objectives",
+    "href": "projects/toronto-shelter-analysis.html#key-objectives",
+    "title": "Toronto Shelter Analysis",
     "section": "Key Objectives",
-    "text": "Key Objectives\n\nAnalyze contextual factors: Examine how different premises types affect the likelihood of violent crime.\n\nExplore temporal dynamics: Investigate the role of time of day in shaping crime patterns.\n\nInform policy and urban design: Provide evidence-based recommendations for improving public safety."
+    "text": "Key Objectives\n\nExamine shelter trends: Understand growth in occupancy rates and assess actual bed capacity by program type.\n\nExplore seasonal impacts: Identify patterns in service user counts over time.\n\nAddress disparities: Investigate demographic imbalances and their implications for shelter access."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#data-and-methods",
-    "href": "projects/toronto-crime-analysis.html#data-and-methods",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/toronto-shelter-analysis.html#data-and-methods",
+    "href": "projects/toronto-shelter-analysis.html#data-and-methods",
+    "title": "Toronto Shelter Analysis",
     "section": "Data and Methods",
-    "text": "Data and Methods\n\nData Source\n\nDataset: Major Crime Indicators dataset from the Toronto Police Service.\nKey Variables:\n\nPremises Type: Categories include residential, transit, outdoor, and educational premises.\nTime of Day: Grouped into early morning, morning, afternoon, and evening.\nOutcome: Binary variable indicating whether a crime is violent or non-violent.\n\n\n\n\nMethodology\n\nBayesian Logistic Regression: Utilized to model the relationship between premises type, time of day, and crime likelihood.\nData Cleaning: Involved removing missing data, categorizing variables, and aligning time categories with existing research."
+    "text": "Data and Methods\n\nData Source\n\nDataset: Daily Shelter Occupancy and Capacity dataset from the City of Toronto.\n\nKey Variables:\n\nOccupancy Rate (Beds): Tracks shelter capacity usage.\n\nProgram Model: Includes emergency and transitional shelters.\n\nService User Count: Captures the number of individuals using shelters daily.\n\n\n\n\nMethodology\n\nTime-Series Analysis: Examined shelter trends across years, with a focus on seasonal patterns.\n\nData Cleaning: Removed missing data and ensured consistency across variables.\n\nVisualization: Used R packages like ggplot2 for graphical representation of trends."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#results",
-    "href": "projects/toronto-crime-analysis.html#results",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/toronto-shelter-analysis.html#results",
+    "href": "projects/toronto-shelter-analysis.html#results",
+    "title": "Toronto Shelter Analysis",
     "section": "Results",
-    "text": "Results\n\nInfluence of Premises Type\n\nHigh-Risk Locations: Transit and outdoor areas exhibit higher odds of violent crimes.\nLow-Risk Locations: Residential and educational premises demonstrate lower violence likelihood.\n\n\n\nTemporal Patterns\n\nPeak Times: Violent crimes are more likely in the afternoon and evening, correlating with increased social interaction.\nLower Risk: Early mornings show reduced crime rates, reflecting lower activity and greater institutional oversight.\n\n\n\nStatistical Insights\n\nCredible intervals confirm the significance of predictors like transit and evening periods.\nResults suggest the need for targeted interventions during high-risk times and locations."
+    "text": "Results\n\nTracking Shelter Bed Occupancy\n\nHigh Occupancy Rates: Beds consistently near full capacity (96–98% from 2021 to 2024).\n\nIncrease Over Time: Occupancy peaked at 98.2% in 2024, highlighting growing demand.\n\n\n\nCapacity by Program Type\n\nDisparities Noted: Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.\n\n\n\nSeasonal Trends\n\nWinter Spikes: Service user counts were highest from November to February, reflecting the impact of extreme weather.\n\n\n\nDemographic Insights\n\nGender Disparities: Women, particularly in family shelters, may be underrepresented in general shelter data.\n\nYouth and Mixed Adults: Additional focus needed to address demographic-specific shelter needs."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#policy-implications",
-    "href": "projects/toronto-crime-analysis.html#policy-implications",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/toronto-shelter-analysis.html#policy-implications",
+    "href": "projects/toronto-shelter-analysis.html#policy-implications",
+    "title": "Toronto Shelter Analysis",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\nEnhanced Surveillance:\n\nInstall cameras and improve lighting in transit and outdoor areas.\nAdopt Crime Prevention Through Environmental Design (CPTED) principles.\n\nTargeted Policing:\n\nIncrease police presence during peak crime hours (afternoon and evening).\nUse predictive modeling for efficient resource allocation.\n\nCommunity Interventions:\n\nPromote awareness and safety campaigns in high-risk zones.\nDevelop socioeconomic upliftment programs near transit hubs."
+    "text": "Policy Implications\n\nExpand Shelter Services:\n\nIncrease capacity for transitional shelters to support long-term housing solutions.\n\nEnhance emergency shelters with safety and privacy improvements.\n\nPrepare for Winter Demand:\n\nEstablish more warming centers and mobile shelters during colder months.\n\nAllocate additional resources for emergency services in high-demand periods.\n\nAddress Gender Inequities:\n\nIncrease shelter spaces dedicated to women and families.\n\nImprove data collection to capture underrepresented groups."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#limitations-and-future-directions",
-    "href": "projects/toronto-crime-analysis.html#limitations-and-future-directions",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/toronto-shelter-analysis.html#limitations-and-future-directions",
+    "href": "projects/toronto-shelter-analysis.html#limitations-and-future-directions",
+    "title": "Toronto Shelter Analysis",
     "section": "Limitations and Future Directions",
-    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderreporting Bias: Data only includes reported crimes, potentially underestimating true incidence.\n\nBroad Time Categories: Grouping times of day may obscure finer trends.\n\n\n\nFuture Research\n\nIncorporate more granular temporal and spatial data using GIS technology.\n\nAnalyze additional factors such as weather, crowd density, and socioeconomic indicators."
+    "text": "Limitations and Future Directions\n\nLimitations\n\nUnderrepresentation in Data: Family shelters and gender-specific usage may be underestimated.\n\nSafety Concerns: Rising violence within shelters affects their usability and trustworthiness.\n\n\n\nFuture Research\n\nInvestigate systemic factors driving the disparity between emergency and transitional shelters.\n\nExplore shelter safety and its influence on occupancy duration.\n\nInclude more granular demographic and geographic data for targeted interventions."
   },
   {
-    "objectID": "projects/toronto-crime-analysis.html#references",
-    "href": "projects/toronto-crime-analysis.html#references",
-    "title": "Toronto Crime Analysis",
+    "objectID": "projects/toronto-shelter-analysis.html#references",
+    "href": "projects/toronto-shelter-analysis.html#references",
+    "title": "Toronto Shelter Analysis",
     "section": "References",
     "text": "References\nData and methodology are fully reproducible, with the dataset and code available at: GitHub Repository."
   },
   {
-    "objectID": "projects/traffic-collision-analysis.html",
-    "href": "projects/traffic-collision-analysis.html",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "projects/us-presidential-election.html",
+    "href": "projects/us-presidential-election.html",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
   },
   {
-    "objectID": "projects/traffic-collision-analysis.html#overview",
-    "href": "projects/traffic-collision-analysis.html#overview",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "projects/us-presidential-election.html#introduction",
+    "href": "projects/us-presidential-election.html#introduction",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "",
-    "text": "This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions."
+    "text": "The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate 306 electoral votes for Harris and 232 for Trump, highlighting the importance of state-specific analysis in predicting election results."
   },
   {
-    "objectID": "projects/traffic-collision-analysis.html#key-highlights",
-    "href": "projects/traffic-collision-analysis.html#key-highlights",
-    "title": "Traffic Collisions in Toronto",
-    "section": "Key Highlights",
-    "text": "Key Highlights\n\nNeighborhood Distribution of Injury Collisions\n\nThe dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.\n\n\n\nMonthly and Annual Trends\n\nPatterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.\n\n\n\nHourly Distribution by Travel Mode\n\nAnalyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians."
+    "objectID": "projects/us-presidential-election.html#methodology",
+    "href": "projects/us-presidential-election.html#methodology",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Methodology",
+    "text": "Methodology\n\nData Overview\nThe analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - Poll Quality: Measures like pollster rating and transparency scores. - Sample Characteristics: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - State-Level Data: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.\n\n\nAnalytical Approach\n\nRegression Models: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.\nAddressing Bias: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.\nPredictive Accuracy: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data."
   },
   {
-    "objectID": "projects/traffic-collision-analysis.html#references",
-    "href": "projects/traffic-collision-analysis.html#references",
-    "title": "Traffic Collisions in Toronto",
+    "objectID": "projects/us-presidential-election.html#key-findings",
+    "href": "projects/us-presidential-election.html#key-findings",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nElectoral Vote Projections\n\nKamala Harris: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.\nDonald Trump: 232 votes, with strongholds in Florida, North Carolina, and much of the South.\n\n\n\nPolling Insights\n\nHigh-Quality Polls Dominate: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.\nMethodology Trends: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.\nSample Sizes: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope."
+  },
+  {
+    "objectID": "projects/us-presidential-election.html#implications",
+    "href": "projects/us-presidential-election.html#implications",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Implications",
+    "text": "Implications\n\nFor Forecasting\n\nState-Level Emphasis: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.\nMethodological Rigor: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.\n\n\n\nFor Policy and Practice\n\nEnhancing Data Collection: Increase polling efforts in underrepresented states to reduce prediction gaps.\nReal-Time Data Integration: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts."
+  },
+  {
+    "objectID": "projects/us-presidential-election.html#limitations",
+    "href": "projects/us-presidential-election.html#limitations",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Limitations",
+    "text": "Limitations\n\nSparse Polling in Safe States: Low data availability in less competitive regions introduces uncertainty.\nDynamic Shifts: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots."
+  },
+  {
+    "objectID": "projects/us-presidential-election.html#future-directions",
+    "href": "projects/us-presidential-election.html#future-directions",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Future Directions",
+    "text": "Future Directions\nTo improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies."
+  },
+  {
+    "objectID": "projects/us-presidential-election.html#conclusion",
+    "href": "projects/us-presidential-election.html#conclusion",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape."
+  },
+  {
+    "objectID": "projects/us-presidential-election.html#references",
+    "href": "projects/us-presidential-election.html#references",
+    "title": "Forecasting the 2024 U.S. Presidential Election",
     "section": "References",
-    "text": "References\nData Source:\nTraffic Collisions in Toronto Dashboard by Wei Ting Chen"
+    "text": "References\n\nFiveThirtyEight. “2024 Election Polls.”\nhttps://projects.fivethirtyeight.com/polls/\n\nKeeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”\nhttps://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/\n\nViala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”\nhttps://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834\nGitHub Repository: Forecasting the 2024 U.S. Presidential Election"
   }
 ]

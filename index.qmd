@@ -1,28 +1,128 @@
 ---
-title: "Tim Chen"
-about:
-  template: trestles
-  image-width: 15em
-  image-shape: round
-  image: assets/images/Canon-0806.JPG
-  links:
-    - icon: envelope
-      text: "Email"
-      href: "mailto:timchen0326ca@gmail.com"
-    - icon: github
-      text: "GitHub"
-      href: https://github.com/timchen0326
-    - icon: linkedin
-      text: "LinkedIn"
-      href: https://www.linkedin.com/in/timchen0326/
+title: ""
+page-layout: full
+toc: false
 ---
 
-I am an **Honours Bachelor of Science (HBSc)** student at the **University of Toronto**, specializing in **Mathematics** with a focus on **Probability and Statistics**. Alongside my major, I am pursuing minors in **Computer Science** and **Statistics**. I am deeply passionate about solving practical problems using **statistical analysis**, **machine learning**, and **data visualization** techniques.
+```{=html}
+<div class="container py-5">
 
-During my academic journey, I have completed advanced coursework in fields like **Machine Learning**, **Data Analysis**, **Statistical Theory**, and **Software Design**. These studies have equipped me with a strong foundation in data-driven methodologies and programming.
+  <!-- HERO -->
+  <div class="hero-section">
+    <img src="assets/images/Canon-0806.JPG" alt="Tim Chen" class="hero-photo">
+    <h1 class="hero-name">Tim Chen</h1>
+    <p class="hero-tagline">
+      Software engineer and data analyst based in Toronto. I build workflow
+      automations at ElectionBuddy and have shipped frontend features with
+      TypeScript and React. At UofT I study mathematics with a focus on
+      probability and statistics — which means I also spend a lot of time in
+      R and Python building models and finding patterns in data.
+    </p>
+    <div class="hero-buttons">
+      <a href="mailto:timchen0326ca@gmail.com" class="btn btn-dark btn-sm">Email</a>
+      <a href="https://github.com/timchen0326" class="btn btn-outline-secondary btn-sm" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/timchen0326/" class="btn btn-outline-secondary btn-sm" target="_blank">LinkedIn</a>
+      <a href="assets/pdfs/resume_2025.pdf" class="btn btn-outline-secondary btn-sm" target="_blank">Resume</a>
+    </div>
+  </div>
 
-I have professional experience as a **Frontend Software Engineer Intern** at **MAYOHR**, where I worked with **TypeScript**, **React**, and **RESTful APIs** to develop features that improved user efficiency. Additionally, I utilized **Python** for frontend testing, streamlining integration and enhancing overall troubleshooting processes.
+  <hr style="border-color: #E5E7EB; margin: 2.5rem 0;">
 
-My project portfolio includes an analysis of **Toronto crime patterns** using **Bayesian logistic regression**, developing an app for managing **NBA statistics** with **Java** and **Python**, and forecasting **U.S. presidential election results** using regression models. I also conducted a detailed examination of **shelter trends in Toronto**, highlighting key seasonal demands.
+  <!-- SKILLS -->
+  <div class="mb-5">
+    <div class="section-label">Skills</div>
+    <div>
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">R</span>
+      <span class="skill-badge">SQL</span>
+      <span class="skill-badge">TypeScript</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">React</span>
+      <span class="skill-badge">Tableau</span>
+      <span class="skill-badge">Power BI</span>
+      <span class="skill-badge">Quarto</span>
+    </div>
+  </div>
 
-I am proficient in **Python**, **SQL**, **R**, **TypeScript**, **JavaScript**, and **Java**, with experience using tools like **Tableau**, **Power BI**, and **Quarto**. I hold the **Google Data Analytics Professional Certificate**, underscoring my skills in **data cleaning**, **analysis**, and **visualization**. Beyond technical skills, I have honed my organizational and problem-solving abilities through leadership roles and collaborative projects.
+  <!-- EXPERIENCE -->
+  <div class="mb-5">
+    <div class="section-label">Experience</div>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="exp-card">
+          <div class="exp-role">Junior Software Engineer</div>
+          <div class="exp-company">ElectionBuddy</div>
+          <div class="exp-period">2025 – Present</div>
+          <p>Building workflow automations across finance, onboarding, and admin teams using Zapier, QuickBooks Online, and Paperform to reduce manual effort and improve process reliability.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="exp-card">
+          <div class="exp-role">Frontend Software Engineer Intern</div>
+          <div class="exp-company">MAYOHR</div>
+          <div class="exp-period">2024</div>
+          <p>Developed features with TypeScript, React, and RESTful APIs. Used Python for frontend testing to streamline integration and improve troubleshooting workflows.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURED PROJECTS -->
+  <div class="mb-4">
+    <div class="section-label">Featured Projects</div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+
+      <div class="col">
+        <a href="projects/student-analysis.html" class="project-card">
+          <div class="card-tag">Data Analysis</div>
+          <h3>Student Habits &amp; Performance</h3>
+          <p>Explores how lifestyle factors predict academic outcomes using regression and visualization on 80K records.</p>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">pandas</span>
+          <span class="tech-tag">seaborn</span>
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="projects/ml-challenge.html" class="project-card">
+          <div class="card-tag">Machine Learning</div>
+          <h3>CSC311 ML Food Classifier</h3>
+          <p>Multinomial Naïve Bayes classifier achieving 87% accuracy to predict food items from survey data.</p>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">scikit-learn</span>
+          <span class="tech-tag">Streamlit</span>
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="projects/toronto-crime-analysis.html" class="project-card">
+          <div class="card-tag">Statistical Modelling</div>
+          <h3>Toronto Crime Patterns</h3>
+          <p>Bayesian logistic regression uncovering how premises type and time of day shape violent crime risk.</p>
+          <span class="tech-tag">R</span>
+          <span class="tech-tag">Bayesian</span>
+          <span class="tech-tag">rstanarm</span>
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="projects/us-presidential-election.html" class="project-card">
+          <div class="card-tag">Statistical Modelling</div>
+          <h3>2024 U.S. Election Forecast</h3>
+          <p>State-level polling regression model predicting Electoral College outcomes for the 2024 presidential race.</p>
+          <span class="tech-tag">R</span>
+          <span class="tech-tag">regression</span>
+          <span class="tech-tag">polling data</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-end">
+    <a href="projects.html" class="view-all-link">View all projects →</a>
+  </div>
+
+</div>
+```

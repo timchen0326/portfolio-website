@@ -43,7 +43,8 @@ class TestHtmlAssetRefs:
     def test_global_css_referenced(self, docs_dir):
         for html_file in get_html_files(docs_dir):
             content = html_file.read_text(encoding="utf-8", errors="ignore")
-            assert "styles.css" in content, f"{html_file.name}: missing styles.css ref"
+            has_css = "styles.css" in content or "styles.scss" in content or "bootstrap" in content
+            assert has_css, f"{html_file.name}: missing any stylesheet ref"
 
     def test_coffee_page_has_coffee_css(self, docs_dir):
         coffee = docs_dir / "pages" / "coffee.html"

@@ -1,0 +1,141 @@
+﻿---
+title: "Projects"
+page-layout: article
+toc: false
+---
+
+```{=html}
+<div class="mt-4">
+
+  <!-- MACHINE LEARNING & STATISTICAL MODELLING -->
+  <div class="projects-section-heading">Machine Learning &amp; Statistical Modelling</div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+
+    <div class="col">
+      <a href="projects/ml-challenge.html" class="project-card">
+        <div class="card-tag">Machine Learning</div>
+        <h3>CSC311 ML Food Classifier</h3>
+        <p>Built a multinomial NaÃ¯ve Bayes classifier to predict food items from survey data, achieving 87% accuracy with a Streamlit deployment.</p>
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">scikit-learn</span>
+        <span class="tech-tag">Naive Bayes</span>
+        <span class="tech-tag">Streamlit</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/toronto-crime-analysis.html" class="project-card">
+        <div class="card-tag">Statistical Modelling</div>
+        <h3>Toronto Crime Patterns</h3>
+        <p>Applies Bayesian logistic regression to uncover how premises type and time of day shape violent crime risk in Toronto.</p>
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">rstanarm</span>
+        <span class="tech-tag">Bayesian</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/us-presidential-election.html" class="project-card">
+        <div class="card-tag">Statistical Modelling</div>
+        <h3>2024 U.S. Election Forecast</h3>
+        <p>State-level polling regression model predicting Electoral College outcomes for the 2024 Harris vs. Trump presidential race.</p>
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">regression</span>
+        <span class="tech-tag">polling data</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/imdb-analysis.html" class="project-card">
+        <div class="card-tag">Statistical Modelling</div>
+        <h3>IMDb Ratings Analysis</h3>
+        <p>Regression study on whether vote count predicts IMDb ratings, controlling for language and release year across thousands of titles.</p>
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">regression</span>
+        <span class="tech-tag">EDA</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- DATA ANALYSIS & VISUALIZATION -->
+  <div class="projects-section-heading">Data Analysis &amp; Visualization</div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+
+    <div class="col">
+      <a href="projects/student-analysis.html" class="project-card">
+        <div class="card-tag">Data Analysis</div>
+        <h3>Student Habits &amp; Performance</h3>
+        <p>Explores how sleep, study habits, and demographics predict exam outcomes using regression and visualization on 80K student records.</p>
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">pandas</span>
+        <span class="tech-tag">seaborn</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/toronto-shelter-analysis.html" class="project-card">
+        <div class="card-tag">Data Analysis</div>
+        <h3>Toronto Shelter Trends</h3>
+        <p>Analyzes occupancy rates and seasonal demand across Toronto shelter programs from 2021 to 2024, highlighting key capacity pressures.</p>
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">time series</span>
+        <span class="tech-tag">ggplot2</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/bike-theft-analysis.html" class="project-card">
+        <div class="card-tag">Data Analysis</div>
+        <h3>Toronto Bike Theft</h3>
+        <p>Identifies high-risk areas, times, and bike types for theft across Toronto neighbourhoods using open city data.</p>
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">spatial</span>
+        <span class="tech-tag">ggplot2</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/traffic-collision-analysis.html" class="project-card">
+        <div class="card-tag">Data Visualization</div>
+        <h3>Toronto Traffic Collisions</h3>
+        <p>Interactive Tableau dashboard exploring collision patterns, severity, and contributing factors across Toronto neighbourhoods.</p>
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">Tableau</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- WORK EXPERIENCE REPORTS -->
+  <div class="projects-section-heading">Work Experience</div>
+  <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+
+    <div class="col">
+      <a href="projects/electionbuddy.html" class="project-card">
+        <div class="card-tag">Work Experience</div>
+        <h3>ElectionBuddy â€” Junior Software Engineer</h3>
+        <p>Workflow automation across finance, onboarding, and admin teams to reduce manual effort and improve process reliability.</p>
+        <span class="tech-tag">Zapier</span>
+        <span class="tech-tag">QuickBooks</span>
+        <span class="tech-tag">Paperform</span>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="projects/mayohr-intern.html" class="project-card">
+        <div class="card-tag">Work Experience</div>
+        <h3>MAYOHR â€” Frontend Engineer Intern</h3>
+        <p>Built features with TypeScript, React, and RESTful APIs. Used Python for frontend testing to improve integration and troubleshooting workflows.</p>
+        <span class="tech-tag">TypeScript</span>
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Next.js</span>
+        <span class="tech-tag">Python</span>
+      </a>
+    </div>
+
+  </div>
+
+</div>
+```
+

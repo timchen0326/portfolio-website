@@ -1,12 +1,12 @@
 ---
-title: "Courses Taken at University of Toronto"
+title: "Coursework"
 format:
   html:
     toc: true
     toc-title: "Course Code Overview"
 ---
 
-This page lists all the courses I have taken or am currently enrolled in at the University of Toronto, organized by course code prefix.
+Courses taken at the University of Toronto, organized by department prefix.
 
 ---
 

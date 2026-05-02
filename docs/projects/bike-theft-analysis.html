@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-fb5b02fcc08ce134489bec19513ec558.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -92,8 +91,8 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../pages/courses.html"> 
@@ -110,49 +109,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
-        <li>
-    <a class="dropdown-item" href="../projects/student-analysis.html">
- <span class="dropdown-text">Student Habits &amp; Academic Performance Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/ml-challenge.html">
- <span class="dropdown-text">CSC311 ML Challenge Project</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/toronto-crime-analysis.html">
- <span class="dropdown-text">Toronto Crime Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/us-presidential-election.html">
- <span class="dropdown-text">Forecasting the 2024 U.S. Presidential Election</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/toronto-shelter-analysis.html">
- <span class="dropdown-text">Toronto Shelter Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/bike-theft-analysis.html">
- <span class="dropdown-text">Bike Theft Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/imdb-analysis.html">
- <span class="dropdown-text">IMDb Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/mayohr-intern.html">
- <span class="dropdown-text">MAYOHR Internship Progress Report</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/traffic-collision-analysis.html">
- <span class="dropdown-text">Traffic Collisions in Toronto</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="https://timsplayland.vercel.app/"> 
 <span class="menu-text">Portfolio</span></a>
@@ -162,12 +118,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/timchen0326"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/timchen0326"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:timchen0326ca@gmail.com"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:timchen0326ca@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -186,27 +142,13 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
+  <ul class="collapse">
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#key-objectives" id="toc-key-objectives" class="nav-link" data-scroll-target="#key-objectives">Key Objectives</a></li>
-  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
-  <ul class="collapse">
-  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
-  <ul class="collapse">
-  <li><a href="#high-risk-neighborhoods" id="toc-high-risk-neighborhoods" class="nav-link" data-scroll-target="#high-risk-neighborhoods">High-Risk Neighborhoods</a></li>
-  <li><a href="#premises-and-time-of-theft" id="toc-premises-and-time-of-theft" class="nav-link" data-scroll-target="#premises-and-time-of-theft">Premises and Time of Theft</a></li>
-  <li><a href="#bike-types-and-costs" id="toc-bike-types-and-costs" class="nav-link" data-scroll-target="#bike-types-and-costs">Bike Types and Costs</a></li>
-  <li><a href="#divisions-for-reporting-theft" id="toc-divisions-for-reporting-theft" class="nav-link" data-scroll-target="#divisions-for-reporting-theft">Divisions for Reporting Theft</a></li>
-  </ul></li>
+  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
-  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a>
-  <ul class="collapse">
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research">Future Research</a></li>
-  </ul></li>
+  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -791,6 +733,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Tim Chen</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

@@ -1,0 +1,97 @@
+---
+title: "ElectionBuddy — Junior Software Engineer"
+author: "Tim Chen"
+date: "August 2025"
+format: html
+---
+
+## Overview
+
+This report highlights my contributions and growth as a **Junior Software Engineer** at **ElectionBuddy**, where I have been working since August 2025. My work has centered on designing and maintaining workflow automations, supporting cross-functional teams, and improving process reliability across the organization using tools like Zapier, QuickBooks Online, Paperform, and ClickUp.
+
+---
+
+## Role Overview & Key Themes
+
+### 1. Workflow Automation & Process Improvements
+
+A core part of my role has been automating repetitive and error-prone processes for the Services, Onboarding, Finance, and Admin teams:
+
+- Built and enhanced **Paperform** integrations for travel requests, billing workflows, and credit memo generation.
+- Developed and maintained **Zapier** automations to reduce manual work, optimize task quotas, and improve reliability across pipelines.
+- Addressed logic gaps in billing account creation flows and automated reminders for expiring credits.
+- Streamlined admin automations and improved error handling for edge cases in payment and invoice workflows.
+
+### 2. Cross-Team Collaboration
+
+I regularly collaborated with stakeholders across multiple teams to iterate quickly and deliver reliable solutions:
+
+- Worked alongside team members including Chelsea, Ryan, Henrique, and Michael to troubleshoot issues in **Pipedrive**, **QuickBooks Online**, and other integrated platforms.
+- Gathered feedback and rapidly iterated on forms and automations in response to team needs.
+- Supported onboarding and offboarding processes, ensuring smooth transitions and handoffs between teams.
+
+### 3. Technical Troubleshooting & Support
+
+I handled a range of technical challenges requiring both analytical thinking and careful debugging:
+
+- Debugged **Zapier** paths, fixed API integration issues, and reconciled legacy vs. non-legacy automations.
+- Investigated and resolved integration issues with **Read.ai**, **QuickBooks Online**, and other third-party tools.
+- Supported urgent billing and account issues, ensuring data accuracy across interconnected systems.
+
+### 4. Documentation & Communication
+
+Clear communication and documentation were essential to keeping stakeholders aligned:
+
+- Maintained detailed daily and weekly logs summarizing progress, blockers, and next steps.
+- Led live demos for updated forms and automations, clarifying manual vs. automated steps for non-technical team members.
+- Communicated technical limitations and solutions clearly to ensure transparency across teams.
+
+### 5. Continuous Learning & Growth
+
+I proactively sought out opportunities to grow and contribute beyond my immediate responsibilities:
+
+- Actively sought feedback and documented pain points for future optimization.
+- Explored new automation ideas including Slack engagement features and team notification workflows.
+- Contributed to brainstorming sessions for improving team efficiency and tool adoption.
+
+---
+
+## Tools & Platforms
+
+| Tool / Platform | How I Used It |
+|---|---|
+| **Zapier** | Core automation engine — built and maintained Zaps for onboarding, billing, credit memos, and notifications; managed task quotas and handled legacy vs. non-legacy flows |
+| **QuickBooks Online (QBO)** | Automated sales receipts and invoice handling; resolved tax automation discrepancies and synced transaction data |
+| **Paperform** | Built custom forms for travel requests, billing, and credit memos; integrated forms into support modules |
+| **ClickUp** | Project management and documentation — daily journaling, task tracking, AR report automation, and custom field management |
+| **Slack** | Automated team notifications and birthday messages via Zapier integrations |
+| **Re:amaze** | Managed customer support workflows, voicemail distribution, and integrated Paperform links into custom modules |
+| **Pipedrive** | CRM automation — synced credit memo expiration dates, managed renewal deals, and updated deal statuses |
+| **Stripe** | Automated self-service charges and created corresponding QBO sales receipts via Stripe metadata |
+| **Read.ai** | Mapped integration issues for meeting summary automation and reporting workflows |
+
+---
+
+## Impact Summary
+
+**Automation Champion**
+Played a key role in reducing manual work and improving process consistency across multiple teams. Delivered reliable automations that saved time and reduced errors for finance, onboarding, and admin workflows.
+
+**Problem Solver**
+Tackled technical and process challenges head-on — debugging integration issues, resolving API inconsistencies, and finding practical solutions in collaboration with colleagues.
+
+**Communicator**
+Maintained detailed documentation and provided proactive updates that kept projects on track and ensured all stakeholders remained informed throughout each initiative.
+
+**Team Player**
+Responded quickly to teammate feedback, supported colleagues during urgent situations, and contributed to a culture of continuous improvement across the organization.
+
+---
+
+## References
+
+- [ElectionBuddy Website](https://electionbuddy.com)
+- [Zapier Documentation](https://zapier.com/help)
+- [QuickBooks Online](https://quickbooks.intuit.com)
+- [Paperform](https://paperform.co)
+- [ClickUp](https://clickup.com)

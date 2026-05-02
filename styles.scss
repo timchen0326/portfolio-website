@@ -1,0 +1,215 @@
+/*-- scss:defaults --*/
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$headings-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$primary: #0F172A;
+$link-color: #2563EB;
+$link-hover-color: #1D4ED8;
+$navbar-bg: #FFFFFF;
+$navbar-light-color: #374151;
+$navbar-light-active-color: #0F172A;
+$body-bg: #FFFFFF;
+$body-color: #374151;
+$border-radius: 0.5rem;
+$card-border-color: #E5E7EB;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Navbar ─────────────────────────────────────────────── */
+.navbar {
+  border-bottom: 1px solid #E5E7EB;
+  box-shadow: none;
+  padding: 0.75rem 0;
+}
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #0F172A !important;
+}
+
+/* ── Hero (index.qmd) ───────────────────────────────────── */
+.hero-section {
+  padding: 4rem 1rem 3rem;
+  text-align: center;
+}
+.hero-photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  margin-bottom: 1.5rem;
+}
+.hero-name {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #0F172A;
+  margin-bottom: 0.5rem;
+}
+.hero-tagline {
+  font-size: 1.05rem;
+  color: #6B7280;
+  max-width: 520px;
+  margin: 0 auto 2rem;
+  line-height: 1.65;
+}
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.hero-buttons .btn {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* ── Section labels ─────────────────────────────────────── */
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9CA3AF;
+  margin-bottom: 1.25rem;
+}
+
+/* ── Skill badges ───────────────────────────────────────── */
+.skill-badge {
+  display: inline-block;
+  background: #F1F5F9;
+  color: #334155;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  margin: 0.2rem;
+  border: 1px solid #E2E8F0;
+}
+
+/* ── Experience cards (home page) ───────────────────────── */
+.exp-card {
+  border: 1px solid #E5E7EB;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  height: 100%;
+}
+.exp-card .exp-role {
+  font-weight: 600;
+  color: #0F172A;
+  font-size: 0.95rem;
+  margin-bottom: 0.1rem;
+}
+.exp-card .exp-company {
+  color: #2563EB;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.exp-card .exp-period {
+  color: #9CA3AF;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.exp-card p {
+  color: #6B7280;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+/* ── Project cards ──────────────────────────────────────── */
+.project-card {
+  border: 1px solid #E5E7EB;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  background: #FFFFFF;
+  height: 100%;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+@media (hover: hover) {
+  .project-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+    color: inherit;
+    text-decoration: none;
+  }
+}
+.project-card .card-tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #2563EB;
+  margin-bottom: 0.5rem;
+}
+.project-card h3 {
+  font-size: 0.975rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #0F172A;
+  line-height: 1.4;
+}
+.project-card p {
+  font-size: 0.855rem;
+  color: #6B7280;
+  margin-bottom: 0.75rem;
+  line-height: 1.55;
+}
+
+/* ── Tech tags ──────────────────────────────────────────── */
+.tech-tag {
+  display: inline-block;
+  background: #EFF6FF;
+  color: #2563EB;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  margin: 0.1rem 0.1rem 0 0;
+}
+
+/* ── Projects page section headings ─────────────────────── */
+.projects-section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0F172A;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #E5E7EB;
+  margin-bottom: 1.5rem;
+}
+
+/* ── "View all" link ────────────────────────────────────── */
+.view-all-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #2563EB;
+  text-decoration: none;
+}
+.view-all-link:hover {
+  color: #1D4ED8;
+  text-decoration: underline;
+}
+
+/* ── TOC (project pages) ────────────────────────────────── */
+#TOC { font-size: 0.875rem; }
+#TOC .nav-link {
+  color: #6B7280 !important;
+  font-weight: 400 !important;
+  padding: 0.2rem 0 0.2rem 0.75rem;
+  text-decoration: none;
+}
+#TOC .nav-link:hover { color: #374151 !important; }
+#TOC .nav-link.active { color: #0F172A !important; font-weight: 500 !important; }
+
+/* ── Footer ─────────────────────────────────────────────── */
+.nav-footer {
+  border-top: 1px solid #E5E7EB;
+  font-size: 0.8rem;
+  color: #9CA3AF;
+}

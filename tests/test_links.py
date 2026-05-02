@@ -80,12 +80,28 @@ class TestExternalLinksPresent:
 
 
 class TestNavbarLinks:
-    def test_all_project_pages_reachable_from_index(self, docs_dir):
+    def test_featured_projects_on_index(self, docs_dir):
+        """Index shows 4 featured projects; full listing lives on projects.html."""
         index = docs_dir / "index.html"
         if not index.exists():
             pytest.skip("index.html not built yet")
         html = read_html(index)
-        expected_slugs = [
+        featured_slugs = [
+            "student-analysis",
+            "ml-challenge",
+            "toronto-crime-analysis",
+            "us-presidential-election",
+        ]
+        for slug in featured_slugs:
+            assert slug in html, f"Index missing featured project link: {slug}"
+
+    def test_all_projects_on_projects_page(self, docs_dir):
+        """All 9 analysis projects must appear on projects.html."""
+        projects_page = docs_dir / "projects.html"
+        if not projects_page.exists():
+            pytest.skip("projects.html not built yet")
+        html = read_html(projects_page)
+        all_slugs = [
             "student-analysis",
             "ml-challenge",
             "toronto-crime-analysis",
@@ -96,5 +112,5 @@ class TestNavbarLinks:
             "mayohr-intern",
             "traffic-collision-analysis",
         ]
-        for slug in expected_slugs:
-            assert slug in html, f"Navbar missing link to: {slug}"
+        for slug in all_slugs:
+            assert slug in html, f"projects.html missing link: {slug}"
