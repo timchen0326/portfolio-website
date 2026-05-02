@@ -63,4 +63,4 @@ This analysis explores whether IMDb votes predict higher IMDb ratings and examin
 The analysis reveals significant relationships between IMDb votes, ratings, release year, and language diversity. However, future studies could improve by exploring nonlinear trends and including additional variables like genre and budget.
 
 
-**Access the report**: [IMDb Analysis PDF](pdfs/IMDb%20Analysis.pdf)
+**Access the report**: [IMDb Analysis PDF](../assets/pdfs/IMDb%20Analysis.pdf)

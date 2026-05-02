@@ -9,26 +9,27 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: courses.qmd
+      - href: pages/courses.qmd
         text: Courses
       - text: Hobbies
         menu:
-          - href: coffee.qmd
+          - href: pages/coffee.qmd
+            text: Coffee
       - text: Projects
-        menu: 
-          - student-analysis.qmd
-          - ml-challenge.qmd
-          - toronto-crime-analysis.qmd
-          - us-presidential election.qmd
-          - toronto-shelter-analysis.qmd
-          - bike-theft-analysis.qmd
-          - iMDb-analysis.qmd
-          - mayohr-intern.qmd
-          - traffic-collision-analysis.qmd
+        menu:
+          - projects/student-analysis.qmd
+          - projects/ml-challenge.qmd
+          - projects/toronto-crime-analysis.qmd
+          - projects/us-presidential-election.qmd
+          - projects/toronto-shelter-analysis.qmd
+          - projects/bike-theft-analysis.qmd
+          - projects/imdb-analysis.qmd
+          - projects/mayohr-intern.qmd
+          - projects/traffic-collision-analysis.qmd
       - href: https://timsplayland.vercel.app/
         text: Portfolio
       - text: "Resume"
-        href: pdfs/resume_2025.pdf
+        href: assets/pdfs/resume_2025.pdf
       - icon: github
         href: https://github.com/timchen0326
       - icon: envelope
@@ -37,9 +38,8 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: assets/css/styles.css
     toc: true
 
 execute:
   freeze: true
-

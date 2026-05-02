@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tim Chen">
-<meta name="dcterms.date" content="2024-12-13">
+<meta name="dcterms.date" content="2024-04-01">
 
-<title>Toronto Crime Analysis – Tim Chen</title>
+<title>Traffic Collisions in Toronto – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Tim Chen</span>
     </a>
   </div>
@@ -92,11 +92,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses.html"> 
+    <a class="nav-link" href="../pages/courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -105,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-hobbies">    
         <li>
-    <a class="dropdown-item" href="./coffee.html">
- <span class="dropdown-text">My Coffee Journey</span></a>
+    <a class="dropdown-item" href="../pages/coffee.html">
+ <span class="dropdown-text">Coffee</span></a>
   </li>  
     </ul>
   </li>
@@ -116,39 +116,39 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./student-analysis.html">
+    <a class="dropdown-item" href="../projects/student-analysis.html">
  <span class="dropdown-text">Student Habits &amp; Academic Performance Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ml-challenge.html">
+    <a class="dropdown-item" href="../projects/ml-challenge.html">
  <span class="dropdown-text">CSC311 ML Challenge Project</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./toronto-crime-analysis.html">
+    <a class="dropdown-item" href="../projects/toronto-crime-analysis.html">
  <span class="dropdown-text">Toronto Crime Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./us-presidential election.html">
+    <a class="dropdown-item" href="../projects/us-presidential-election.html">
  <span class="dropdown-text">Forecasting the 2024 U.S. Presidential Election</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./toronto-shelter-analysis.html">
+    <a class="dropdown-item" href="../projects/toronto-shelter-analysis.html">
  <span class="dropdown-text">Toronto Shelter Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./bike-theft-analysis.html">
+    <a class="dropdown-item" href="../projects/bike-theft-analysis.html">
  <span class="dropdown-text">Bike Theft Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./iMDb-analysis.html">
+    <a class="dropdown-item" href="../projects/imdb-analysis.html">
  <span class="dropdown-text">IMDb Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mayohr-intern.html">
+    <a class="dropdown-item" href="../projects/mayohr-intern.html">
  <span class="dropdown-text">MAYOHR Internship Progress Report</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./traffic-collision-analysis.html">
+    <a class="dropdown-item" href="../projects/traffic-collision-analysis.html">
  <span class="dropdown-text">Traffic Collisions in Toronto</span></a>
   </li>  
     </ul>
@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pdfs/resume_2025.pdf"> 
+    <a class="nav-link" href="../assets/pdfs/resume_2025.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
@@ -188,23 +188,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-objectives" id="toc-key-objectives" class="nav-link" data-scroll-target="#key-objectives">Key Objectives</a></li>
-  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
+  <li><a href="#key-highlights" id="toc-key-highlights" class="nav-link" data-scroll-target="#key-highlights">Key Highlights</a>
   <ul class="collapse">
-  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
-  <ul class="collapse">
-  <li><a href="#influence-of-premises-type" id="toc-influence-of-premises-type" class="nav-link" data-scroll-target="#influence-of-premises-type">Influence of Premises Type</a></li>
-  <li><a href="#temporal-patterns" id="toc-temporal-patterns" class="nav-link" data-scroll-target="#temporal-patterns">Temporal Patterns</a></li>
-  <li><a href="#statistical-insights" id="toc-statistical-insights" class="nav-link" data-scroll-target="#statistical-insights">Statistical Insights</a></li>
-  </ul></li>
-  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
-  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a>
-  <ul class="collapse">
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research">Future Research</a></li>
+  <li><a href="#neighborhood-distribution-of-injury-collisions" id="toc-neighborhood-distribution-of-injury-collisions" class="nav-link" data-scroll-target="#neighborhood-distribution-of-injury-collisions">Neighborhood Distribution of Injury Collisions</a></li>
+  <li><a href="#monthly-and-annual-trends" id="toc-monthly-and-annual-trends" class="nav-link" data-scroll-target="#monthly-and-annual-trends">Monthly and Annual Trends</a></li>
+  <li><a href="#hourly-distribution-by-travel-mode" id="toc-hourly-distribution-by-travel-mode" class="nav-link" data-scroll-target="#hourly-distribution-by-travel-mode">Hourly Distribution by Travel Mode</a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -215,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Toronto Crime Analysis</h1>
+<h1 class="title">Traffic Collisions in Toronto</h1>
 </div>
 
 
@@ -232,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 13, 2024</p>
+      <p class="date">April 1, 2024</p>
     </div>
   </div>
   
@@ -246,112 +234,35 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This paper explores how contextual and temporal factors influence violent crimes in Toronto, using data from the Major Crime Indicators dataset. By applying a Bayesian logistic regression model, the study uncovers patterns in crime occurrences across various premises types and times of the day. These findings aim to inform targeted interventions for urban safety and crime prevention.</p>
+<p>This webpage provides a detailed visualization of traffic collisions in Toronto, highlighting key patterns and trends across neighborhoods, time, and modes of travel. By embedding an interactive Tableau dashboard and supporting the insights with visual examples, this page aims to improve understanding of traffic safety challenges and potential interventions.</p>
 <hr>
 </section>
-<section id="key-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="key-objectives">Key Objectives</h2>
-<ol type="1">
-<li><strong>Analyze contextual factors</strong>: Examine how different premises types affect the likelihood of violent crime.<br>
-</li>
-<li><strong>Explore temporal dynamics</strong>: Investigate the role of time of day in shaping crime patterns.<br>
-</li>
-<li><strong>Inform policy and urban design</strong>: Provide evidence-based recommendations for improving public safety.</li>
-</ol>
-<hr>
-</section>
-<section id="data-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
-<section id="data-source" class="level3">
-<h3 class="anchored" data-anchor-id="data-source">Data Source</h3>
+<section id="key-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="key-highlights">Key Highlights</h2>
+<section id="neighborhood-distribution-of-injury-collisions" class="level3">
+<h3 class="anchored" data-anchor-id="neighborhood-distribution-of-injury-collisions">Neighborhood Distribution of Injury Collisions</h3>
 <ul>
-<li><strong>Dataset</strong>: Major Crime Indicators dataset from the Toronto Police Service.</li>
-<li><strong>Key Variables</strong>:
-<ul>
-<li><strong>Premises Type</strong>: Categories include residential, transit, outdoor, and educational premises.</li>
-<li><strong>Time of Day</strong>: Grouped into early morning, morning, afternoon, and evening.</li>
-<li><strong>Outcome</strong>: Binary variable indicating whether a crime is violent or non-violent.</li>
-</ul></li>
+<li>The dashboard visualizes injury collisions distributed across neighborhoods, highlighting high-risk areas.</li>
 </ul>
 </section>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+<section id="monthly-and-annual-trends" class="level3">
+<h3 class="anchored" data-anchor-id="monthly-and-annual-trends">Monthly and Annual Trends</h3>
 <ul>
-<li><strong>Bayesian Logistic Regression</strong>: Utilized to model the relationship between premises type, time of day, and crime likelihood.</li>
-<li><strong>Data Cleaning</strong>: Involved removing missing data, categorizing variables, and aligning time categories with existing research.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<section id="influence-of-premises-type" class="level3">
-<h3 class="anchored" data-anchor-id="influence-of-premises-type">Influence of Premises Type</h3>
-<ul>
-<li><strong>High-Risk Locations</strong>: Transit and outdoor areas exhibit higher odds of violent crimes.</li>
-<li><strong>Low-Risk Locations</strong>: Residential and educational premises demonstrate lower violence likelihood.</li>
+<li>Patterns in monthly and yearly data showcase how traffic collisions vary with time and seasonality.</li>
 </ul>
 </section>
-<section id="temporal-patterns" class="level3">
-<h3 class="anchored" data-anchor-id="temporal-patterns">Temporal Patterns</h3>
+<section id="hourly-distribution-by-travel-mode" class="level3">
+<h3 class="anchored" data-anchor-id="hourly-distribution-by-travel-mode">Hourly Distribution by Travel Mode</h3>
 <ul>
-<li><strong>Peak Times</strong>: Violent crimes are more likely in the afternoon and evening, correlating with increased social interaction.</li>
-<li><strong>Lower Risk</strong>: Early mornings show reduced crime rates, reflecting lower activity and greater institutional oversight.</li>
-</ul>
-</section>
-<section id="statistical-insights" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-insights">Statistical Insights</h3>
-<ul>
-<li>Credible intervals confirm the significance of predictors like transit and evening periods.</li>
-<li>Results suggest the need for targeted interventions during high-risk times and locations.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="policy-implications" class="level2">
-<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
-<ol type="1">
-<li><strong>Enhanced Surveillance</strong>:
-<ul>
-<li>Install cameras and improve lighting in transit and outdoor areas.</li>
-<li>Adopt Crime Prevention Through Environmental Design (CPTED) principles.</li>
-</ul></li>
-<li><strong>Targeted Policing</strong>:
-<ul>
-<li>Increase police presence during peak crime hours (afternoon and evening).</li>
-<li>Use predictive modeling for efficient resource allocation.</li>
-</ul></li>
-<li><strong>Community Interventions</strong>:
-<ul>
-<li>Promote awareness and safety campaigns in high-risk zones.</li>
-<li>Develop socioeconomic upliftment programs near transit hubs.</li>
-</ul></li>
-</ol>
-<hr>
-</section>
-<section id="limitations-and-future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="limitations-and-future-directions">Limitations and Future Directions</h2>
-<section id="limitations" class="level3">
-<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
-<ul>
-<li><strong>Underreporting Bias</strong>: Data only includes reported crimes, potentially underestimating true incidence.<br>
-</li>
-<li><strong>Broad Time Categories</strong>: Grouping times of day may obscure finer trends.</li>
-</ul>
-</section>
-<section id="future-research" class="level3">
-<h3 class="anchored" data-anchor-id="future-research">Future Research</h3>
-<ul>
-<li>Incorporate more granular temporal and spatial data using GIS technology.<br>
-</li>
-<li>Analyze additional factors such as weather, crowd density, and socioeconomic indicators.</li>
+<li>Analyze hourly trends for different travel modes, including automobiles, bicycles, motorcycles, and pedestrians.</li>
 </ul>
 <hr>
 </section>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Data and methodology are fully reproducible, with the dataset and code available at: <a href="https://github.com/timchen0326/crime-analysis-toronto">GitHub Repository</a>.</p>
+<p>Data Source:<br>
+<a href="https://public.tableau.com/app/profile/wei.ting.chen/viz/TrafficCollisionsinToronto/Dashboard1">Traffic Collisions in Toronto Dashboard by Wei Ting Chen</a></p>
 
 
 </section>

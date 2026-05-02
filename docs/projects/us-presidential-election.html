@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tim Chen">
-<meta name="dcterms.date" content="2024-08-01">
+<meta name="author" content="Tim Chen, Steven Li, and Tommy Fu">
+<meta name="dcterms.date" content="2024-11-04">
 
-<title>MAYOHR Internship Progress Report – Tim Chen</title>
+<title>Forecasting the 2024 U.S. Presidential Election – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Tim Chen</span>
     </a>
   </div>
@@ -92,11 +92,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses.html"> 
+    <a class="nav-link" href="../pages/courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -105,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-hobbies">    
         <li>
-    <a class="dropdown-item" href="./coffee.html">
- <span class="dropdown-text">My Coffee Journey</span></a>
+    <a class="dropdown-item" href="../pages/coffee.html">
+ <span class="dropdown-text">Coffee</span></a>
   </li>  
     </ul>
   </li>
@@ -116,39 +116,39 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./student-analysis.html">
+    <a class="dropdown-item" href="../projects/student-analysis.html">
  <span class="dropdown-text">Student Habits &amp; Academic Performance Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ml-challenge.html">
+    <a class="dropdown-item" href="../projects/ml-challenge.html">
  <span class="dropdown-text">CSC311 ML Challenge Project</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./toronto-crime-analysis.html">
+    <a class="dropdown-item" href="../projects/toronto-crime-analysis.html">
  <span class="dropdown-text">Toronto Crime Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./us-presidential election.html">
+    <a class="dropdown-item" href="../projects/us-presidential-election.html">
  <span class="dropdown-text">Forecasting the 2024 U.S. Presidential Election</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./toronto-shelter-analysis.html">
+    <a class="dropdown-item" href="../projects/toronto-shelter-analysis.html">
  <span class="dropdown-text">Toronto Shelter Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./bike-theft-analysis.html">
+    <a class="dropdown-item" href="../projects/bike-theft-analysis.html">
  <span class="dropdown-text">Bike Theft Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./iMDb-analysis.html">
+    <a class="dropdown-item" href="../projects/imdb-analysis.html">
  <span class="dropdown-text">IMDb Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mayohr-intern.html">
+    <a class="dropdown-item" href="../projects/mayohr-intern.html">
  <span class="dropdown-text">MAYOHR Internship Progress Report</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./traffic-collision-analysis.html">
+    <a class="dropdown-item" href="../projects/traffic-collision-analysis.html">
  <span class="dropdown-text">Traffic Collisions in Toronto</span></a>
   </li>  
     </ul>
@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pdfs/resume_2025.pdf"> 
+    <a class="nav-link" href="../assets/pdfs/resume_2025.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
@@ -187,24 +187,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#progress-timeline" id="toc-progress-timeline" class="nav-link" data-scroll-target="#progress-timeline">Progress Timeline</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a>
   <ul class="collapse">
-  <li><a href="#development-environment-setup" id="toc-development-environment-setup" class="nav-link" data-scroll-target="#development-environment-setup">1. Development Environment Setup</a></li>
-  <li><a href="#foundational-web-development" id="toc-foundational-web-development" class="nav-link" data-scroll-target="#foundational-web-development">2. Foundational Web Development</a></li>
-  <li><a href="#interactive-application-development" id="toc-interactive-application-development" class="nav-link" data-scroll-target="#interactive-application-development">3. Interactive Application Development</a></li>
-  <li><a href="#data-extraction-and-api-integration" id="toc-data-extraction-and-api-integration" class="nav-link" data-scroll-target="#data-extraction-and-api-integration">4. Data Extraction and API Integration</a></li>
-  <li><a href="#full-stack-project-development" id="toc-full-stack-project-development" class="nav-link" data-scroll-target="#full-stack-project-development">5. Full-Stack Project Development</a></li>
-  <li><a href="#version-control-with-git" id="toc-version-control-with-git" class="nav-link" data-scroll-target="#version-control-with-git">6. Version Control with Git</a></li>
-  <li><a href="#collaborative-development-practices" id="toc-collaborative-development-practices" class="nav-link" data-scroll-target="#collaborative-development-practices">7. Collaborative Development Practices</a></li>
-  <li><a href="#json-file-management" id="toc-json-file-management" class="nav-link" data-scroll-target="#json-file-management">8. JSON File Management</a></li>
-  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">9. Data Visualization</a></li>
-  <li><a href="#organizational-chart-implementation" id="toc-organizational-chart-implementation" class="nav-link" data-scroll-target="#organizational-chart-implementation">10. Organizational Chart Implementation</a></li>
-  <li><a href="#user-access-control" id="toc-user-access-control" class="nav-link" data-scroll-target="#user-access-control">11. User Access Control</a></li>
-  <li><a href="#advanced-state-management" id="toc-advanced-state-management" class="nav-link" data-scroll-target="#advanced-state-management">12. Advanced State Management</a></li>
-  <li><a href="#code-contributions-and-collaboration" id="toc-code-contributions-and-collaboration" class="nav-link" data-scroll-target="#code-contributions-and-collaboration">13. Code Contributions and Collaboration</a></li>
+  <li><a href="#data-overview" id="toc-data-overview" class="nav-link" data-scroll-target="#data-overview">Data Overview</a></li>
+  <li><a href="#analytical-approach" id="toc-analytical-approach" class="nav-link" data-scroll-target="#analytical-approach">Analytical Approach</a></li>
   </ul></li>
-  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections">Reflections</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a>
+  <ul class="collapse">
+  <li><a href="#electoral-vote-projections" id="toc-electoral-vote-projections" class="nav-link" data-scroll-target="#electoral-vote-projections">Electoral Vote Projections</a></li>
+  <li><a href="#polling-insights" id="toc-polling-insights" class="nav-link" data-scroll-target="#polling-insights">Polling Insights</a></li>
+  </ul></li>
+  <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a>
+  <ul class="collapse">
+  <li><a href="#for-forecasting" id="toc-for-forecasting" class="nav-link" data-scroll-target="#for-forecasting">For Forecasting</a></li>
+  <li><a href="#for-policy-and-practice" id="toc-for-policy-and-practice" class="nav-link" data-scroll-target="#for-policy-and-practice">For Policy and Practice</a></li>
+  </ul></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -214,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MAYOHR Internship Progress Report</h1>
+<h1 class="title">Forecasting the 2024 U.S. Presidential Election</h1>
 </div>
 
 
@@ -224,14 +225,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Tim Chen </p>
+             <p>Tim Chen, Steven Li, and Tommy Fu </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2024</p>
+      <p class="date">November 4, 2024</p>
     </div>
   </div>
   
@@ -243,140 +244,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This report highlights key milestones and skills acquired during my internship, focusing on front-end development, data scraping, API creation, and project management. The experience provided a comprehensive introduction to working with modern web development frameworks and collaborative tools in a professional environment.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The 2024 U.S. presidential election presents unique challenges for forecasting, with a tight race between Kamala Harris and Donald Trump. This study uses state-level polling data to predict Electoral College outcomes, offering insights into voter support patterns and the factors influencing polling accuracy. Our findings estimate <strong>306 electoral votes for Harris</strong> and <strong>232 for Trump</strong>, highlighting the importance of state-specific analysis in predicting election results.</p>
 <hr>
 </section>
-<section id="progress-timeline" class="level2">
-<h2 class="anchored" data-anchor-id="progress-timeline">Progress Timeline</h2>
-<section id="development-environment-setup" class="level3">
-<h3 class="anchored" data-anchor-id="development-environment-setup">1. Development Environment Setup</h3>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<section id="data-overview" class="level3">
+<h3 class="anchored" data-anchor-id="data-overview">Data Overview</h3>
+<p>The analysis is based on polling data from FiveThirtyEight’s 2024 Presidential Election Forecast Database, collected between July and October 2024. Key metrics include: - <strong>Poll Quality</strong>: Measures like pollster rating and transparency scores. - <strong>Sample Characteristics</strong>: Sample sizes, methods (e.g., live phone interviews, online panels), and temporal trends. - <strong>State-Level Data</strong>: Focused polling in battleground states like Pennsylvania, Wisconsin, and North Carolina.</p>
+</section>
+<section id="analytical-approach" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-approach">Analytical Approach</h3>
+<ol type="1">
+<li><strong>Regression Models</strong>: Linear and multiple linear regressions were used to assess factors affecting voter support for each candidate.</li>
+<li><strong>Addressing Bias</strong>: Variance Inflation Factor (VIF) analysis eliminated multicollinearity issues in predictors.</li>
+<li><strong>Predictive Accuracy</strong>: Root Mean Squared Error (RMSE) was used to evaluate model performance on test data.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<section id="electoral-vote-projections" class="level3">
+<h3 class="anchored" data-anchor-id="electoral-vote-projections">Electoral Vote Projections</h3>
 <ul>
-<li><strong>Configured Development Tools</strong><br>
-Established a productive development environment by configuring Visual Studio Code, React.js, and Next.js.<br>
-<em>Date:</em> May 9, 2024</li>
+<li><strong>Kamala Harris</strong>: 306 votes, securing key battleground states like Pennsylvania, Michigan, and Wisconsin.</li>
+<li><strong>Donald Trump</strong>: 232 votes, with strongholds in Florida, North Carolina, and much of the South.</li>
 </ul>
 </section>
-<section id="foundational-web-development" class="level3">
-<h3 class="anchored" data-anchor-id="foundational-web-development">2. Foundational Web Development</h3>
+<section id="polling-insights" class="level3">
+<h3 class="anchored" data-anchor-id="polling-insights">Polling Insights</h3>
 <ul>
-<li><strong>Strengthened HTML and CSS Proficiency</strong><br>
-Enhanced understanding of HTML and CSS fundamentals to build responsive and accessible web interfaces.<br>
-<em>Date:</em> May 13, 2024</li>
-</ul>
-</section>
-<section id="interactive-application-development" class="level3">
-<h3 class="anchored" data-anchor-id="interactive-application-development">3. Interactive Application Development</h3>
-<ul>
-<li><strong>Built a Dynamic BMI Calculator</strong><br>
-Developed an interactive BMI calculator to explore React’s state management capabilities through <code>useState</code>.<br>
-<em>Date:</em> May 14, 2024</li>
-</ul>
-</section>
-<section id="data-extraction-and-api-integration" class="level3">
-<h3 class="anchored" data-anchor-id="data-extraction-and-api-integration">4. Data Extraction and API Integration</h3>
-<ul>
-<li><strong>Implemented Web Scraping and APIs</strong><br>
-Utilized Python and Flask to extract data from web sources and design RESTful APIs for seamless data access.<br>
-<em>Date:</em> May 15, 2024</li>
-</ul>
-</section>
-<section id="full-stack-project-development" class="level3">
-<h3 class="anchored" data-anchor-id="full-stack-project-development">5. Full-Stack Project Development</h3>
-<ul>
-<li><strong>Developed a Sports Card Auction Platform</strong><br>
-Created a full-stack application for a sports card auction system, integrating scraped data and user interactions.<br>
-<em>Date:</em> May 24, 2024</li>
-</ul>
-</section>
-<section id="version-control-with-git" class="level3">
-<h3 class="anchored" data-anchor-id="version-control-with-git">6. Version Control with Git</h3>
-<ul>
-<li><strong>Mastered Version Control Workflows</strong><br>
-Gained proficiency in Git to manage code repositories and collaborate effectively in a team environment.<br>
-<em>Date:</em> May 26, 2024</li>
-</ul>
-</section>
-<section id="collaborative-development-practices" class="level3">
-<h3 class="anchored" data-anchor-id="collaborative-development-practices">7. Collaborative Development Practices</h3>
-<ul>
-<li><strong>Contributed to Front-End Features</strong><br>
-Worked with Azure DevOps to implement and refine front-end features, ensuring alignment with project objectives.<br>
-<em>Date:</em> May 28, 2024</li>
-</ul>
-</section>
-<section id="json-file-management" class="level3">
-<h3 class="anchored" data-anchor-id="json-file-management">8. JSON File Management</h3>
-<ul>
-<li><strong>Integrated Advanced JSON Editing Tools</strong><br>
-Leveraged JsonEditor for efficient handling and manipulation of JSON data in various applications.<br>
-<em>Date:</em> May 30, 2024</li>
-</ul>
-</section>
-<section id="data-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="data-visualization">9. Data Visualization</h3>
-<ul>
-<li><strong>Developed Interactive Dashboards</strong><br>
-Designed a user-friendly dashboard for data visualization, employing React to present insights effectively.<br>
-<em>Date:</em> June 14, 2024</li>
-</ul>
-</section>
-<section id="organizational-chart-implementation" class="level3">
-<h3 class="anchored" data-anchor-id="organizational-chart-implementation">10. Organizational Chart Implementation</h3>
-<ul>
-<li><strong>Customized Data-Driven Visualizations</strong><br>
-Adapted and enhanced organizational tree charts using React D3 Tree to meet complex requirements.<br>
-<em>Date:</em> June 26, 2024</li>
-</ul>
-</section>
-<section id="user-access-control" class="level3">
-<h3 class="anchored" data-anchor-id="user-access-control">11. User Access Control</h3>
-<ul>
-<li><strong>Established Role-Based Access Systems</strong><br>
-Implemented secure user access controls to manage permissions and restrict page visibility based on roles.<br>
-<em>Date:</em> July 4, 2024</li>
-</ul>
-</section>
-<section id="advanced-state-management" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-state-management">12. Advanced State Management</h3>
-<ul>
-<li><strong>Applied Redux for State Management</strong><br>
-Improved application performance and maintainability by integrating Redux for advanced state management.<br>
-<em>Date:</em> July 8, 2024</li>
-</ul>
-</section>
-<section id="code-contributions-and-collaboration" class="level3">
-<h3 class="anchored" data-anchor-id="code-contributions-and-collaboration">13. Code Contributions and Collaboration</h3>
-<ul>
-<li><strong>Delivered Consistent Code Contributions</strong><br>
-Contributed to multiple projects with a strong focus on code quality and collaborative problem-solving.<br>
-<em>Date Range:</em> May 9, 2024 – August 1, 2024</li>
+<li><strong>High-Quality Polls Dominate</strong>: Most data came from reliable sources, with transparency scores averaging 8.59 out of 10.</li>
+<li><strong>Methodology Trends</strong>: Pollsters favored live phone interviews and online panels, adapting to modern communication patterns.</li>
+<li><strong>Sample Sizes</strong>: National polls were larger (average ~1,115 respondents) than state-level ones, reflecting their broader scope.</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="reflections" class="level2">
-<h2 class="anchored" data-anchor-id="reflections">Reflections</h2>
-<p>This internship provided invaluable hands-on experience in front-end development, data management, and team collaboration. Through diverse projects, I developed a deeper understanding of modern development frameworks, effective communication in cross-functional teams, and best practices for delivering high-quality software solutions.</p>
+<section id="implications" class="level2">
+<h2 class="anchored" data-anchor-id="implications">Implications</h2>
+<section id="for-forecasting" class="level3">
+<h3 class="anchored" data-anchor-id="for-forecasting">For Forecasting</h3>
+<ul>
+<li><strong>State-Level Emphasis</strong>: National averages fail to account for the Electoral College’s structure. Detailed state-level analyses are essential for accurate predictions.</li>
+<li><strong>Methodological Rigor</strong>: Poll quality metrics significantly affect predictions. Future studies should prioritize transparency and reliability in polling data.</li>
+</ul>
+</section>
+<section id="for-policy-and-practice" class="level3">
+<h3 class="anchored" data-anchor-id="for-policy-and-practice">For Policy and Practice</h3>
+<ul>
+<li><strong>Enhancing Data Collection</strong>: Increase polling efforts in underrepresented states to reduce prediction gaps.</li>
+<li><strong>Real-Time Data Integration</strong>: Incorporate alternative sources like economic indicators and social media trends for dynamic forecasts.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<ol type="1">
+<li><strong>Sparse Polling in Safe States</strong>: Low data availability in less competitive regions introduces uncertainty.</li>
+<li><strong>Dynamic Shifts</strong>: Rapidly changing voter sentiment and late-breaking events may not be fully captured in polling snapshots.</li>
+</ol>
+<hr>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<p>To improve electoral forecasting: - Adopt machine learning models for non-linear relationships and complex interactions. - Explore innovative data sources, such as demographic shifts and voter behavior on digital platforms. - Foster collaboration among statisticians, pollsters, and political analysts to refine methodologies.</p>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>This study underscores the importance of rigorous state-level analysis for Electoral College predictions. While Kamala Harris is projected to win with 306 electoral votes, the findings highlight the need for continuous improvement in polling practices and forecasting models to adapt to an evolving political landscape.</p>
 <hr>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<ul>
-<li><a href="https://timsplayland.vercel.app/projects/mayohr">Internship Project Overview</a></li>
-<li><a href="https://flask.palletsprojects.com/">Flask Documentation</a><br>
+<ol type="1">
+<li>FiveThirtyEight. “2024 Election Polls.”<br>
+<a href="https://projects.fivethirtyeight.com/polls/" class="uri">https://projects.fivethirtyeight.com/polls/</a><br>
 </li>
-<li><a href="https://react.dev/">React Documentation</a><br>
+<li>Keeter, Scott. “Key Things to Know About U.S. Election Polling in 2024.”<br>
+<a href="https://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/" class="uri">https://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/</a><br>
 </li>
-<li><a href="https://react-redux.js.org/">Redux Documentation</a><br>
-</li>
-<li><a href="https://azure.microsoft.com/">Azure DevOps</a><br>
-</li>
-<li><a href="https://json-editor.github.io/json-editor/">JsonEditor Documentation</a><br>
-</li>
-<li><a href="https://git-scm.com/">Git Documentation</a></li>
-</ul>
+<li>Viala-Gaudefroy, Jérôme. “2024 US Presidential Election: Can We Believe the Polls?”<br>
+<a href="https://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834" class="uri">https://theconversation.com/2024-us-presidential-election-can-we-believe-the-polls-240834</a></li>
+<li>GitHub Repository: <a href="https://github.com/timchen0326/US_presidential_election_forecast_2024">Forecasting the 2024 U.S. Presidential Election</a></li>
+</ol>
 
 
 </section>

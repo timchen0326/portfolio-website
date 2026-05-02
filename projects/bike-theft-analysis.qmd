@@ -91,4 +91,4 @@ This paper examines bike theft patterns in Toronto using data-driven insights to
 
 Further details and reproducible code can be found in the report's dataset repository.  
 
-**Read the full report**: [Bike Theft Analysis PDF](pdfs/Bike%20Theft%20Analysis.pdf)
+**Read the full report**: [Bike Theft Analysis PDF](../assets/pdfs/Bike%20Theft%20Analysis.pdf)

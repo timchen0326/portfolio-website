@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(quarto --version 2>&1)",
+      "Bash(git pull *)",
+      "Bash(git add *)"
+    ]
+  }
+}

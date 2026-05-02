@@ -2,7 +2,7 @@
 title: "My Coffee Journey"
 format:
   html:
-    css: coffee-style.css
+    css: ../assets/css/coffee-style.css
     toc: true
 ---
 

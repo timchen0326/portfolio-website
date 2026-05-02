@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tim Chen">
-<meta name="dcterms.date" content="2024-09-27">
+<meta name="dcterms.date" content="2025-04-30">
 
-<title>Toronto Shelter Analysis – Tim Chen</title>
+<title>CSC311 ML Challenge Project – Tim Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,26 +22,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Tim Chen</span>
     </a>
   </div>
@@ -92,11 +127,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses.html"> 
+    <a class="nav-link" href="../pages/courses.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -105,8 +140,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-hobbies">    
         <li>
-    <a class="dropdown-item" href="./coffee.html">
- <span class="dropdown-text">My Coffee Journey</span></a>
+    <a class="dropdown-item" href="../pages/coffee.html">
+ <span class="dropdown-text">Coffee</span></a>
   </li>  
     </ul>
   </li>
@@ -116,39 +151,39 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./student-analysis.html">
+    <a class="dropdown-item" href="../projects/student-analysis.html">
  <span class="dropdown-text">Student Habits &amp; Academic Performance Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ml-challenge.html">
+    <a class="dropdown-item" href="../projects/ml-challenge.html">
  <span class="dropdown-text">CSC311 ML Challenge Project</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./toronto-crime-analysis.html">
+    <a class="dropdown-item" href="../projects/toronto-crime-analysis.html">
  <span class="dropdown-text">Toronto Crime Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./us-presidential election.html">
+    <a class="dropdown-item" href="../projects/us-presidential-election.html">
  <span class="dropdown-text">Forecasting the 2024 U.S. Presidential Election</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./toronto-shelter-analysis.html">
+    <a class="dropdown-item" href="../projects/toronto-shelter-analysis.html">
  <span class="dropdown-text">Toronto Shelter Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./bike-theft-analysis.html">
+    <a class="dropdown-item" href="../projects/bike-theft-analysis.html">
  <span class="dropdown-text">Bike Theft Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./iMDb-analysis.html">
+    <a class="dropdown-item" href="../projects/imdb-analysis.html">
  <span class="dropdown-text">IMDb Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mayohr-intern.html">
+    <a class="dropdown-item" href="../projects/mayohr-intern.html">
  <span class="dropdown-text">MAYOHR Internship Progress Report</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./traffic-collision-analysis.html">
+    <a class="dropdown-item" href="../projects/traffic-collision-analysis.html">
  <span class="dropdown-text">Traffic Collisions in Toronto</span></a>
   </li>  
     </ul>
@@ -158,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pdfs/resume_2025.pdf"> 
+    <a class="nav-link" href="../assets/pdfs/resume_2025.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
@@ -186,28 +221,13 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#key-objectives" id="toc-key-objectives" class="nav-link" data-scroll-target="#key-objectives">Key Objectives</a></li>
-  <li><a href="#data-and-methods" id="toc-data-and-methods" class="nav-link" data-scroll-target="#data-and-methods">Data and Methods</a>
   <ul class="collapse">
-  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
-  </ul></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
-  <ul class="collapse">
-  <li><a href="#tracking-shelter-bed-occupancy" id="toc-tracking-shelter-bed-occupancy" class="nav-link" data-scroll-target="#tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</a></li>
-  <li><a href="#capacity-by-program-type" id="toc-capacity-by-program-type" class="nav-link" data-scroll-target="#capacity-by-program-type">Capacity by Program Type</a></li>
-  <li><a href="#seasonal-trends" id="toc-seasonal-trends" class="nav-link" data-scroll-target="#seasonal-trends">Seasonal Trends</a></li>
-  <li><a href="#demographic-insights" id="toc-demographic-insights" class="nav-link" data-scroll-target="#demographic-insights">Demographic Insights</a></li>
-  </ul></li>
-  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
-  <li><a href="#limitations-and-future-directions" id="toc-limitations-and-future-directions" class="nav-link" data-scroll-target="#limitations-and-future-directions">Limitations and Future Directions</a>
-  <ul class="collapse">
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research">Future Research</a></li>
-  </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data-and-preprocessing" id="toc-data-and-preprocessing" class="nav-link" data-scroll-target="#data-and-preprocessing">Data and Preprocessing</a></li>
+  <li><a href="#model-development" id="toc-model-development" class="nav-link" data-scroll-target="#model-development">Model Development</a></li>
+  <li><a href="#final-model-and-performance" id="toc-final-model-and-performance" class="nav-link" data-scroll-target="#final-model-and-performance">Final Model and Performance</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment">Deployment</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -216,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Toronto Shelter Analysis</h1>
+<h1 class="title">CSC311 ML Challenge Project</h1>
 </div>
 
 
@@ -233,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 27, 2024</p>
+      <p class="date">April 30, 2025</p>
     </div>
   </div>
   
@@ -245,132 +265,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This paper investigates the dynamics of homelessness and shelter use in Toronto using daily shelter occupancy data from 2021 to 2024. Key trends in shelter bed occupancy rates, capacity, and service user counts are analyzed by program model and demographic sector. The findings reveal consistently high occupancy rates and growing demand, emphasizing the critical need for enhanced services. Seasonal fluctuations, especially during winter, highlight the importance of robust shelter policies.</p>
-<hr>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>In the Winter 2025 CSC311 Machine Learning Challenge, our team undertook the task of building a classifier to predict which food item a survey respondent described based on their subjective responses. The challenge consisted of four components: data collection, team formation, model prediction, and the final report (# Table 1 in the challenge instructions).</p>
 </section>
-<section id="key-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="key-objectives">Key Objectives</h2>
-<ol type="1">
-<li><strong>Examine shelter trends:</strong> Understand growth in occupancy rates and assess actual bed capacity by program type.<br>
-</li>
-<li><strong>Explore seasonal impacts:</strong> Identify patterns in service user counts over time.<br>
-</li>
-<li><strong>Address disparities:</strong> Investigate demographic imbalances and their implications for shelter access.</li>
-</ol>
-<hr>
+<section id="data-and-preprocessing" class="level1">
+<h1>Data and Preprocessing</h1>
+<p>We received a CSV file containing survey responses regarding food complexity, ingredient count, serving context, price expectation, movie association, drink pairing, personal associations, and hot-sauce preference. The raw data was cleaned and standardized using custom functions to handle numeric parsing (e.g., converting word descriptors to numbers), free-text normalization, and multi-hot encoding of checkbox responses. Numerical features (ingredient count, price) were binned into quintiles, while categorical and multi-select features were one-hot or multi-hot encoded to produce a high-dimensional feature matrix (see <code>feature_config.json</code>).</p>
 </section>
-<section id="data-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
-<section id="data-source" class="level3">
-<h3 class="anchored" data-anchor-id="data-source">Data Source</h3>
+<section id="model-development" class="level1">
+<h1>Model Development</h1>
+<p>Our team explored three families of models:</p>
 <ul>
-<li><strong>Dataset:</strong> Daily Shelter Occupancy and Capacity dataset from the City of Toronto.<br>
-</li>
-<li><strong>Key Variables:</strong>
-<ul>
-<li><strong>Occupancy Rate (Beds):</strong> Tracks shelter capacity usage.<br>
-</li>
-<li><strong>Program Model:</strong> Includes emergency and transitional shelters.<br>
-</li>
-<li><strong>Service User Count:</strong> Captures the number of individuals using shelters daily.</li>
-</ul></li>
+<li><strong>Decision Tree Classifier</strong>: Tuned parameters such as splitting criterion, tree depth, and cost-complexity pruning. Achieved ~85% cross-validation accuracy after grid search on parameters like <code>max_depth</code> and <code>ccp_alpha</code>.</li>
+<li><strong>Multiclass Logistic Regression</strong>: Applied multinomial logistic regression with L1 and L2 regularization. The best configuration (L1, C = 1.0) yielded ~88% 10-fold cross-validation accuracy.</li>
+<li><strong>Multinomial Naïve Bayes</strong>: Manual implementation with Laplace smoothing (α = 1.0) on discretized features, which excelled on high-dimensional, sparse input and achieved ~90% cross-validation accuracy.</li>
 </ul>
+<p>After systematic evaluation, we selected <strong>Multinomial Naïve Bayes</strong> as the final model due to its robust performance (average CV accuracy = 0.9002) and efficiency with sparse feature vectors.</p>
 </section>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
-<ul>
-<li><strong>Time-Series Analysis:</strong> Examined shelter trends across years, with a focus on seasonal patterns.<br>
-</li>
-<li><strong>Data Cleaning:</strong> Removed missing data and ensured consistency across variables.<br>
-</li>
-<li><strong>Visualization:</strong> Used R packages like <code>ggplot2</code> for graphical representation of trends.</li>
-</ul>
-<hr>
+<section id="final-model-and-performance" class="level1">
+<h1>Final Model and Performance</h1>
+<p>The final model was implemented in <code>predict_local.py</code>, which includes preprocessing, feature alignment, and posterior computations to output the predicted class for each test instance. On the official unseen test set (compiled from TA and instructor responses), we achieved an accuracy of <strong>87%</strong>. Our professor awarded our team a certification for outstanding performance in this challenge.</p>
 </section>
+<section id="deployment" class="level1">
+<h1>Deployment</h1>
+<p>Building on the project codebase, I individually deployed the trained Naïve Bayes classifier within a Streamlit application for interactive use. The app allows users to input survey responses via sidebar widgets and instantly receive food-item predictions. You can explore the live app here:</p>
+<p><a href="https://ml-challenge.streamlit.app/">Food-Item Classifier Streamlit App</a></p>
+<p>Below is the Streamlit application entry point (<code>app.py</code>):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> io</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> predict_local <span class="im">import</span> preprocess_raw_data, predict_all</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># (See full code in `app.py` in the repository.)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<section id="tracking-shelter-bed-occupancy" class="level3">
-<h3 class="anchored" data-anchor-id="tracking-shelter-bed-occupancy">Tracking Shelter Bed Occupancy</h3>
-<ul>
-<li><strong>High Occupancy Rates:</strong> Beds consistently near full capacity (96–98% from 2021 to 2024).<br>
-</li>
-<li><strong>Increase Over Time:</strong> Occupancy peaked at 98.2% in 2024, highlighting growing demand.</li>
-</ul>
-</section>
-<section id="capacity-by-program-type" class="level3">
-<h3 class="anchored" data-anchor-id="capacity-by-program-type">Capacity by Program Type</h3>
-<ul>
-<li><strong>Disparities Noted:</strong> Emergency shelters saw growth in capacity, while transitional shelters lagged, indicating a focus on short-term relief over long-term solutions.</li>
-</ul>
-</section>
-<section id="seasonal-trends" class="level3">
-<h3 class="anchored" data-anchor-id="seasonal-trends">Seasonal Trends</h3>
-<ul>
-<li><strong>Winter Spikes:</strong> Service user counts were highest from November to February, reflecting the impact of extreme weather.</li>
-</ul>
-</section>
-<section id="demographic-insights" class="level3">
-<h3 class="anchored" data-anchor-id="demographic-insights">Demographic Insights</h3>
-<ul>
-<li><strong>Gender Disparities:</strong> Women, particularly in family shelters, may be underrepresented in general shelter data.<br>
-</li>
-<li><strong>Youth and Mixed Adults:</strong> Additional focus needed to address demographic-specific shelter needs.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="policy-implications" class="level2">
-<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
-<ol type="1">
-<li><strong>Expand Shelter Services:</strong>
-<ul>
-<li>Increase capacity for transitional shelters to support long-term housing solutions.<br>
-</li>
-<li>Enhance emergency shelters with safety and privacy improvements.</li>
-</ul></li>
-<li><strong>Prepare for Winter Demand:</strong>
-<ul>
-<li>Establish more warming centers and mobile shelters during colder months.<br>
-</li>
-<li>Allocate additional resources for emergency services in high-demand periods.</li>
-</ul></li>
-<li><strong>Address Gender Inequities:</strong>
-<ul>
-<li>Increase shelter spaces dedicated to women and families.<br>
-</li>
-<li>Improve data collection to capture underrepresented groups.</li>
-</ul></li>
-</ol>
-<hr>
-</section>
-<section id="limitations-and-future-directions" class="level2">
-<h2 class="anchored" data-anchor-id="limitations-and-future-directions">Limitations and Future Directions</h2>
-<section id="limitations" class="level3">
-<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
-<ul>
-<li><strong>Underrepresentation in Data:</strong> Family shelters and gender-specific usage may be underestimated.<br>
-</li>
-<li><strong>Safety Concerns:</strong> Rising violence within shelters affects their usability and trustworthiness.</li>
-</ul>
-</section>
-<section id="future-research" class="level3">
-<h3 class="anchored" data-anchor-id="future-research">Future Research</h3>
-<ul>
-<li>Investigate systemic factors driving the disparity between emergency and transitional shelters.<br>
-</li>
-<li>Explore shelter safety and its influence on occupancy duration.<br>
-</li>
-<li>Include more granular demographic and geographic data for targeted interventions.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Data and methodology are fully reproducible, with the dataset and code available at: <a href="https://github.com/timchen0326/toronto-shelter-data">GitHub Repository</a>.</p>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>The CSC311 ML Challenge provided an opportunity to apply end-to-end machine learning practices, from data cleaning and feature engineering to model selection, tuning, and deployment. Achieving 87% accuracy and receiving certification from our professor validated our approach. The live Streamlit app demonstrates the practical utility of the classifier, making the project accessible to end users.</p>
 
 
 </section>
